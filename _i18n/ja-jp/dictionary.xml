@@ -8963,7 +8963,6 @@
   <block id="cc7378d924a7a641ed80e623576e3981" category="section-title">VASA Provider</block>
   <block id="a59c51fc1ad210c1bec14d4848238667" category="paragraph">vSphere で NetApp Element クラスタの VVol 機能を認識するには、 vSphere 管理者が NetApp Element VASA Provider を vCenter に登録する必要があります。VASA Provider は、 vSphere と Element クラスタ間のアウトオブバンド管理パスです。VM の作成、 vSphere での VM の利用可能化、 vSphere へのストレージ機能のアドバタイズなど、 vSphere に代わって Element クラスタで要求を実行します。</block>
   <block id="01ef303b25d3281cb33cd13014af3226" category="paragraph">VASA Provider は、 Element ソフトウェアのクラスタマスターの一部として実行されます。クラスタマスターは可用性の高いサービスで、必要に応じてクラスタ内の任意のノードにフェイルオーバーします。クラスタマスターがフェイルオーバーすると、 VASA Provider も一緒に移動するため、 VASA Provider の高可用性が確保されます。プロビジョニングタスクとストレージ管理タスクはいずれも VASA Provider を使用します。 VASA Provider は、 Element クラスタで必要な変更を処理します。</block>
-  <block id="72da0f32a8783a5cb119cddae9f955bb" category="admonition">1 つの vCenter インスタンスに複数の NetApp Element VASA Provider を登録しないでください。2 つ目の NetApp Element VASA Provider が追加されている場合、その結果、すべての VVOL データストアにアクセスできなくなります。</block>
   <block id="583fdc81420816faa41efaba6c508421" category="inline-link-macro">ネットアップのソフトウェアダウンロード</block>
   <block id="5709d7946cfaf2f2c04b03412834dd73" category="admonition">VASA Provider を vCenter に登録済みの場合、アップグレードパッチとして最大 10 個の vCenter がサポートされます。をインストールするには、 VASA39 マニフェストの指示に従い、から .tar.gz ファイルをダウンロードします <block ref="4efcd63a00c3a5e6a73880f24942f8e7" category="inline-link-macro-rx"></block> サイトNetApp Element VASA プロバイダはネットアップの証明書を使用します。このパッチでは、 vCenter が証明書を変更せずに使用して、 VASA および VVOL に使用する複数の vCenter をサポートします。証明書は変更しないでください。カスタム SSL 証明書は VASA でサポートされません。</block>
   <block id="05aacbda5ea0269e732010572e3e0b0e" category="summary">ここでは、指定可能なサービス品質（ QoS ）の最小値と最大値について説明します。</block>
@@ -12343,4 +12342,5 @@
   <block id="9958041ee70a2259278a77d924dd17fb" category="sidebar">外部キー管理 API コマンド</block>
   <block id="27f2e04c96b5ac3b10c4de8069658227" category="sidebar">グループ Snapshot を使用してデータを保護します</block>
   <block id="cf35d1bd4f63afd1c731729075f91d65" category="sidebar">ボリュームをグループ Snapshot にロールバックします</block>
+  <block id="234a1430825055fe25203429facd267e" category="admonition">1 つの vCenter インスタンスに複数の NetApp Element VASA Provider を登録しないでください。2 つ目の NetApp Element VASA Provider が追加されている場合、その結果、すべての VVOL データストアにアクセスできなくなります。</block>
 </blocks>
