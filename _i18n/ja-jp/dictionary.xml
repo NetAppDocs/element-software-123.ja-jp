@@ -10804,7 +10804,6 @@
   <block id="b03d16c0937b4d744b6ee3a90914a750" category="section-title">保存データのハードウェアベースの暗号化を無効にします</block>
   <block id="b17cfa5cd3198beeee235f95f712cb19" category="list-text">[ 保存データの暗号化を無効にする ] を選択します。</block>
   <block id="c862058e7345a40a7280afb21deb5070" category="summary">SolidFire ストレージシステムでは、クライアントはユーザアカウントを使用してノード上のボリュームに接続します。ボリュームには、作成時に特定のユーザアカウントが割り当てられます。</block>
-  <block id="76a60d9f56c68f8cdba13568859cd542" category="paragraph">アカウントには、そのアカウントに割り当てられているボリュームへのアクセスに必要な CHAP 認証が含まれています。</block>
   <block id="4082f16ece7fe49a6ae9cff89731b948" category="paragraph">アカウントには最大 2 、 000 個のボリュームを関連付けることができますが、 1 つのボリュームが属することのできるアカウントは 1 つだけです。</block>
   <block id="2fdfd506efea08144c0794c32ca8250a" category="section-title">アカウントを作成します</block>
   <block id="4c284224e57855e8f92076f429042030" category="paragraph">アカウントを作成して、ボリュームへのアクセスを許可することができます。</block>
@@ -12343,4 +12342,6 @@
   <block id="27f2e04c96b5ac3b10c4de8069658227" category="sidebar">グループ Snapshot を使用してデータを保護します</block>
   <block id="cf35d1bd4f63afd1c731729075f91d65" category="sidebar">ボリュームをグループ Snapshot にロールバックします</block>
   <block id="234a1430825055fe25203429facd267e" category="admonition">1 つの vCenter インスタンスに複数の NetApp Element VASA Provider を登録しないでください。2 つ目の NetApp Element VASA Provider が追加されている場合、その結果、すべての VVOL データストアにアクセスできなくなります。</block>
+  <block id="036988ff4fac899a45c5c90da9729599" category="doc">CHAPを使用してアカウントを操作します</block>
+  <block id="5ad6f8e03d0f93ba44ef423507b43958" category="paragraph">SolidFire ストレージシステムでは、テナントはアカウントを使用してクライアントがクラスタ上のボリュームに接続できるようにすることができます。アカウントには、そのアカウントに割り当てられているボリュームへのアクセスに必要な CHAP 認証が含まれています。ボリュームは、作成時に特定のアカウントに割り当てられます。</block>
 </blocks>
