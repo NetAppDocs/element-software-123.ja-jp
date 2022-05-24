@@ -12343,5 +12343,5 @@
   <block id="cf35d1bd4f63afd1c731729075f91d65" category="sidebar">ボリュームをグループ Snapshot にロールバックします</block>
   <block id="234a1430825055fe25203429facd267e" category="admonition">1 つの vCenter インスタンスに複数の NetApp Element VASA Provider を登録しないでください。2 つ目の NetApp Element VASA Provider が追加されている場合、その結果、すべての VVOL データストアにアクセスできなくなります。</block>
   <block id="036988ff4fac899a45c5c90da9729599" category="doc">CHAPを使用してアカウントを操作します</block>
-  <block id="5ad6f8e03d0f93ba44ef423507b43958" category="paragraph">SolidFire ストレージシステムでは、テナントはアカウントを使用してクライアントがクラスタ上のボリュームに接続できるようにすることができます。アカウントには、そのアカウントに割り当てられているボリュームへのアクセスに必要な CHAP 認証が含まれています。ボリュームは、作成時に特定のアカウントに割り当てられます。</block>
+  <block id="5f93174c2b6fa00ee106be4342b5fae5" category="paragraph">SolidFire ストレージシステムでは、テナントはアカウントを使用してクライアントがクラスタ上のボリュームに接続できるようにすることができます。アカウントには、割り当てられているボリュームへのアクセスに必要なChallenge Handshake Authentication Protocol（CHAP；チャレンジハンドシェイク認証プロトコル）認証が含まれています。ボリュームは、作成時に特定のアカウントに割り当てられます。</block>
 </blocks>
