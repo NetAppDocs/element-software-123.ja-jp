@@ -419,7 +419,6 @@
   <block id="b12641981b1007fecfaf498bd16ae5d5" category="list-text">テーブルの * アクション * 列で、アカウントのメニューを展開し、 * 削除 * を選択します。</block>
   <block id="1326a41ad4b26f3395b0f54dd9172b2b" category="inline-link-macro">アカウントの詳細を確認します</block>
   <block id="f25165465224e736bc3801bbad7eb5f8" category="list-text"><block ref="f25165465224e736bc3801bbad7eb5f8" category="inline-link-macro-rx"></block></block>
-  <block id="7e5784de66821e5068bc24c9a5c6d1d6" category="inline-link-macro">ユーザアカウントを操作する</block>
   <block id="3f9324833c13ae3ed43845b441b05e73" category="summary">ストレージリソースは、 NetApp Hybrid Cloud Control Dashboard で確認できます。また、ストレージ容量とストレージパフォーマンスも監視できます。</block>
   <block id="a74d2845bf0214173bedd164f5dc18bc" category="doc">Hybrid Cloud Control Dashboard でストレージリソースを監視します</block>
   <block id="a916121ffd7a7772d450d2d9b32f3aa2" category="paragraph">NetApp Hybrid Cloud Control Dashboard では、すべてのストレージリソースを一目で確認できます。また、ストレージ容量とストレージパフォーマンスも監視できます。</block>
@@ -10817,10 +10816,6 @@
   <block id="cc751aecc3b9e0def4278d0e48160a0f" category="paragraph">不要になったアカウントを削除できます。</block>
   <block id="9e82c73d2e8a733dd6bf507d7ffcb220" category="paragraph">アカウントを削除する前に、そのアカウントに関連付けられているボリュームを削除およびパージします。</block>
   <block id="662df6517322cb960d5b7a5b3fc89dea" category="list-text">削除するアカウントの [ アクション ] アイコンをクリックします。</block>
-  <block id="34fa21de6cec673be30516d925b1ef0a" category="summary">SolidFire ストレージシステムでは、クライアントはユーザアカウントを使用してノード上のボリュームに接続します。SolidFire ストレージシステムのクラスタ管理者アカウントを管理することもできます。</block>
-  <block id="4dc056b77b799b07e73a3c822af00828" category="paragraph">SolidFire ストレージシステムでは、クライアントはユーザアカウントを使用してノード上のボリュームに接続します。ボリュームには、作成時に特定のユーザアカウントが割り当てられます。SolidFire ストレージシステムのクラスタ管理者アカウントを管理することもできます。</block>
-  <block id="f5b0d24b7d0469f0116c13fb8bcbb772" category="list-text"><block ref="f5b0d24b7d0469f0116c13fb8bcbb772" category="inline-link-macro-rx"></block></block>
-  <block id="093667bda42279d43524628d34f5580a" category="list-text"><block ref="093667bda42279d43524628d34f5580a" category="inline-link-macro-rx"></block></block>
   <block id="acf18d5fb4380ea22d0a65b24cb7970a" category="summary">永続ボリュームを使用すると、管理ノードの設定データをローカルな VM ではなく指定したストレージクラスタに格納できるため、管理ノードが失われた場合や削除された場合でもデータを保持することができます。永続ボリュームはオプションですが、推奨される管理ノード設定です。</block>
   <block id="ffdacd6c2fa0cc41b20f4135b3c82577" category="paragraph">永続ボリュームを有効にするオプションは、新しい管理ノードの導入時のインストールスクリプトとアップグレードスクリプトに含まれています。永続ボリュームは Element ソフトウェアベースのストレージクラスタ上のボリュームであり、ホスト管理ノード VM のノード設定情報が VM が使用されなくなったあとも格納されます。管理ノードが失われた場合は、交換用の管理ノード VM を再接続して失われた VM の設定データをリカバリできます。</block>
   <block id="6f5983880dad4e85e696acaacf3a185b" category="paragraph">インストールまたはアップグレード時に永続ボリューム機能を有効にすると、割り当てられたクラスタ上の名前に適用された名前の付いた複数のボリュームが自動的に作成されます。これらのボリュームは、 Element ソフトウェアベースのボリュームと同様に、 Element ソフトウェア Web UI 、 NetApp Element Plug-in for vCenter Server 、または API を使用して表示できます。リカバリに使用できる現在の設定データを保持するためには、永続ボリュームが管理ノードに iSCSI 接続された状態で稼働している必要があります。</block>
@@ -12326,12 +12321,8 @@
   <block id="69b7535618573fd609dc8b4663c8b8c0" category="list-text"><block ref="69b7535618573fd609dc8b4663c8b8c0" category="inline-link-macro-rx"></block></block>
   <block id="30624e21224d847e1b829641269ffe3c" category="inline-link-macro">ストレージファームウェアバンドル 2.27 に関する注意</block>
   <block id="656e3f29cbe522931c455a5e233d1c6f" category="list-text"><block ref="656e3f29cbe522931c455a5e233d1c6f" category="inline-link-macro-rx"></block></block>
-  <block id="372092ac59d2946fc3d092b0e44df82a" category="list-text"><block ref="372092ac59d2946fc3d092b0e44df82a" category="inline-link-macro-rx"></block></block>
-  <block id="26bde7cf1d647a00812ba293427f218c" category="summary">アカウントはElement UIで管理できます。これには、CHAPを使用するアカウントの操作と、クラスタ管理者のユーザアカウントの管理が含まれます。</block>
-  <block id="cb7c12b1424a0e6b1be1defaded53de8" category="paragraph">システムアカウントはElement UIで管理できます。これには、Challenge Handshake Authentication Protocol（CHAP；チャレンジハンドシェイク認証プロトコル）を使用したアカウントの処理と、クラスタ管理者ユーザアカウントの管理が含まれます。</block>
   <block id="0de8022e52b232dc0912129174158b7b" category="list-text"><block ref="0de8022e52b232dc0912129174158b7b" category="inline-link-macro-rx"></block></block>
   <block id="93b99f5d3cef7af59adc0f899dddf1e1" category="list-text"><block ref="93b99f5d3cef7af59adc0f899dddf1e1" category="inline-link-macro-rx"></block></block>
-  <block id="5ca104d2b413ecd234583f40c3a808b8" category="list-text"><block ref="5ca104d2b413ecd234583f40c3a808b8" category="inline-link-macro-rx"></block></block>
   <block id="7e33105c99e1040a1b09764052c96bf6" category="list-text"><block ref="7e33105c99e1040a1b09764052c96bf6" category="inline-xref-macro-rx"></block></block>
   <block id="b9d025f755210db0c30935ae2494f820" category="list-text"><block ref="b9d025f755210db0c30935ae2494f820" category="inline-xref-macro-rx"></block></block>
   <block id="f79d1130796c00fe9899b2bf889381a3" category="paragraph">クラスタに対して実行する処理。有効な値は次のとおりです。* restart：クラスタを再起動します。* halt：電源を完全にオフにします。</block>
@@ -12351,4 +12342,8 @@
   <block id="e12535c6360c5dad15589e14aca41e3a" category="list-text"><block ref="e12535c6360c5dad15589e14aca41e3a" category="inline-link-macro-rx"></block></block>
   <block id="7661478d2706b156c56055536f2e93da" category="list-text"><block ref="7661478d2706b156c56055536f2e93da" category="inline-link-rx"></block></block>
   <block id="324fcb27182f60b1051fad39c080b193" category="doc">ボリュームSnapshotをバックアップします</block>
+  <block id="cd7c96dd340046e8b1a1ed84b73227c0" category="summary">SolidFire ストレージシステムでは、テナントはアカウントを使用してクライアントがクラスタ上のボリュームに接続できるようにすることができます。SolidFire ストレージシステムのクラスタ管理者アカウントを管理することもできます。</block>
+  <block id="d69a8eaf0dfea73cf60506f2c945b71e" category="paragraph">SolidFire ストレージシステムでは、テナントはアカウントを使用してクライアントがクラスタ上のボリュームに接続できるようにすることができます。ボリュームは、作成時に特定のアカウントに割り当てられます。SolidFire ストレージシステムのクラスタ管理者アカウントを管理することもできます。</block>
+  <block id="f22f8c5563a22eebf5e40a4e6776b17e" category="list-text"><block ref="f22f8c5563a22eebf5e40a4e6776b17e" category="inline-link-macro-rx"></block></block>
+  <block id="270743fb35c053386e4a4cdf6792cc48" category="list-text"><block ref="270743fb35c053386e4a4cdf6792cc48" category="inline-link-macro-rx"></block></block>
 </blocks>
