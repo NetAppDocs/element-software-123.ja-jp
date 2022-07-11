@@ -14,29 +14,12 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
-  <block id="eb3c130e264688a3a29d73ad802f6f63" category="paragraph">通知ファイルには、サードパーティの著作権およびライセンスに関する情報が記載されています。</block>
-  <block id="24e9da091f15f10b8da793e19b340302" category="inline-link-macro">Ember OS 12.3.1 の注意</block>
-  <block id="53b5781a15ca0bf5e3350b448255d082" category="list-text"><block ref="53b5781a15ca0bf5e3350b448255d082" category="inline-link-macro-rx"></block></block>
   <block id="fbcc1cb0e2a70eff701965a5f3e0d76b" category="inline-link-macro">Ember OS 12.3 の注意</block>
   <block id="fd9a4be3d806a4349b944f9bfba66d2f" category="list-text"><block ref="fd9a4be3d806a4349b944f9bfba66d2f" category="inline-link-macro-rx"></block></block>
   <block id="9607eb5adaeed1b4ef323e97b2dcb6f8" category="inline-link-macro">HealthTools に関する注意</block>
   <block id="5417db75ab0296db879fb27f51d7211f" category="list-text"><block ref="5417db75ab0296db879fb27f51d7211f" category="inline-link-macro-rx"></block></block>
-  <block id="26c74f7a8ac6a7c8cdb0def0e876263d" category="inline-link-macro">管理ノード 12.3.1 の通知です</block>
-  <block id="047152327178a19c354a2a92281da90f" category="list-text"><block ref="047152327178a19c354a2a92281da90f" category="inline-link-macro-rx"></block></block>
   <block id="43551c29e9ac231743a69c265f5ef85c" category="inline-link-macro">管理ノード 12.3 についての注意</block>
   <block id="75a6ef9f6db80c36c759ab0d75ce6a00" category="list-text"><block ref="75a6ef9f6db80c36c759ab0d75ce6a00" category="inline-link-macro-rx"></block></block>
-  <block id="61cd5267ad49d97d8c6a8799b4590b34" category="inline-link-macro">管理サービス 2.18 に関する注意事項</block>
-  <block id="a32fc98c3fcd85bfbaec869e06369054" category="list-text"><block ref="a32fc98c3fcd85bfbaec869e06369054" category="inline-link-macro-rx"></block></block>
-  <block id="6a277dcdcf3e292a520228548566382d" category="inline-link-macro">管理サービス 2.17.56 に関する注意事項</block>
-  <block id="a13f8370935ba66df60b71ed88c770a4" category="list-text"><block ref="a13f8370935ba66df60b71ed88c770a4" category="inline-link-macro-rx"></block></block>
-  <block id="a7f3524da37a8fea65e29d2411b8d139" category="inline-link-macro">管理サービス 2.17.52 に関する注意事項</block>
-  <block id="c4b0c1a013a1ecb5b81326f9c346a81a" category="list-text"><block ref="c4b0c1a013a1ecb5b81326f9c346a81a" category="inline-link-macro-rx"></block></block>
-  <block id="0ee51fae49898e7b795797b58419f657" category="inline-link-macro">管理サービス 2.16 に関する注意事項</block>
-  <block id="72f5ccb1ed4b7e177d8ae3b465eef55a" category="list-text"><block ref="72f5ccb1ed4b7e177d8ae3b465eef55a" category="inline-link-macro-rx"></block></block>
-  <block id="1dfa4a8c715814e4b02560de4804ce2d" category="inline-link-macro">管理サービス 2.14 に関する注意事項</block>
-  <block id="508fdda0cae73a3702d387c360f820fa" category="list-text"><block ref="508fdda0cae73a3702d387c360f820fa" category="inline-link-macro-rx"></block></block>
-  <block id="b299d2f02ed62ade4c836e18fedda400" category="inline-link-macro">管理サービス 2.13 に関する注意事項</block>
-  <block id="4c906abe4e1aa56f6ecc4fc5bb0dac85" category="list-text"><block ref="4c906abe4e1aa56f6ecc4fc5bb0dac85" category="inline-link-macro-rx"></block></block>
   <block id="a6e60f5446d407aa42b1293e56f2cb42" category="inline-link-macro">NetApp SolidFire エンタープライズ SDS に関するお知らせです</block>
   <block id="b96897a2164001e55b7cb0f0b7883d94" category="list-text"><block ref="b96897a2164001e55b7cb0f0b7883d94" category="inline-link-macro-rx"></block></block>
   <block id="2e5993f9d970daebf225967bb1e45acc" category="inline-link-macro">ストレージファームウェアバンドル 2.99.2 に関する注意事項</block>
@@ -9417,7 +9400,6 @@
   <block id="b5a47ab00ee38fd24f7e8b0828ad2a73" category="list-text">削除するスケジュールの * Actions * アイコンをクリックします。</block>
   <block id="d5e6af1fd8ded16ac6d7700584a8025a" category="list-text">表示されたメニューで、 * 削除 * をクリックします。</block>
   <block id="f6e1cbdb2c7e86d550e022623d7c9169" category="summary">NetApp Element API を使用して、クラスタ内のストレージノードのデフォルト SSL 証明書と秘密鍵を変更できます。</block>
-  <block id="443d95dd305b59017ca1b34a7df3d4ac" category="paragraph">NetAppElement API を使用して、クラスタ内のストレージノードのデフォルト SSL 証明書と秘密鍵を変更できます。</block>
   <block id="1aa8b758f81e4b362f8fc94cd4c2a3ba" category="paragraph">NetApp Element ソフトウェアクラスタを作成すると、一意の自己署名 Secure Sockets Layer （ SSL ）証明書と、 Element UI 、ノード UI 、またはノード API を介したすべての HTTPS 通信に使用される秘密鍵が作成されます。Element ソフトウェアは、自己署名証明書に加え、信頼できる認証局（ CA ）が発行して検証する証明書をサポートします。</block>
   <block id="774ce4e623f683d68865c30ea0ac37fa" category="paragraph">次の API メソッドを使用して、デフォルトの SSL 証明書に関する詳細情報を取得し、変更を加えることができます。</block>
   <block id="cddbead568984bbddd14181e555c89ec" category="inline-link-macro">NetApp Element ソフトウェア API リファレンス</block>
@@ -9478,7 +9460,6 @@
   <block id="8857f9727dda96e7b5e43e56c678ffed" category="paragraph">ストレージシステムからは、各ソリッドステートドライブ（ SSD ）でデータの書き込み / 消去に利用できるおおよその残容量が報告されます。ドライブの設計上の書き込み / 消去サイクルの 5% が消費されている場合は、摩耗度残量は 95% と報告されます。ドライブの摩耗度情報は自動的には更新されません。情報を更新するには、ページを更新するか、またはページを閉じてリロードします。</block>
   <block id="7464a7978b1ad9e7f36e5f0181e97eb5" category="list-text">* タイプ *</block>
   <block id="509a3e7c96f28c8cf61138c9b6171802" category="paragraph">ドライブのタイプ。block または metadata のいずれかです。</block>
-  <block id="0b3db31a78382ab0be6cb2c1c708acfa" category="summary">NetAppElement UI を使用して、元のソースボリュームを再同期し、フェイルバックを実行できます。このセクションでは、元のソースボリュームが失われ、元のクラスタはそのまま維持されている環境シナリオを示します。新しいクラスタにリストアする方法については、ネットアップサポートサイトのドキュメントを参照してください。</block>
   <block id="eeeaa1b412a6ca7d2f439dfd70f27a5d" category="doc">ソースボリュームが存在しない場合にフェイルバックを実行します</block>
   <block id="42d57b6f08f8ad59237283315e687c79" category="list-text">Element ボリュームと ONTAP ボリュームの間で、レプリケーション関係の状態が「 Broken-off 」になっている必要があります。</block>
   <block id="7a3a43b13837f525a81135347991edaf" category="list-text">Element ボリュームが失われてリカバリ不可能であることが必要です。</block>
@@ -9835,7 +9816,6 @@
   <block id="5bf82e30143007adb7f5da32c41a39b2" category="paragraph">仮想ボリュームのホストのイニシエータ IQN 。</block>
   <block id="9ea373d7b3a845bd9df2300537ef0283" category="list-text">* SolidFire プロトコルエンドポイント ID*</block>
   <block id="343e7c07345dadd21afd5d8e348ca649" category="paragraph">現在 ESXi ホストが認識できるプロトコルエンドポイント。</block>
-  <block id="7b610931ca8d2eeb0a73a56e2e8f50f1" category="summary">SnapMirror 関係は NetAppElement UI で作成する必要があります。</block>
   <block id="2de1d87763849258fb54f9bb79e65283" category="doc">SnapMirror 関係を作成</block>
   <block id="507526c658246388ad3ac5ab8feb0b16" category="admonition">ボリュームで SnapMirror が有効になっていない状態で Element UI から関係の作成を選択すると、そのボリュームで自動的に SnapMirror が有効になります。</block>
   <block id="d0d72af3850aa3c7f23bae5777534059" category="paragraph">ボリュームで SnapMirror を有効にしておきます。</block>
@@ -10058,7 +10038,6 @@
   <block id="a80fcc534ef750a063b9849f304c259a" category="list-text"><block ref="a80fcc534ef750a063b9849f304c259a" category="inline-xref-macro-rx"></block></block>
   <block id="61e4de56f3e5ad1651eba1f85e759c1c" category="summary">各ノードには 1 つ以上の物理ドライブが搭載され、クラスタのデータの一部が格納されます。クラスタにドライブが追加されると、そのドライブの容量とパフォーマンスがクラスタで使用されるようになります。Element UI を使用してドライブを管理できます。</block>
   <block id="8bd00e89826dbd3fcf80ca108d7a008d" category="doc">ドライブを管理します</block>
-  <block id="a400e22973320013f60a0fa177f3e08a" category="summary">SnapMirror 関係は、 NetAppElement UI のデータ保護タブで作成できます。この情報をユーザインターフェイスで確認するには、 SnapMirror 機能を有効にする必要があります。</block>
   <block id="1850b680cd92212594194c87da7f359c" category="doc">Element クラスタと ONTAP クラスタの間で SnapMirror レプリケーションを使用</block>
   <block id="535a1bef8214ea6639d284226cee5417" category="paragraph">NetApp Element ソフトウェアクラスタと ONTAP クラスタの間の SnapMirror レプリケーションでは、 IPv6 はサポートされていません。</block>
   <block id="cff1ba82911704030dd8ccc8f2c0c6c0" category="inline-link">ネットアップのビデオ： SnapMirror for NetApp HCI and Element Software</block>
@@ -10648,7 +10627,6 @@
   <block id="2f5797a9b6c1035ff7c904481f0214ba" category="doc">iSCSI セッションを表示します</block>
   <block id="8138b83b3338c0a50b7c0b1bd72b3cb8" category="list-text">Element UI で、 * Reporting * &gt; * iSCSI Sessions * を選択します。</block>
   <block id="53afd371e15d648a9aa30b588b004c09" category="paragraph"><block ref="53afd371e15d648a9aa30b588b004c09" category="inline-xref-macro-rx"></block></block>
-  <block id="5bb220f689bb9c696c552f6b16bf7a7b" category="summary">NetAppElement UI を使用して、元のソースボリュームを再同期し、フェイルバックを実行できます。元のソースボリュームがまだ存在している手順環境のシナリオです。</block>
   <block id="70f26877db1785068e8daf0aa7de7175" category="doc">ソースボリュームが存在する場合は、フェイルバックを実行します</block>
   <block id="dfee99faea9f8bafc9217380d561c98e" category="list-text">アクションアイコンをクリックし、 * 逆再同期 * をクリックします。</block>
   <block id="f5143a520c1fda122c346660fb8e2183" category="admonition">逆再同期（ Reverse Resync ）処理では、元のソースボリュームとデスティネーションボリュームの役割が逆転した新しい関係が作成されます（元の関係は残されるので、 2 つの関係が存在することになります）。逆再同期処理の一環として、元のデスティネーションボリュームの新しいデータが元のソースボリュームに転送されます。デスティネーション側のアクティブボリュームには引き続きアクセスしてデータを書き込むことができますが、元のプライマリ側にリダイレクトする前に、ソースボリュームとすべてのホストとの接続を切断し、 SnapMirror 更新を実行する必要があります。</block>
@@ -11265,7 +11243,6 @@
   <block id="b47b83d6802263014655a14ac59f1ec6" category="list-text"><block ref="b47b83d6802263014655a14ac59f1ec6" category="inline-xref-macro-rx"></block></block>
   <block id="a5b2d4de2841c516a54a4c4b3db587b1" category="summary">NetApp Element ソフトウェアを実行するシステムでは、 NetApp ONTAP システムとの間での SnapMirror 機能を使用した Snapshot のコピーとリストアがサポートされます。</block>
   <block id="908041e9f7dbdfd6dd76e9617f0b3454" category="doc">SnapMirror の概要</block>
-  <block id="265f031cee0ea04d5f3ef759b07f4907" category="paragraph">Element を実行するシステムは、 9.3 以降の ONTAP システムの SnapMirror と直接通信できます。NetAppElement API には、クラスタ、ボリューム、 Snapshot で SnapMirror 機能を有効にするメソッドが用意されています。さらに、 Element UI には、 Element ソフトウェアと ONTAP システムの間の SnapMirror 関係を管理するために必要なすべての機能が搭載されています。</block>
   <block id="5a5a2d3bbdb5fecdea9055d444ee32af" category="paragraph">機能は限定されますが、特定のユースケースで ONTAP ボリュームを Element ボリュームにレプリケートできます。詳細については、 ONTAP のドキュメントを参照してください。</block>
   <block id="49c8c279b60ab1926e498dd27ba47ce7" category="inline-link">Element ソフトウェアと ONTAP の間のレプリケーション</block>
   <block id="e01755805869b3d9cedc19fff7c5daae" category="paragraph"><block ref="e01755805869b3d9cedc19fff7c5daae" category="inline-link-rx"></block></block>
@@ -11580,7 +11557,6 @@
   <block id="80ace20ee83384d4f033b9e5ff4a50fd" category="list-text">「 * 編集 * 」ボタンをクリックします。</block>
   <block id="9359562927fad634dda8891d77a59d8f" category="list-text">Add Volumes （ボリュームの追加）で、 * Volumes （ボリューム） * リストからボリュームを選択します。</block>
   <block id="cc4a9ccdabb241d51359c0bca7504d49" category="paragraph">ボリュームをさらに追加するには、この手順を繰り返します。</block>
-  <block id="570aab436b512498fd7406a4088e8c43" category="summary">Element システムの各種機能は、 NetAppElement API をその基盤として使用します。Element UI では、画面での操作に連動して、システム上のさまざまな種類の API アクティビティをリアルタイムで確認できます。API ログでは、ユーザが開始したバックグラウンドのシステム API アクティビティと、現在表示しているページ上で実行された API 呼び出しを確認できます。</block>
   <block id="1e022b9ed0afb421ad5cb475bd23e7c5" category="paragraph">Element システムの各種機能は、 NetApp Element API をその基盤として使用します。Element UI では、画面での操作に連動して、システム上のさまざまな種類の API アクティビティをリアルタイムで確認できます。API ログでは、ユーザが開始したバックグラウンドのシステム API アクティビティと、現在表示しているページ上で実行された API 呼び出しを確認できます。</block>
   <block id="3c7b529bb5fc2bcf9519f64a68e3cf4e" category="paragraph">API ログを使用すると、特定のタスクにどの API メソッドが使用されるかを特定し、 API のメソッドおよびオブジェクトを使用してカスタムアプリケーションを構築する方法を確認できます。</block>
   <block id="680951056bdde0e1b96bf280f96ebc5a" category="inline-link-macro">Element ソフトウェア API リファレンス</block>
@@ -11715,7 +11691,6 @@
   <block id="83a1a5ceb5398a01a54e7effead0e886" category="admonition">NetApp Element アカウント ID は自動的に作成されてストレージコンテナに割り当てられるため、アカウントを手動で作成する必要はありません。</block>
   <block id="5c52fea0e83d9a95a1c098c60ff6b58d" category="section-title">ストレージコンテナの詳細を表示します</block>
   <block id="c24adc0881381170eed28052264ee784" category="paragraph">VVol タブのストレージコンテナページでは、クラスタ上のすべてのアクティブなストレージコンテナに関する情報を表示できます。</block>
-  <block id="9a14ff246991ca75a508eaad3a696a9c" category="list-text">* Account ID * ：ストレージコンテナに関連付けられた NetAppElement アカウントの ID 。</block>
   <block id="bb9c607dcd3a4bd18589c06ac12a84a4" category="list-text">* 名前 * ：ストレージコンテナの名前。</block>
   <block id="95aeb213f6e0232dfebbeef4d3fabdbb" category="list-text">* ステータス * ：ストレージコンテナのステータス。有効な値は次のとおり</block>
   <block id="e826588898505d9bee0c431278a33ad3" category="list-text">* PE Type * ：プロトコルエンドポイントのタイプ（ Element ソフトウェアで使用可能なプロトコルは SCSI のみです）。</block>
@@ -12030,7 +12005,6 @@
   <block id="43d30245468a1ac3a0e76fb7722c7e17" category="inline-link-macro">API リファレンス情報</block>
   <block id="ae8b382bd5524cebdda8c02c60491369" category="paragraph">API メソッドの詳細については、を参照してください <block ref="1a4a7db3ce46085e66e7371a3d480d1b" category="inline-link-macro-rx"></block>。</block>
   <block id="19bb9f2d83ebc22f2e8931ebc34f6110" category="paragraph">クラスタの Element UI で VVol 機能を有効にしておきます。</block>
-  <block id="7b5a00f2f339a450a57bb4aaa1f60371" category="summary">関係を作成する前に、 NetApp Element UI で SnapMirror エンドポイントを作成する必要があります。</block>
   <block id="dedd3700704f998555c9779c076f3d9c" category="doc">SnapMirror エンドポイントを作成します</block>
   <block id="47f8bb61ca87b0a38661fa7bfdece7b4" category="paragraph">SnapMirror エンドポイントは、 Element ソフトウェアを実行するクラスタのレプリケーションターゲットとして機能する ONTAP クラスタです。SnapMirror 関係を作成する前に、まず SnapMirror エンドポイントを作成します。</block>
   <block id="4720a2d6ded47a6e3a7c30b7a024eb83" category="paragraph">Element ソフトウェアを実行しているストレージクラスタでは、 SnapMirror エンドポイントを最大 4 つまで作成して管理することができます。</block>
@@ -12045,7 +12019,6 @@
   <block id="6e683df732e71b9f9959d98a8bdf3290" category="list-text">ONTAP ： Element との通信に使用されるクラスタ間 LIF の論理インターフェイスを表示します。</block>
   <block id="a4bf5e9cf478552cfbc1dd5e7d6e852e" category="list-text">Status ： SnapMirror エンドポイントの現在のステータスが表示されます。指定可能な値は、 connected 、 disconnected 、および unmanaged です。</block>
   <block id="e7eb95bedcf0e5a384949274771b9090" category="summary">EnableFeature API メソッドを使用すると、 HTTPS 通信の FIPS 140-2 動作モードを有効にできます。</block>
-  <block id="f7b1c0a6c1bbdeeb75abbfb1e3471656" category="paragraph">NetApp Element ソフトウェアを使用すると、クラスタで Federal Information Processing Standard （ FIPS ；連邦情報処理標準） 140-2 動作モードを有効にすることができます。このモードを有効にすると、 NetApp Cryptographic Security Module （ NCSM ）がアクティブになり、 NetApp Element の UI および API との HTTPS 経由の通信に FIPS 140-2 レベル 1 認定の暗号化が適用されるようになります。</block>
   <block id="28117dac6dae3b2926b3fa3daa54c622" category="admonition">一度有効にした FIPS 140-2 モードを無効にすることはできません。FIPS 140-2 モードを有効にすると、クラスタ内の各ノードがリブートされてセルフテストが実行され、 NCSM が正しく有効化されて FIPS 140-2 認定モードで動作していることが確認されます。そのため、クラスタでは管理接続とストレージ接続の両方が中断されます。このモードは、提供する暗号化メカニズムが必要な環境でのみ、慎重に計画し、有効にしてください。</block>
   <block id="5f29c6b789d473ccf8c4eab2ed0331b5" category="paragraph">詳細については、 Element API の情報を参照してください。</block>
   <block id="27f7170bd4fd080bb623675efbd52303" category="paragraph">FIPS を有効にする API 要求の例を次に示します。</block>
@@ -12128,7 +12101,6 @@
   <block id="e79fd324410ad16d2165bd74fda88b57" category="list-text">* Version * ：各ノードで実行されているソフトウェアのバージョン。</block>
   <block id="bc5c41c17da340e6195713d181a795ab" category="list-text">* レプリケーションポート * ：リモートレプリケーションにノードで使用されるポート。</block>
   <block id="85611bc8b3b596220acd69ebfdc9f561" category="list-text">* Service Tag * ：ノードに割り当てられた一意のサービスタグ番号。</block>
-  <block id="190cdc01f7fb56224ceac8d08d754e74" category="summary">SnapMirror 機能は、 NetAppElement UI を使用してクラスタレベルで手動で有効にする必要があります。SnapMirror 機能はデフォルトでは無効になっており、新規インストール時やアップグレード時に自動的に有効になることはありません。SnapMirror 機能の有効化は 1 度だけ実行します。</block>
   <block id="8c6deb05dad76c6d98756a12280faf11" category="doc">クラスタで SnapMirror を有効にします</block>
   <block id="c2ced3365f4afea26203cb8baf8d5496" category="paragraph">SnapMirror は、 Element ソフトウェアを実行しているクラスタで NetApp ONTAP システムのボリュームが使用されている場合にのみ有効にすることができます。クラスタが NetApp ONTAP ボリュームを使用する目的で接続されている場合にのみ、 SnapMirror 機能を有効にしてください。</block>
   <block id="1ad412799aee12c3b2a515a4b2c82ddc" category="paragraph">ストレージクラスタで NetApp Element ソフトウェアが実行されている必要があります。</block>
@@ -12346,4 +12318,15 @@
   <block id="d69a8eaf0dfea73cf60506f2c945b71e" category="paragraph">SolidFire ストレージシステムでは、テナントはアカウントを使用してクライアントがクラスタ上のボリュームに接続できるようにすることができます。ボリュームは、作成時に特定のアカウントに割り当てられます。SolidFire ストレージシステムのクラスタ管理者アカウントを管理することもできます。</block>
   <block id="f22f8c5563a22eebf5e40a4e6776b17e" category="list-text"><block ref="f22f8c5563a22eebf5e40a4e6776b17e" category="inline-link-macro-rx"></block></block>
   <block id="270743fb35c053386e4a4cdf6792cc48" category="list-text"><block ref="270743fb35c053386e4a4cdf6792cc48" category="inline-link-macro-rx"></block></block>
+  <block id="502f948d897ec07db67fdc2e469148ad" category="summary">NetApp Element UIを使用して、元のソースボリュームを再同期し、フェイルバックを実行できます。元のソースボリュームがまだ存在している手順環境のシナリオです。</block>
+  <block id="8183914c9226d9a19ae9bbfa627fbf0e" category="list-text">*アカウントID *：ストレージコンテナに関連付けられたNetApp Element アカウントのID。</block>
+  <block id="ad44348578662847864653ca8200921d" category="summary">関係を作成する前に、NetApp Element UIでSnapMirrorエンドポイントを作成する必要があります。</block>
+  <block id="6c9029af99fc728c982ed5fd936b7698" category="paragraph">Element を実行するシステムは、 9.3 以降の ONTAP システムの SnapMirror と直接通信できます。NetApp Element APIには、クラスタ、ボリューム、SnapshotでSnapMirror機能を有効にするメソッドが用意されています。さらに、 Element UI には、 Element ソフトウェアと ONTAP システムの間の SnapMirror 関係を管理するために必要なすべての機能が搭載されています。</block>
+  <block id="0fcbcd44f94b7480efaa3994bc435a94" category="summary">NetApp Element UIを使用して、元のソースボリュームを再同期し、フェイルバックを実行できます。このセクションでは、元のソースボリュームが失われ、元のクラスタはそのまま維持されている環境シナリオを示します。新しいクラスタにリストアする方法については、ネットアップサポートサイトのドキュメントを参照してください。</block>
+  <block id="e9e2aaadf763fccbcadaf60d40bcc872" category="summary">SnapMirror機能は、NetApp Element UIを使用してクラスタレベルで手動で有効にする必要があります。SnapMirror 機能はデフォルトでは無効になっており、新規インストール時やアップグレード時に自動的に有効になることはありません。SnapMirror 機能の有効化は 1 度だけ実行します。</block>
+  <block id="1ae777f5f5d3ad0b135c0ce6e90b188a" category="summary">SnapMirror関係はNetApp Element UIで作成する必要があります。</block>
+  <block id="a76e77cdf9ddd9de47f6767bd156c68a" category="summary">Elementシステムの各種機能は、NetApp Element APIをその基盤として使用します。Element UI では、画面での操作に連動して、システム上のさまざまな種類の API アクティビティをリアルタイムで確認できます。API ログでは、ユーザが開始したバックグラウンドのシステム API アクティビティと、現在表示しているページ上で実行された API 呼び出しを確認できます。</block>
+  <block id="eb78259501a2ba2c5586f9c5378b0722" category="paragraph">NetApp Element ソフトウェアを使用すると、クラスタで Federal Information Processing Standard （ FIPS ；連邦情報処理標準） 140-2 動作モードを有効にすることができます。このモードを有効にすると、NetApp Cryptographic Security Module（NCSM）がアクティブになり、NetApp Element UIおよびAPIとのHTTPS経由の通信にFIPS 140-2レベル1認定の暗号化が適用されるようになります。</block>
+  <block id="9bcbeef20d899b1f6c3b91bed9318949" category="summary">SnapMirror関係は、NetApp Element UIのデータ保護タブから作成できます。この情報をユーザインターフェイスで確認するには、 SnapMirror 機能を有効にする必要があります。</block>
+  <block id="04c9a1dceaa7848075695a7a05510e89" category="paragraph">NetApp Element APIを使用して、クラスタ内のストレージノードのデフォルトSSL証明書と秘密鍵を変更できます。</block>
 </blocks>
