@@ -8477,7 +8477,6 @@
   <block id="7d640bfdd148f102df423b6e94b11571" category="paragraph"><block ref="15098cd863d8945571eb3fa1cb63a7fe" category="inline-link-rx"></block> は、クラスタ全体のデータの履歴ビューを提供する Web ベースのツールです。ビューは定期的に更新されます。特定のイベント、しきい値、または指標にアラートを設定できます。SolidFire Active IQ を使用すると、システムのパフォーマンスと容量を監視し、クラスタの健常性を常に把握できます。</block>
   <block id="841b3da78955b4e942c8bd5ffddca29e" category="paragraph">システムに関する次の情報は、 SolidFire Active IQ で確認できます。</block>
   <block id="4cea75009713f3eadbea7bd906d0523e" category="list-text">ノードの数とステータス：健全、オフライン、またはエラー</block>
-  <block id="1d60ceb1c0eb7b235010f9d4f656f6d7" category="list-text">CPU とメモリの使用状況をグラフィカルに表示します</block>
   <block id="390ad22ea22a7a4699d87e2efaa0c84e" category="list-text">シリアル番号、シャーシ内のスロットの場所、モデル、ストレージノードで実行されている NetApp Element ソフトウェアのバージョンなど、ノードに関する詳細</block>
   <block id="09bfac84403d33379e533954403b0f94" category="list-text">仮想マシンの CPU およびストレージ関連情報</block>
   <block id="8f7f4baec8aa05a765ec83446ad7d0c6" category="inline-link">ネットアップサポートサイトと Active IQ 用ツール</block>
@@ -10154,7 +10153,6 @@
   <block id="61619933da68d936343d156cf86fd348" category="list-text">[ パスワード *] フィールドと [ パスワードの確認 *] フィールドに、新しい強力なパスワードを入力します。</block>
   <block id="328ec503408d578ee5972945b2b06ae0" category="list-text">ページの下部にある「 * 保存」をクリックします。</block>
   <block id="c77013b15c47fcdd751ff96ca28cf5ac" category="list-text">デフォルトの IPMI パスワードを使用するすべての H610S ノードについて、この手順を繰り返します。</block>
-  <block id="148fe9926e292adb5c7374ee88fa6651" category="paragraph">システムに関する次の情報は、 Active IQ で確認できます。</block>
   <block id="66c36c8b05fe85645ac29ef19ef65fec" category="paragraph">管理ノード（ mNode ）は、 Element ソフトウェアベースの 1 つ以上のストレージクラスタと同時に実行される仮想マシンです。このサービスは、アップグレード後にシステムサービスを提供するために使用されます。これには、監視とテレメトリ、クラスタのアセットと設定の管理、システムテストとユーティリティの実行、トラブルシューティング用のネットアップサポートアクセスの有効化などが含まれます。</block>
   <block id="27784185cf7acffff8c4030234913f4f" category="paragraph">Element 11.3 リリース以降、管理ノードはマイクロサービスホストとして機能するようになりました。そのため、メジャーリリースを待つことなく、希望するソフトウェアサービスを更新できます。これらのマイクロサービスまたは管理サービス（ Active IQ コレクタ、 vCenter Plug-in 用の QoSSIOC 、 mNode サービスバンドルなど）は、サービスバンドルとして頻繁に更新されます。ストレージノードソフトウェアのアップグレード用の HealthTools やサポートツール（リモートサポートトンネリング）などのサービスも管理ノードから利用できます。</block>
   <block id="d27c6f768ef4d7149904862f1a633b7e" category="summary">SolidFire ストレージノードは、 Bond10G ネットワークインターフェイスを通じて相互に通信する一連のドライブを搭載したサーバです。ノード内のドライブには、データの格納用と管理用にブロックスペースとメタデータスペースが確保されます。</block>
@@ -11126,18 +11124,6 @@
   <block id="18d9baaef37c0db710997a1713f55562" category="paragraph">ユーザが定義した QoS ポリシーの名前。</block>
   <block id="ce8f7dd1608dc67c9404ff17eac605a7" category="list-text">* ボリューム *</block>
   <block id="7bb6651b24ac622589ee6a2bece471c0" category="paragraph">ポリシーを使用しているボリュームの数。数字をクリックすると、ポリシーが適用されたボリュームのリストが表示されます。</block>
-  <block id="8bc14f0cb78851f59e85c1d447c2c99f" category="doc">Quality of Service の略</block>
-  <block id="8525478e88fe768020917024e56b3375" category="list-text">* 最小 IOPS *</block>
-  <block id="27e38a475d319fbe8808dbde111a71f4" category="paragraph">ストレージクラスタがボリュームに提供する平常時の最小 IOPS 。ボリュームに設定された Min IOPS は、そのボリュームに対して最低限保証されるパフォーマンスレベルです。パフォーマンスがこのレベルを下回ることはありません。</block>
-  <block id="0eafe666057554f59d8d2c8c24b3e0f3" category="list-text">* 最大 IOPS *</block>
-  <block id="086078d6e9862aa3229698f9f4ea609d" category="paragraph">ストレージクラスタがボリュームに提供する平常時の最大 IOPS 。クラスタの IOPS レベルが非常に高い場合も、 IOPS パフォーマンスはこのレベル以下に抑えられます。</block>
-  <block id="6c3439000c562798f2214c4888ab4ed8" category="paragraph">短時間のバースト時に許容される最大 IOPS 。ボリュームが Max IOPS 未満で動作している間は、バーストクレジットが蓄積されます。パフォーマンスレベルが非常に高くなって最大レベルに達した場合、ボリュームで IOPS の短時間のバーストが許容されます。</block>
-  <block id="21094115b958d315231b910f9b8e8c38" category="paragraph">個々のボリュームは、蓄積したバーストクレジットを使用して、一定の「バースト期間」中は Max IOPS を最大で Burst IOPS レベルまで一時的に超過することができます。ボリュームのバースト時間は最大で 60 秒です。クラスタの容量にバーストに対応できるだけの余力があることが条件になります。</block>
-  <block id="1d817bd510c09dbc5ee3cf5101fa6e94" category="paragraph">ボリュームは、 Max IOPS 未満で動作している 1 秒ごとに、 1 秒分のバーストクレジットを蓄積します（最大 60 秒）。</block>
-  <block id="4fb6dee19a7208b7558396de228b1c1c" category="list-text">* 実効最大帯域幅 *</block>
-  <block id="248da5ca182c3126378490e07f585f5c" category="paragraph">最大帯域幅は、（ QoS 曲線に基づく） IOPS に IO サイズを掛けて計算されます。</block>
-  <block id="81eeab9506186e2dca8faefa78d54067" category="paragraph">例</block>
-  <block id="4f88c9126146259f6c0627052d9cda8f" category="paragraph">QoS パラメータを Min IOPS = 100 、 Max IOPS = 1000 、 Burst IOPS = 1500 に設定した場合、パフォーマンスの品質は次のようになります。</block>
   <block id="a418de238af2e950367eb7c3bf83fe1f" category="summary">通常、 NetApp Element ソフトウェアを実行する SolidFire ストレージクラスタから ONTAP ソフトウェアへのディザスタリカバリに SnapMirror を使用する場合、 Element がソースで ONTAP がデスティネーションです。ただし、場合によっては、 ONTAP ストレージシステムをソース、 Element をデスティネーションとして使用できます。</block>
   <block id="659c8d4c2c0fc3a73a824fc81bde1e80" category="doc">ONTAP から Element への転送または 1 回限りの移行を実行します</block>
   <block id="a955789d7e958f413c05678ed87e5055" category="list-text">2 つのシナリオがあります。</block>
@@ -12087,9 +12073,6 @@
   <block id="17d44e89eecd428fa4268b3fa3873164" category="paragraph">暗号化されているノードとされていないノードは混在させないことを推奨します。ノードが混在するクラスタでは、どのノードもクラスタの総容量の 33% を超えることはできません。たとえば、 SF シリーズ 4805 のノードが 4 つあるクラスタの場合、単独で追加できる最大のノードは SF シリーズ 9605 です。クラスタ容量のしきい値は、最大のノードが失われた場合を基準に計算されます。</block>
   <block id="dde5a199f31b4af53ccd088330e8314c" category="paragraph">Element 12.0 以降では、次の SF シリーズのストレージノードはサポートされません。</block>
   <block id="58432e4b26f0e5c8db86828d17f3a7ba" category="paragraph">これらのストレージノードのいずれかを Element 12.0 にアップグレードすると、このノードが Element 12.0 でサポートされていないことを示すエラーが表示されます。</block>
-  <block id="05da295a52c5ab8bf219722efcc57625" category="summary">サービス品質（ QoS ）パフォーマンス曲線は、ブロックサイズと IOPS の割合の関係を示します。</block>
-  <block id="735a31f1d01fe768279621625e725b79" category="doc">QoS パフォーマンス曲線</block>
-  <block id="18a66bc3ec4b3669a530ba3c51d026aa" category="paragraph">サービス品質（ QoS ）パフォーマンス曲線は、ブロックサイズと IOPS の割合の関係を示しています。</block>
   <block id="4cf5f18e32ae2a3ab791ffc90b0c71b8" category="summary">システムの監視は、診断目的、および各種システム処理のパフォーマンスの傾向やステータスに関する情報を収集するために実行します。メンテナンスのためにノードや SSD の交換が必要になる場合があります。</block>
   <block id="5d275af03802c344792a6765e974ac03" category="list-text"><block ref="5d275af03802c344792a6765e974ac03" category="inline-link-macro-rx"></block></block>
   <block id="b1c9ca707156f02819d3d0e1cc8278ee" category="list-text"><block ref="b1c9ca707156f02819d3d0e1cc8278ee" category="inline-link-macro-rx"></block></block>
@@ -12330,9 +12313,10 @@
   <block id="0ba7ef8feca0e0b45134473e9c3182d4" category="paragraph">｛url-peak｝[ Element Plug-in for vCenter Serverの技術情報アーティクル^]を確認します。</block>
   <block id="ef9cbe434b5f28c847ba96be9c26f253" category="list-text">CPU、メモリ使用量、ノードスロットルをグラフィカルに表示します</block>
   <block id="7aa85da92a1cd23b2981568643e3da1c" category="inline-link">SolidFire Active IQ のドキュメント</block>
-  <block id="24cc9a6d809fb5ff41b6660db9cdf022" category="list-text">SolidFire Active IQ の詳細については、を参照してください<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>。</block>
   <block id="1a1a6c5ed33ecaf055e3e38150525306" category="list-text"><block ref="11e28499cd7c9c7d408304fbab2a1320" category="inline-link-rx"></block></block>
   <block id="469eaba8a7048afa0ba6f8eb91801de9" category="doc">SolidFire Active IQ でストレージを監視</block>
   <block id="45f40a7365f71f3eafc4489e01e9aa82" category="sidebar">NetApp SolidFire Active IQ でストレージを監視</block>
   <block id="d8d2cf4b5fd1196b5be39dd3b93ba995" category="sidebar">NetApp SolidFire Active IQ を使用する</block>
+  <block id="f02632134f46548247abd92a38e5f73e" category="paragraph">SolidFire Active IQ の詳細については、を参照してください<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>。</block>
+  <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">Quality of Service（QoS；サービス品質）などのActive IQ の一部の機能を正しく機能させるには、Element 11.3以降が必要です。Active IQ のすべての機能を使用できることを確認するために、次のことを推奨します。</block>
 </blocks>

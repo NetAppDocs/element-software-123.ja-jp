@@ -18,8 +18,10 @@ https://activeiq.solidfire.com["SolidFire Active IQ の略"^] は、クラスタ
 * ノードの数とステータス：健全、オフライン、またはエラー
 * CPU、メモリ使用量、ノードスロットルをグラフィカルに表示します
 * シリアル番号、シャーシ内のスロットの場所、モデル、ストレージノードで実行されている NetApp Element ソフトウェアのバージョンなど、ノードに関する詳細
-* SolidFire Active IQ の詳細については、を参照してください https://docs.netapp.com/us-en/solidfire-active-iq/index.html["SolidFire Active IQ のドキュメント"^]。
+* 仮想マシンの CPU およびストレージ関連情報
 
+
+SolidFire Active IQ の詳細については、を参照してください https://docs.netapp.com/us-en/solidfire-active-iq/index.html["SolidFire Active IQ のドキュメント"^]。
 
 
 
