@@ -8867,7 +8867,6 @@
   <block id="4902bbb0f0792204a931cd6714a07488" category="section-title">信頼できるストレージクラスタです</block>
   <block id="a18ea3a466ff3d7bd70cfb3f7158e88d" category="paragraph">信頼できるストレージクラスタとは、 NetApp Hybrid Cloud Control でユーザの認証に使用するストレージクラスタです。</block>
   <block id="2cd0e9f52d18ccaa56ebdcbb4861e9b3" category="paragraph">管理ノードにストレージクラスタが 1 つしかない場合は、信頼できるクラスタになります。管理ノードに複数のストレージクラスタがある場合は、それらのクラスタのいずれかが権限のあるクラスタとして割り当てられ、そのクラスタのユーザのみが NetApp Hybrid Cloud Control にログインできます。権限のあるクラスタを確認するには、「 get/mnode/about 」 API を使用します。応答では、「 token_url 」フィールドの IP アドレスは、権限のあるストレージクラスタの管理仮想 IP アドレス（ MVIP ）です。信頼できるクラスタにないユーザとして NetApp Hybrid Cloud Control にログインしようとすると、ログインに失敗します。</block>
-  <block id="231614b040b1229fa532738569668845" category="paragraph">NetApp Hybrid Cloud Control の多くの機能は複数のストレージクラスタを使用するように設計されていますが、認証と許可には制限があります。認証と許可に関する制限事項として、信頼できるクラスタのユーザが、他のストレージクラスタのユーザでなくても、 NetApp Hybrid Cloud Control に関連付けられている他のクラスタに対して操作を実行できることがあります。複数のストレージクラスタの管理を開始する前に、権限のあるクラスタで定義されているユーザが同じ権限を持つ他のすべてのストレージクラスタに定義されていることを確認してください。</block>
   <block id="7637537a215094d11d21f8d200622812" category="inline-link-macro">Element ソフトウェアユーザインターフェイス</block>
   <block id="353681e44a9f1004360ad2451b95f66a" category="paragraph">複数のストレージクラスタの管理を開始する前に、権限のあるクラスタで定義されているユーザが同じ権限を持つ他のすべてのストレージクラスタに定義されていることを確認してください。からユーザを管理できます <block ref="c6f9d44a89e7c75fd4726f61bea07a82" category="inline-link-macro-rx"></block>。</block>
   <block id="68f491affafdc67007d139c6e24190b1" category="inline-link-macro">ストレージクラスタアセットを作成および管理する</block>
@@ -12201,7 +12200,6 @@
   <block id="e506ffc283cd9b97f54dc128678dfcbc" category="paragraph"><block ref="e506ffc283cd9b97f54dc128678dfcbc" category="inline-xref-macro-rx"></block></block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリースノート</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
-  <block id="c653b8edc861abcc06840aebde786e4b" category="sidebar">Element Plug-in for vCenter Server を使用してストレージを管理（リンク）</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">以前のバージョン</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="01064f33f360eefba819bf9542c0486b" category="sidebar">ハードウェアのメンテナンスをインストールします</block>
@@ -12319,4 +12317,10 @@
   <block id="d8d2cf4b5fd1196b5be39dd3b93ba995" category="sidebar">NetApp SolidFire Active IQ を使用する</block>
   <block id="f02632134f46548247abd92a38e5f73e" category="paragraph">SolidFire Active IQ の詳細については、を参照してください<block ref="3422f40bd7bba6370d69142070e812b4" category="inline-link-rx"></block>。</block>
   <block id="56ee8203bf76c58f39596dab101d98d5" category="list-text">Quality of Service（QoS；サービス品質）などのActive IQ の一部の機能を正しく機能させるには、Element 11.3以降が必要です。Active IQ のすべての機能を使用できることを確認するために、次のことを推奨します。</block>
+  <block id="d214b4cd328cf59221f38d85dca1988f" category="summary">NetApp Element ソフトウェアを実行しているストレージクラスタを管理および監視するには、VMware vSphereインターフェイスのプラグインであるNetApp Element Plug-in for vCenter Serverを使用します。</block>
+  <block id="14dc26d359d13f6037d00a6c79232cd6" category="paragraph">NetApp Element Plug-in for vCenter Serverは、VMware vSphereインターフェイスのプラグインを提供します。これにより、NetApp Element ソフトウェアを実行しているストレージクラスタを管理および監視できるようになります。</block>
+  <block id="da3eb0bd8c882a21931739ac39ce915a" category="inline-link">NetApp Element Plug-in for vCenter Server のドキュメント</block>
+  <block id="c557278939ddfc5c37a8606a5b8bc3d8" category="paragraph">Element Plug-in for vCenter Serverの詳細については、を参照してください<block ref="4a40fe421733073daff96e428d226590" category="inline-link-rx"></block>。</block>
+  <block id="fd0b9b1500c5983ac27a332210ebfe29" category="paragraph">NetApp Hybrid Cloud Control の多くの機能は複数のストレージクラスタを使用するように設計されていますが、認証と許可には制限があります。認証と許可に関する制限事項として、信頼できるクラスタのユーザが、他のストレージクラスタのユーザでなくても、 NetApp Hybrid Cloud Control に関連付けられている他のクラスタに対して操作を実行できることがあります。</block>
+  <block id="f0e8a2f025f562374fa58233f9f7cd01" category="sidebar">Element Plug-in for vCenter Serverを使用してストレージを管理します</block>
 </blocks>
