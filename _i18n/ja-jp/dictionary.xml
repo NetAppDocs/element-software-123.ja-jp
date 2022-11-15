@@ -1247,7 +1247,6 @@
   <block id="ed4faf2b135a0f2d74eef06f6fd8899e" category="list-text">ストレージの MVIP にアクセスしてログインします。次の手順で証明書が承認されます。</block>
   <block id="2d627b2788c609fd6539b2b8370f4c40" category="list-text">コード 200 の応答本文から 'id' をコピーして保存し ' 後の手順で使用できるようにします</block>
   <block id="597135ab4be28d04d311121c3e5ca422" category="list-text">NetApp Hybrid Cloud Control の vCenter コントローラアセットを管理ノードの既知のアセットに追加します。</block>
-  <block id="f9ff4ba30fde92cbf23c00302a8ac526" category="admonition">コントローラサブアセットを追加する場合は、 vCenter で新しい NetApp HCC ロールを作成することを推奨します。この新しい NetApp HCC ロールにより、管理ノードのサービス表示がネットアップ専用のアセットに制限されます。を参照してください <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
   <block id="e2e193a380a16845739e1445cfe23fde" category="list-text">必要なペイロード値を「 vcenter 」タイプと「 vcenter 」クレデンシャルタイプで入力します。</block>
   <block id="891d7cb5314c1395a5f98467dc959053" category="inline-link-macro">ストレージ NIC を設定します</block>
   <block id="a5dabe6d3aebca1d4cd3dc7d091f22a0" category="list-text"><block ref="a5dabe6d3aebca1d4cd3dc7d091f22a0" category="inline-link-macro-rx"></block></block>
@@ -1335,7 +1334,6 @@
   <block id="75be5fb98a5e3aff69e3f0e049934221" category="list-text">（任意）ディセーブルにします <block ref="b551ebda879d60cf3a0931b9f0e794a7" category="inline-link-macro-rx"></block> をもう一度クリックします</block>
   <block id="88d2fa1cb3e06d29219dc8436ebc814c" category="admonition">SSH を無効にしないと、有効なままになります。SSH を有効にした設定は、手動で無効にするまで、更新やアップグレードを通じて管理ノードで維持されます。</block>
   <block id="4ba4ebd212b1cbb6f7f91af40ffdd6dc" category="summary">vCenter アセットを管理ノードに追加する前に、 vCenter で NetApp HCC ロールを作成する必要があります。</block>
-  <block id="d718b24f1548935a3a659c06037a67b3" category="paragraph">vCenter で NetApp HCC ロールを作成して、インストール後に vCenter アセット（コントローラ）を管理ノードに手動で追加したり、既存のコントローラを変更したりすることを推奨します。</block>
   <block id="ed06c949c2b36fa4b24f130e5bb1267b" category="paragraph">この NetApp HCC ロールは、管理ノードのサービスビューをネットアップ専用のアセットに制限します。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">このタスクについて</block>
   <block id="084f667a768181d2c907c53fa5eba8aa" category="list-text">この手順では、 vSphere 6.7 の場合の手順を説明しています。インストールされている vSphere のバージョンによっては、 vSphere のユーザインターフェイスが多少異なる場合があります。詳細については、 VMware vCenter のドキュメントを参照してください。</block>
@@ -1374,7 +1372,6 @@
   <block id="a409b26808477ed8b8f15456cceffd08" category="list-text">最上位の vCenter 。</block>
   <block id="f461138bedafcfc6a42f52eac66dab8a" category="list-text">リンクモードの場合は、必要な vCenter を選択します。</block>
   <block id="4c0d90c9ada6ab81f16f3446180ab3a1" category="inline-link-macro">vCenter リンクモード</block>
-  <block id="03474279d3fc9d2a56fdc80404029d49" category="admonition">NetApp Element Plug-in for vCenter Server を使用して他の vCenter Server のクラスタリソースを管理する方法については、を参照してください <block ref="7b02ca43ff4544fd4c29159c11bae6d5" category="inline-link-macro-rx"></block> はローカルストレージクラスタのみに制限されます。</block>
   <block id="0086257e9c830b4d9b546228b58d7f0f" category="list-text">右のナビゲーションペインで、 * 権限 * を選択します。</block>
   <block id="69361a3d23c9cf0e15a6856bbe2ef16f" category="list-text">新しいユーザを追加するには、「 * + * 」アイコンを選択します。</block>
   <block id="48be45545aea0a25445232c0107f6449" category="paragraph">[ 権限の追加 *] ウィンドウに次の詳細を追加します。</block>
@@ -1828,12 +1825,9 @@
   <block id="560d0945440f76a732a9fbcc35180010" category="summary">ノード上の SolidFire ESDS を削除することで、 SolidFire ESDS をインストールしたノードを「リセット」できます。ノードで SolidFire ESDS を復元するには、すべてのインストール手順を実行する必要があります。</block>
   <block id="9016f524f2973678d7663aea53bb88b3" category="doc">ノードで SolidFire ESDS をアンインストールします</block>
   <block id="3b6744c82f649728c504907b57a1055e" category="paragraph">ノード上の SolidFire ESDS を削除することにより、 SolidFire ESDS をインストールしたノードを * リセット * できます。ノードで SolidFire ESDS を復元するには、すべてのインストール手順を実行する必要があります。</block>
-  <block id="bfc7399c1c92cf0d90621d6b98ee2e84" category="inline-link-macro">「 nar_solidfire_sds_uninstall 」</block>
   <block id="68629b26007b6f0d31da5f710865d8c4" category="admonition">を使用できます <block ref="e21e9b52142fa32fc9f2798e0357c93a" category="inline-link-macro-rx"></block> 処理を実行するためにネットアップが提供する Ansible のロール。ノードから SolidFire ESDS を手動で削除する場合は、次の手順を参照してください。</block>
-  <block id="c97feb073ff79f44cf03a1742a29f033" category="inline-link">「 RemoveDrives 」を参照してください</block>
   <block id="006a2c6366ad86bc1da05db85ff0ff30" category="list-text">Element UI またはを使用してクラスタからドライブを削除します<block ref="af8bb9d27ccaccc91f1f8edbd1b2c6cd" category="inline-link-rx"></block> API メソッド。</block>
   <block id="d25b1313ce24472d1605226c513ef95a" category="paragraph">その結果、ノードのドライブからクラスタ内の他のドライブへデータが移行されます。このプロセスにかかる時間は、移行が必要なデータの量によって異なります。</block>
-  <block id="3a7274d7e44dc3f5bd547cc6bc747d94" category="inline-link">「 RemoveNodes 」</block>
   <block id="215a2ff75aaa54f1e5a17125c706bca4" category="list-text">Element UI またはを使用して、クラスタからノードを削除します<block ref="b93ddc7d3c2a507b426fba6e07c41251" category="inline-link-rx"></block> API メソッド。</block>
   <block id="08a481e768a7e6b16029a890ff83c01c" category="list-text">クラスタから削除したノードに SSH を使用して接続します。</block>
   <block id="3ef7f9e0aa1c6e4768c8761acab7b60c" category="list-text">次のように、ノードから SolidFire ESDS を削除します。</block>
@@ -1892,16 +1886,11 @@
   <block id="ebcdf1544f3d1837d74ac7935921840f" category="list-text">* ノード上の各ネットワークインターフェイスの統計情報を表示する *: Element 12.3 では、「 ListNetworkInterfaceStats 」メソッドが導入されています。このメソッドを使用すると、ノード上の各ネットワークインターフェイスのドロップされたパケット数やさまざまな種類のエラーなどの統計情報を表示できます。この API メソッドは、個々のノードに対して使用するためのものです。個々のノードにアクセスするには、ユーザ ID とパスワードによる認証が必要です。ただし、メソッド呼び出しで force パラメータの値が true に設定されている場合は、このメソッドをクラスタに対して使用できます。パラメータをクラスタに対して使用すると、すべてのインターフェイスのネットワーク統計が表示されます。を参照してください<block ref="b3f5ae500a470ff9050f3521cdc793c4" category="inline-link-rx"></block> を参照してください。</block>
   <block id="b39b4f606b587cbb01f67a7e70186eea" category="list-text">* SolidFire ESDS* をサポートするために Element 12.2 で導入および更新された API ： SolidFire ESDS クラスタで使用できる新しい API が Element 12.2 で導入されました。</block>
   <block id="463224af5ebc7979ed09e40e54613a35" category="paragraph">Element 12.2 で追加された API の一覧を次に示します。</block>
-  <block id="41773f0138486ec234a35d7b9f9a9fbd" category="inline-link-macro">「 GetLicenseKey 」をクリックします</block>
   <block id="234e051281051671e79fd955b3cc36a1" category="list-text"><block ref="234e051281051671e79fd955b3cc36a1" category="inline-link-macro-rx"></block></block>
-  <block id="024825eae18cb8bc988d2efcdf5a78f7" category="inline-link-macro">'setLicenseKey'</block>
   <block id="2107b28d0e666b2c94a8ae5ac00facf7" category="list-text"><block ref="2107b28d0e666b2c94a8ae5ac00facf7" category="inline-link-macro-rx"></block></block>
-  <block id="c465b1888bcc159df3ab3662fac3d576" category="inline-link-macro">「 EnableMaintenanceMode 」のように表示されます</block>
   <block id="182314039c230eaf0b610ab5336bd944" category="list-text"><block ref="182314039c230eaf0b610ab5336bd944" category="inline-link-macro-rx"></block></block>
-  <block id="00ec9d3f2cdb59b4897d3e3db8e8db80" category="inline-link-macro">「 DisableMaintenanceMode 」</block>
   <block id="6c8f5d51f9d138086b55a6d2b68f0ba9" category="list-text"><block ref="6c8f5d51f9d138086b55a6d2b68f0ba9" category="inline-link-macro-rx"></block></block>
   <block id="f72e130e78ae2a72c1d8ba0e803f0638" category="paragraph">SolidFire ESDS クラスタをサポートするために、次の 12.2 の API が更新されました。</block>
-  <block id="07cacca00a99fbebd82083d61daa7d2f" category="inline-link-macro">「 AddNodes 」</block>
   <block id="34850bd5fb3f2667bbb87db4cffca2ed" category="list-text"><block ref="34850bd5fb3f2667bbb87db4cffca2ed" category="inline-link-macro-rx"></block></block>
   <block id="8404d841c616b784628d5ae406a01813" category="list-text"><block ref="8404d841c616b784628d5ae406a01813" category="inline-link-macro-rx"></block></block>
   <block id="16a30437f029582ce534f35778eac3b5" category="admonition">Element ソフトウェア 12.2 の「 CreateCluster 」メソッドに、新しいパラメータ「 OrderNumber 」、「 erialNumber 」、および「 enableSoftwareEncryptionAtRest 」が追加されました。SolidFire ESDS のインストール後にクラスタを作成する場合は、この API メソッドを使用してこれらのパラメータを指定する必要があります。</block>
@@ -2122,7 +2111,6 @@
   <block id="9945963a24fd155d6f6f9b3f0f1ed826" category="list-text"><block ref="9945963a24fd155d6f6f9b3f0f1ed826" category="inline-link-macro-rx"></block></block>
   <block id="935bf4b062c3ce99ec15122fe03bd5f8" category="list-text"><block ref="935bf4b062c3ce99ec15122fe03bd5f8" category="inline-link-macro-rx"></block></block>
   <block id="6fc37b544c0c7c6bad6a21c5e2aa379c" category="summary">ソフトウェアのアップグレードやホストの修復などのメンテナンスのためにストレージノードをオフラインにする必要がある場合は、そのノードのメンテナンスモードを有効にすることで、ストレージクラスタの残りの部分への I/O の影響を最小限に抑えることができます。</block>
-  <block id="9a22eba2ac8927a67bb3d8f09e152944" category="inline-link-macro">「 ListActiveNodes 」</block>
   <block id="e69d07edaa334125aaef7f2094da77a8" category="admonition">ノードの保守モードの現在のステータスを確認する場合は、を使用します <block ref="04e910fadadbb107f8995814b13ebed5" category="inline-link-macro-rx"></block> API メソッド。node オブジェクトには、ノードの保守モードの現在のステータスを示す「 maintenanceMode 」パラメータが含まれています。</block>
   <block id="cec1e459f131189983c83e13023b4c41" category="admonition">メンテナンスモードを有効にしたらすぐにメンテナンスを実行してください。ノードを必要以上に保守モードのままにしないでください。</block>
   <block id="b7ca43b9728873986f598048b8cf1944" category="paragraph">ストレージノードを保守モードに移行できるのは、ノードが正常で（クラスタエラーがブロックされていない）、かつストレージクラスタが単一ノード障害に対応している場合のみです。正常なトレラントノードに対してメンテナンスモードをイネーブルにすると、ノードはすぐには移行されません。ノードは、次の条件が満たされるまで監視されます。</block>
@@ -2422,7 +2410,6 @@
   <block id="b1802c77389b4ac3b23faeadf903c049" category="list-text"><block ref="1efdf10dcfe9c2e3a25a8865e617917c" category="inline-xref-macro-rx"></block></block>
   <block id="97b3e300fdc30fec27018f67c316a56f" category="list-text"><block ref="7369d04fe6c601eb40cc8c3814fb604a" category="inline-xref-macro-rx"></block></block>
   <block id="ef5b20c600ed307281dd18a2e008153b" category="list-text"><block ref="c3d184e2b4d651938156eb240caa790b" category="inline-xref-macro-rx"></block></block>
-  <block id="49284958c9d16c4b6d8ee9ddd4ebbca5" category="inline-link-macro">'NAR_solidfire_cluster_config</block>
   <block id="bdc50eb6c47970077e948f5bb3f2f8a9" category="admonition">を使用できます <block ref="66b3dfe54b73a97277e6f9c94606df0e" category="inline-link-macro-rx"></block> インストール後の手順を実行するためにネットアップが提供する Ansible のロール。手動で実行する場合は、以下の手順を参照してください。</block>
   <block id="9130cceb2ee763a25b9513639313012e" category="section-title">クラスタ名を設定</block>
   <block id="3b50f0fa5346b2b7a1dbbc42b96fff06" category="paragraph">ノードをクラスタに追加する前に、各 SolidFire ESDS ノードにクラスタ名を設定する必要があります。ノード UI または Element API を使用します。</block>
@@ -2432,7 +2419,6 @@
   <block id="3b8521cd8c98f1b89d1886e9da53e4c7" category="list-text">ノード単位の管理ノード UI を開きます https://&lt;node_mip&gt;:442`</block>
   <block id="ecf9269363976c8aa9dfb2d865ab2460" category="list-text">「 * Cluster Settings 」（クラスタ設定）を選択し、クラスタ名を入力します。</block>
   <block id="2ce8d1287d5fe484f0fb11eb92e9f79a" category="list-text">「 * 変更を適用する * 」を選択します。</block>
-  <block id="acf00854bc64655927abe2f08f53203f" category="inline-link-macro">'etClusterConfig'</block>
   <block id="cadf3b6311b2a5cd1f2479588b496983" category="list-text">を使用します <block ref="ae527e5fc4083ce232328ba1f392402b" category="inline-link-macro-rx"></block> API メソッド。</block>
   <block id="e802251d4dcfaecfcfd731ece9ad093c" category="paragraph">このメソッドの入力パラメータは次のとおりです。</block>
   <block id="65e18a0bb1868a9c1e181302d4733dba" category="paragraph">「クラスタ」</block>
@@ -2487,7 +2473,6 @@
   <block id="9ec797bc87593a53c946c895e6c29645" category="list-text">Element UI を使用します。</block>
   <block id="c9347a5a6675f6567839e4fc23da9425" category="list-text">複数のドライブを追加するには、追加するドライブのチェックボックスを選択し、 * Bulk Actions * を選択し、 * Add * を選択します。</block>
   <block id="368f584747203782ae3edd4027e4dbb3" category="list-text">ドライブが追加され、クラスタの容量が想定どおりであることを確認します。</block>
-  <block id="775ca0ad68fdedd2fe06eeb23598d120" category="inline-link">「 AddDrives 」を参照してください</block>
   <block id="0c6dbcef2d177e85c06897fc358c21b2" category="list-text">を使用します<block ref="c0d40b2326a5711bff7fb806cc298f7f" category="inline-link-rx"></block> API メソッド。</block>
   <block id="eba45a3406905c7055cebb16bd953ac4" category="paragraph">「ドライブ」</block>
   <block id="e5cad4cec16acc7173b90f0aba2cb647" category="paragraph">クラスタに追加する各ドライブに関する情報。有効な値は次のとおり</block>
@@ -7890,7 +7875,6 @@
   <block id="5b12e33b072ce8270dc251fa4b789d1a" category="paragraph">ストレージクラスタ上の Element ソフトウェアをアップグレードするために、管理ノードのオペレーティングシステムをアップグレードする必要がなくなりました。管理ノードのバージョンが 11.3 以降である場合は、 NetApp Hybrid Cloud Control を使用して管理サービスを最新バージョンにアップグレードするだけで Element をアップグレードできます。管理ノードのオペレーティングシステムをアップグレードする理由がほかにもある場合は、セキュリティの修正など、管理ノードのアップグレード手順に従ってください。</block>
   <block id="5b6ab4d3c53ec5567002938471c9c120" category="admonition">vCenter Plug-in 4.4 以降では、モジュラアーキテクチャで作成された管理ノード 11.3 以降が必要であり、個々のサービスを提供します。</block>
   <block id="7876c958d2731a283bba894ce3294f21" category="paragraph">次のいずれかの管理ノードアップグレードオプションを選択します。</block>
-  <block id="728469310b9db013f8d3ad56547efdaa" category="list-text">管理ノード 12.3.2 には、 Virtual Volumes （ VVol ）機能が有効になっている場合に、ストレージクラスタのセキュリティを軽減する機能が含まれています。ストレージクラスタがすでに Element 12.3 にあり、 VVol 機能が有効になっている場合は、 12.3.2 にアップグレードすることを強く推奨します。</block>
   <block id="2c191a2c0c7197808c880518728ba922" category="list-text">管理ノード 12..1 では、機能の変更やバグの修正は行われていません。管理ノード 12.3 をすでに実行している場合は、これを 12.3.1 にアップグレードする必要はありません。</block>
   <block id="877752a02a9a723465e45e0699c0408a" category="list-text">管理ノード 12.2 からアップグレードする場合は、次の手順を実行します。<block ref="13ca98900fab2e9dc617ec4e80e5ef22" category="inline-xref-macro-rx"></block></block>
   <block id="c385c319a88b75509bcd9e965511f832" category="list-text">管理ノード 12.0 からアップグレードする場合は、次の手順を実行します。<block ref="837fd47411e60554dd964007e7b1f57c" category="inline-xref-macro-rx"></block></block>
@@ -8340,9 +8324,7 @@
   <block id="07eca6a24ab16b00e6321c01370da80b" category="cell">check_pending_nodes</block>
   <block id="030ad8adc15b38e3dbe32fa700ac2d65" category="cell">クラスタに保留状態のノードがないことを確認します。</block>
   <block id="2e78b6f70db7c1550da68540c472fe32" category="summary">NetApp SolidFire ストレージシステムのアップグレードの一環として、 Element Plug-in for vCenter Server をアップグレードできます。</block>
-  <block id="651784e7a6ddc6534201a6e8d1fbf248" category="paragraph">既存のvSphere環境にNetApp Element Plug-in for vCenter Serverが登録されている場合は、プラグインサービスが含まれている管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">登録ユーティリティを使用して、 vCenter Server Virtual Appliance （ vCSA ）または Windows でプラグインの登録を更新できます。vCenter Plug-in の登録変更は、プラグインを使用するすべての vCenter Server で行う必要があります。</block>
-  <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">このアップグレード手順では、次のアップグレードシナリオについて説明します。</block>
   <block id="a6a18366932bfeffc2341cc7aa5fe09d" category="list-text">7.0 、 6.7 、または 6.5 の HTML5 vSphere Web Client にアップグレードする。</block>
   <block id="8eeabd6de4a231c731b82c27ee25bbdb" category="admonition">このプラグインは、VMware vCenter Server 6.5 for Element Plug-in for VMware vCenter Server 4.6、4.7、および4.8とは互換性がありません。</block>
   <block id="f171584692be059c88cbbda35827f299" category="list-text">6.7 Flash vSphere Web Client にアップグレードする。</block>
@@ -8350,11 +8332,8 @@
   <block id="2acbddec1a60b854691b264d7efa1855" category="admonition">このプラグインは、 Flash 用の vSphere Web Client バージョン 6.7 U2 、 Flash および HTML5 用の 6.7 U3 、および 7.0 U1 に対応しています。このプラグインは、 HTML5 vSphere Web Client バージョン 6.7 U2 ビルド 13007421 および更新 2a より前にリリースされたその他の 6.7 U2 ビルド（ビルド 13643870 ）とは互換性がありません。サポートされる vSphere のバージョンの詳細については、のリリースノートを参照してください<block ref="52a3661120ba33cd100cafc9c9d568e0" category="inline-link-rx"></block>。</block>
   <block id="d7be3f2367f28daeaac07c2967977074" category="list-text">* 管理者権限 * ：プラグインをインストールするための vCenter Administrator ロールの権限があります。</block>
   <block id="7df6c84beb4c7f9c0109ea10accef1ed" category="list-text">* vSphere のアップグレード * ： NetApp Element Plug-in for vCenter Server をアップグレードする前に、必要な vCenter のアップグレードを実行しておきます。以下の手順は、 vCenter のアップグレードが完了していることを前提としています。</block>
-  <block id="4b6a458f5e631f2c6085bd25b3456bdf" category="list-text">* vCenter Server * ： vCenter Plug-in バージョン 4.x が vCenter Server に登録されている。登録ユーティリティ（ https://&lt;ManagementNodeIP&gt;:9443` ）で、 [*Registration Status*] を選択し、必要なフィールドに入力し、 [*Check Status*] を選択して vCenter Plug-in がすでに登録されていること、および現在のインストールのバージョン番号を確認します。</block>
   <block id="a0b278d8005f2dc2b9518ad7c52c1e27" category="list-text">* 管理サービスの更新 * ：を更新しました<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> を最新バージョンに更新します。vCenter プラグインの更新は、ネットアップの SolidFire オールフラッシュストレージに関する製品のメジャーリリース以外でリリースされた管理サービスの更新を使用して配布されます。</block>
   <block id="4c02ebe342ea429a0d2a2a23be2ddd19" category="inline-link-macro">アップグレード済み</block>
-  <block id="27c25a67c147529824177fc694e7fd19" category="list-text">* 管理ノードのアップグレード * ：以前に実行されていた管理ノードを実行します <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> バージョン 11.3 以降。vCenter Plug-in 4.4 以降では、個別のサービスを提供するモジュラアーキテクチャを備えた 11.3 以降の管理ノードが必要です。管理ノードの電源をオンにして IP アドレスまたは DHCP アドレスを設定しておく必要があります。</block>
-  <block id="7d3b6b8e2540bf5435b3b6984ad1f702" category="list-text">* Element ストレージのアップグレード * ： NetApp Element ソフトウェア 11.3 以降を実行しているクラスタが必要です。</block>
   <block id="12a6ece51476e2d3feae5dff01704e58" category="list-text">* vSphere Web Client * ：プラグインのアップグレードを開始する前に vSphere Web Client からログアウトしました。Web Client からログアウトしないと、このプロセスで行ったプラグインへの更新が認識されません。</block>
   <block id="72b711eab7bf0193b651fa7a07068ae1" category="list-text">登録用の TCP ポートを含む管理ノードの IP アドレスをブラウザに入力します。 https://&lt;ManagementNodeIP&gt;:9443` 登録ユーティリティの UI が開き、プラグインの * Manage QoSSIOC Service Credentials * ページが表示されます。</block>
   <block id="26fc450c5cd9b7f28b10cff7659b479d" category="image-alt">は、プラグインの登録ユーティリティの UI です</block>
@@ -8365,15 +8344,12 @@
   <block id="d5fcc07cbc4a070c18d26103f54f3f58" category="list-text">vCenter Administrator のユーザ名。</block>
   <block id="b1e24f0b2fb8f66a9c2444bf0e385f97" category="admonition">vCenter Administrator ロールの権限を持つユーザのユーザ名とパスワードを入力する必要があります。</block>
   <block id="c2611280cf76890b83743a67ac6478e2" category="list-text">vCenter Administrator のパスワード。</block>
-  <block id="92d3ac74b6d30f321507464dbfb9220d" category="list-text">（社内サーバ / ダークサイトの場合）プラグインの ZIP のカスタム URL 。</block>
   <block id="daa4768416116e6634bf75e379507244" category="admonition">HTTP または HTTPS サーバ（ダークサイト）を使用している場合、または ZIP ファイル名やネットワーク設定を変更した場合は、「 * Custom URL * 」を選択して URL をカスタマイズできます。URL をカスタマイズする場合の追加の設定手順については、社内（ダークサイト）の HTTP サーバの vCenter プロパティの変更に関する Element Plug-in for vCenter Server のドキュメントを参照してください。</block>
   <block id="35165f9b14f6cde03fa7f6f9b03732ba" category="list-text">「 * Update * 」を選択します。</block>
   <block id="14b68e07a69ae90b19c2bd823797ff21" category="paragraph">登録が完了すると、登録ユーティリティの UI にバナーが表示されます。</block>
   <block id="2bfb7d51aea637d48bf5bca4afcb46a1" category="list-text">vSphere Web Client に vCenter Administrator としてログインします。vSphere Web Client にすでにログインしている場合は、ログアウトし、 2~3 分待ってから再度ログインする必要があります。</block>
   <block id="f523905d48a1db956815565365a5a6ad" category="admonition">この操作により、新しいデータベースが作成され、 vSphere Web Client でのインストールが完了します。</block>
   <block id="9b572df8237d34b7c32142ac15f1325f" category="list-text">vSphere Web Client で、タスクモニタで次のタスクが完了していることを確認します。「ダウンロードプラグイン」および「デプロイプラグイン」。</block>
-  <block id="c4676996d8b51da422f5ab619c54ae01" category="list-text">NetApp Element の設定および管理拡張ポイントが vSphere Web Client の * Shortcuts * タブとサイドパネルに表示されていることを確認します。</block>
-  <block id="342171073fda0fd2cec612dc41323bdb" category="image-alt">は、アップグレードまたはが正常に完了したあとのプラグインの拡張ポイントを示しています をインストールします</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server 向け Element プラグイン</block>
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">vCenter Plug-in のアイコンが表示されない場合は、を参照してください <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> プラグインのトラブルシューティングに関するドキュメント。</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">プラグインの * NetApp Element 構成 * 拡張ポイントの * バージョン情報 * タブでバージョンの変更を確認します。</block>
@@ -9831,7 +9807,6 @@
   <block id="2b37faac49da0b7e057e57a2001e532d" category="list-text">内部キー管理から外部キー管理への変更の一環として、新しいキーを作成します。</block>
   <block id="b58f4eb51d27127044588d81769a043d" category="list-text">セキュリティ関連イベントに対する応答または保護として、新しいキーを作成します。</block>
   <block id="ff0f319d3e651b401a52ec174aba241a" category="admonition">このプロセスは非同期で、キー変更処理が完了する前に応答を返します。を使用できます <block ref="0ec3280d129d80613fce987917bb0350" category="inline-link-macro-rx"></block> システムをポーリングして、プロセスがいつ完了したかを確認する方法。</block>
-  <block id="9510c8e68784d05acbae2e947dde3cd8" category="inline-link-macro">GetSoftwareEncryptionatRestInfo</block>
   <block id="2f9ac93930569b85149b387a7c125c35" category="list-text">を使用して保存データのソフトウェア暗号化を有効にしておきます <block ref="3302765abfbbe930557ebd20cdd8d8e8" category="inline-link-macro-rx"></block> ボリュームを含まず、 I/O を含まない新しいクラスタ上のメソッド使用 <block ref="45a8306c9a5e0c83d4f4c7f381b9868c" category="inline-link-macro-rx"></block> 続行する前に状態が「有効」であることを確認します。</block>
   <block id="62e528d538c732360863f85252c5d0d9" category="inline-link-macro">信頼関係を確立しました</block>
   <block id="11132c180fb32da6e0e1137cce53c559" category="list-text">これで完了です <block ref="e846b05f100d06ce4cdb56417280cd74" category="inline-link-macro-rx"></block> SolidFire クラスタと外部キーサーバ（ EKS ）の間の接続に使用します。を実行します <block ref="886b549d5f0bca1725c26591df7dddef" category="inline-link-macro-rx"></block> キープロバイダへの接続が確立されていることを確認する方法。</block>
@@ -10325,7 +10300,6 @@
   <block id="83d1452b7d5b4bf538f0cb0a274eb95c" category="list-text">リモートクラスタの Element UI で、「 * 完全ペアリング * 」を選択します。</block>
   <block id="cd550c7a8266a80d90c125e70af733c0" category="list-text">「 * ボリュームペアリングの確認」で詳細を確認します。</block>
   <block id="feece79f7bf895bee42f666d960e50bd" category="paragraph">ペアリング操作を確定すると、 2 つのクラスタでペアリング対象のボリュームを接続するプロセスが開始されます。ペアリング処理中に、 * Volume Pairs * ウィンドウの * Volume Status * 列にメッセージが表示されます。ソースとターゲットが割り当てられるまで、ボリュームペアには「 PausedMisconfigured 」と表示されます。</block>
-  <block id="b0b500bb406a434c9eae8c591336355a" category="paragraph">ペアリングが完了したら、ボリュームの表を更新して、ペアリングされているボリュームの * Actions * リストから * Pair * オプションを削除することを推奨します。テーブルを更新しない場合は、 * Pair * オプションは選択可能なままになります。もう一度「 * Pair * 」オプションを選択すると、新しいタブが開き、ボリュームがすでにペアリングされているため、「 Element UI 」ページの「 * Pair Volume * 」ウィンドウに「 SartVolumePairing Failed: xVolumeAlreadyPaired 」というエラーメッセージが表示されます。</block>
   <block id="ea1d7e73f15535e9f25b1c513fce1d86" category="inline-xref-macro">ボリュームペアリングに関するメッセージ</block>
   <block id="e2706039f694a25bdec461b6da45ba29" category="list-text"><block ref="e2706039f694a25bdec461b6da45ba29" category="inline-xref-macro-rx"></block></block>
   <block id="5cd76fc209216a5fe693c8a8a6f8ce6c" category="inline-xref-macro">ボリュームペアリングに関する警告</block>
@@ -12316,17 +12290,61 @@
   <block id="cf975bc9efb412ba97aeeb129f06f92a" category="paragraph">管理サービス2.20.69以降では、NetApp Hybrid Cloud Control UIを使用して管理ノードのSSH機能を有効または無効にすることができます。</block>
   <block id="742443519c431a58e3020342bebdad42" category="list-text">NetApp Hybrid Cloud ControlのUIを使用するために、を更新しておきます<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> をバージョン2.20.69以降にアップグレードします。</block>
   <block id="90e7c2277ee69a3d3ecf30fa1fe61ab1" category="inline-link">vCenter Plug-in 4.10リリースノート</block>
-  <block id="5c6c5d2c88269bcae97dbd93d213851a" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block> _ 新規 _</block>
   <block id="779aeeb0a67ee84cae70c2361654111d" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block></block>
   <block id="2394ff28a38b482ef2918be4c8e7540c" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud Control UIまたはAPIを使用してストレージファームウェアをアップグレードする前に、EULAに同意して保存する必要があります。</block>
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用してElementストレージの健全性チェックを実行する前に、EULAに同意して保存する必要があります。</block>
   <block id="62449609bcf95f48fbdbae6dddedcc19" category="list-text">*エンドユーザライセンス契約（EULA）*：管理サービス2.20.69以降では、NetApp Hybrid Cloud Control UIまたはAPIを使用してElementソフトウェアをアップグレードする前に、EULAに同意して保存する必要があります。</block>
-  <block id="01c72a31a534b06f00c7ab5b05653a0a" category="list-text">vCenter Server 4.10、4.9、4.8、4.7、4.6、NetApp Element Plug-in for vCenter Server 4.10にアップグレードする場合 4.5または4.4。</block>
   <block id="d6802e127914e53f73aa2f2db8cb5e44" category="paragraph">管理サービス2.20.69以降では、NetApp Hybrid Cloud ControlのUIまたはAPIを使用して管理サービスをアップグレードする前に、エンドユーザライセンス契約（EULA）に同意して保存する必要があります。</block>
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">管理サービス2.2.1.61（NetApp Element Plug-in for VMware vCenter Server 4.10.12）に関する注意事項</block>
   <block id="abeecd47abec11fdd3daaa8a3239958a" category="list-text"><block ref="abeecd47abec11fdd3daaa8a3239958a" category="inline-link-macro-rx"></block></block>
   <block id="5d8cb69408d9a6773459aa0a397a3003" category="list-text">管理ノードでREST API UIを開きます。</block>
   <block id="4eed3af07414f10fffdba8a7ff51ca36" category="list-text">管理サービス2.2.1.61以降では、次の処理を実行します。</block>
   <block id="880c70977a68b1ec897e498bb11c7021" category="list-text">管理サービス2.20.69以前の場合：</block>
-  <block id="e4eccb810d78b1a07fe7514cdf52eb9f" category="admonition">VMware vCenter Server 7.0 U3にアップグレードすると、Elementプラグインの導入が失敗します。Spring Framework 4を使用してこの問題 を解決するには、を参照してください<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
+  <block id="7b90f6ce8fb52226dc8f0be90f539892" category="paragraph">vCenterでNetApp HCCロールを作成して、インストール後にvCenterアセット（コントローラ）を管理ノードに手動で追加したり、既存のコントローラを変更したりする必要があります。</block>
+  <block id="89e4c8f92f7c3506781613b3dbd40e89" category="list-text">NetApp Element Plug-in for vCenter Server 5.0以降では、を使用します<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block>NetApp SolidFire ストレージクラスタを管理するvCenter Serverごとに、Element Plug-inを別々の管理ノードから登録します（推奨）。</block>
+  <block id="307d07425c54bb4aa0778a14487a9a93" category="list-text">NetApp Element Plug-in for vCenter Server 4.10以前を使用して、他のvCenter Serverのクラスタリソースを管理する<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block> はローカルストレージクラスタのみに制限されます。</block>
+  <block id="9db4acd10c15ec173e6516c347342e25" category="admonition">コントローラサブアセットを追加する場合は、vCenterで新しいNetApp HCCロールを作成する必要があります。この新しい NetApp HCC ロールにより、管理ノードのサービス表示がネットアップ専用のアセットに制限されます。を参照してください <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
+  <block id="6b777567daa827d5b0665b94c630539f" category="inline-link">vCenter Plug-in 5.0リリースノート</block>
+  <block id="6e965491616fff846a7ae36b0c989a99" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block> _ 新規 _</block>
+  <block id="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block></block>
+  <block id="d4ab00a63ae74cf5a760f97c2f37cc47" category="paragraph">ペアリングが完了したら、ボリュームの表を更新して、ペアリングされているボリュームの* Actions *リストから* Pair *オプションを削除する必要があります。テーブルを更新しない場合は、 * Pair * オプションは選択可能なままになります。「* Pair *」オプションをもう一度選択すると、新しいタブが開き、ボリュームがすでにペアリングされているため、が報告されます<block ref="a72c919331eaecc7971bc1aee1134ebc" prefix=" " category="inline-code"></block> Element UIページの* Pair Volume *ウィンドウにエラーメッセージが表示されます。</block>
+  <block id="07800d7fa4e084c955b9006d30b6eed1" category="paragraph">リモートプラグイン</block>
+  <block id="b8ffa41d4e492f0fad2f13e29e1762eb" category="paragraph">8333</block>
+  <block id="5b3a5766ccd94c0ef0148e61340c831e" category="paragraph">Remote vCenter Plug-inサービス</block>
+  <block id="ce02290d452fe7b936543abc774ea33a" category="list-text">管理ノード 12.3.2 には、 Virtual Volumes （ VVol ）機能が有効になっている場合に、ストレージクラスタのセキュリティを軽減する機能が含まれています。ストレージクラスタがすでにElement 12.3にあり、VVol機能が有効になっている場合は、12.3.2にアップグレードする必要があります。</block>
+  <block id="1291d04b420cee74581d131dee5acf86" category="paragraph">NetApp Element vCenter Server 5.0にアップグレードすると、回避策 を適用せずにVMware vCenter 7.0 Update 3でプラグインを導入できるようになります。</block>
+  <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">Element Plug-in for vCenter Server 4.xでは、VMware vCenter Server 7.0 Update 3にアップグレードするとプラグインを導入できません。Spring Framework 4を使用してこの問題 を解決するには、を参照してください<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
+  <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">既存のvSphere環境にNetApp Element Plug-in for VMware vCenter Serverが登録されている場合は、プラグインサービスが含まれている管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。</block>
+  <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">このアップグレード手順 では、次のアップグレードシナリオについて説明します。</block>
+  <block id="ec78c54d60054bc44ae2e26c00313bdb" category="admonition">管理サービス2.22.7には、リモートプラグインが含まれるNetApp Element Plug-in for VMware vCenter Server 5.0が含まれています。Elementプラグインを使用する場合は、ローカルプラグインのサポートを削除するVMwareディレクティブに従ってバージョン5.0にアップグレードする必要があります。<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>。プラグインを使用しない場合は、これはオプションのアップグレードです。</block>
+  <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter Plug-in 5.0以降</block>
+  <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">このアップグレード手順 では、Element Plug-in for VMware vCenter Server 5.0以降で次のアップグレードシナリオを実行します。</block>
+  <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">Element Plug-in for vCenter Server 5.0にアップグレードする。</block>
+  <block id="b5bcaf2164ee5f3d1a22b016747f08e1" category="list-text">HTML5 vSphere Web Client 8.0または7.0にアップグレードする。</block>
+  <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">Element Plug-in for vCenter 5.0以降は、vCenter Server 6.7および6.5と互換性がありません。</block>
+  <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">Element Plug-in for vCenter Server 4.xから5.0にアップグレードすると、すでにプラグインが設定されているクラスタが失われます。これは、vCenterインスタンスからリモートプラグインにデータをコピーできないためです。クラスタをリモートプラグインに再度追加する必要があります。これは、ローカルプラグインからリモートプラグインにアップグレードする場合の1回限りのアクティビティです。</block>
+  <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter Plug-in 4.10以前</block>
+  <block id="523b0480434215d8d59b3dce41707a7e" category="paragraph">Element Plug-in for vCenter Server 4.10以前では、このアップグレード手順 で次のアップグレードシナリオがサポートされます。</block>
+  <block id="524f8acc9609df7272285a19757aefcb" category="list-text">vCenter Server 4.10、4.9、4.8、4.7、4.6、 4.5または4.4。</block>
+  <block id="c0e80cf197d1adf76fef790848a92f8f" category="list-text">このプラグインは、VMware vCenter Server 4.x向けVMware vCenter Server 8.0 for Element Plug-inと互換性がありません</block>
+  <block id="a95f4f0d2a0a7e7a472e3b6c6d23d07c" category="list-text">* vCenter Server *：vCenter Plug-inバージョン4.xまたは5.xがvCenter Serverに登録されている。登録ユーティリティを使用します <block ref="0e0152f7592ffa53464a10c6a48053e7" prefix="(" category="inline-code"></block>）で、* Registration Status *を選択し、必要なフィールドに情報を入力して* Check Status *を選択し、vCenter Plug-inがすでに登録されていること、および現在のインストールバージョン番号を確認します。</block>
+  <block id="aac8ad795776bcaba9b87cb70791d2d1" category="list-text">*管理ノードのアップグレード*：</block>
+  <block id="9163ac7fa12bb2150fecf2f1b174db4d" category="list-text">Element vCenterプラグイン5.0以降では、これまで管理ノードを実行しています <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> をバージョン12.3.x以降にアップグレードします。</block>
+  <block id="5e3078320e7b08b85d42398585874ce3" category="list-text">Element vCenterプラグイン4.4～4.10では、以前から管理ノードを実行しています <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> バージョン 11.3 以降。vCenter Plug-in 4.4以降では、個別のサービスを提供するモジュラアーキテクチャを備えた11.3以降の管理ノードが必要です。管理ノードの電源をオンにして IP アドレスまたは DHCP アドレスを設定しておく必要があります。</block>
+  <block id="924861571eeb51fd5eb1d806da0f0e5e" category="list-text">* Elementストレージのアップグレード*：</block>
+  <block id="b9ad9c0000e5c2b012be9c9ba83b7cff" category="list-text">Element vCenterプラグイン5.0以降では、NetApp Element ソフトウェア12.3.x以降を実行するクラスタが必要です。</block>
+  <block id="02738f63a80a594ad3ab131f3a7298f2" category="list-text">Element vCenterプラグイン4.10以前では、NetApp Element ソフトウェア11.3以降を実行するクラスタが必要です。</block>
+  <block id="e8b1bdd38a7601206cf400f05fbdc57d" category="paragraph">vCenter Server 5向けElementプラグインで始まる：0</block>
+  <block id="05c0e13a813e930c3eab807f98959379" category="paragraph">vCenter Server 4.10以前のElementプラグイン：</block>
+  <block id="23fa7915a24406758b2d7b2b274fe1f3" category="list-text">（社内サーバ/ダークサイトの場合）Element Plug-in for vCenterのバージョンに応じて、プラグインのJSONファイルまたはプラグインのZIPのカスタムURL：</block>
+  <block id="1e35767408ad5bd29ecc61c301c556ef" category="list-text">Element Plug-in for vCenter Server 5.0以降、プラグインのJSONファイルのカスタムURL。</block>
+  <block id="b9d11c83e937a9ece9e8b7051bc68606" category="admonition">HTTPまたはHTTPSサーバ（ダークサイト）を使用している場合、またはJSONファイル名やネットワーク設定を変更した場合は、「* Custom URL *」を選択してURLをカスタマイズできます。URL をカスタマイズする場合の追加の設定手順については、社内（ダークサイト）の HTTP サーバの vCenter プロパティの変更に関する Element Plug-in for vCenter Server のドキュメントを参照してください。</block>
+  <block id="ba85baaa049f62983a89ac7da1647abd" category="list-text">Element Plug-in for vCenter Server 4.10以前の場合は、プラグインのZIPのカスタムURL。</block>
+  <block id="d471727ba1fb423986701d5307906d08" category="list-text">vSphere Web Clientの* Shortcuts *タブとサイドパネルにプラグインの拡張ポイントが表示されていることを確認します。</block>
+  <block id="290b380ec7760347344e9055b68f217d" category="paragraph">Element Plug-in for vCenter Server 5.0以降では、NetApp Element リモートプラグイン拡張ポイントは次のとおりです。</block>
+  <block id="3c4718429a8a2991d56e6e719c1942df" category="image-alt">は、Element Plug-in 5.10以降のアップグレードまたはインストールが正常に完了したあとのプラグイン拡張ポイントを示しています</block>
+  <block id="7491d78d51f3545fc9fe30d2249bc196" category="paragraph">Element Plug-in for vCenter Server 4.10以前のバージョンでは、NetApp Element Configuration and Management拡張ポイントは次のとおりです。</block>
+  <block id="85406fb94df2ff523b7477f229b1c9c8" category="image-alt">に、Element Plug-in 4.10以前のアップグレードまたはインストールが正常に完了したあとのプラグイン拡張ポイントを示します</block>
+  <block id="93c82fa50530ab1db18373f37f38e453" category="inline-link-macro">管理サービス2.22.7（VMware vCenter Server 5.337用NetApp Element プラグイン）に関する注意事項</block>
+  <block id="08051f25eb15067f82271c19a19ded03" category="list-text"><block ref="08051f25eb15067f82271c19a19ded03" category="inline-link-macro-rx"></block></block>
 </blocks>
