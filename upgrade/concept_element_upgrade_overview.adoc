@@ -19,7 +19,7 @@ keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgra
 
 これらのコンポーネントには、管理サービス、 HealthTools 、 NetApp Hybrid Cloud Control 、 Element ソフトウェア、管理ノード、 Element Plug-in for vCenter Server （インストール環境に応じて）が含まれます。
 
-。 ,システムのアップグレード順序 コンテンツでは、 SolidFire オールフラッシュストレージシステムのアップグレードを完了するために必要な作業について説明します。これらの手順は、単独ででではなく、大きなアップグレード手順の一部として実行することを推奨します。コンポーネントベースのアップグレードまたは更新が必要な場合は、手順の前提条件を参照して、さらに複雑な作業が対処されるようにしてください。
+。 <<sys_upgrade,システムのアップグレード順序>> コンテンツでは、 SolidFire オールフラッシュストレージシステムのアップグレードを完了するために必要な作業について説明します。これらの手順は、単独ででではなく、大きなアップグレード手順の一部として実行することを推奨します。コンポーネントベースのアップグレードまたは更新が必要な場合は、手順の前提条件を参照して、さらに複雑な作業が対処されるようにしてください。
 
 。 link:task_sf_upgrade_all_vsphere.html["vSphere のアップグレード順序"] Element Plug-in for vCenter Server のコンテンツでは、 Element Plug-in for vCenter Server を再インストールするために必要な、アップグレード前とアップグレード後の追加の手順について説明します。
 
@@ -38,7 +38,7 @@ NetApp Hybrid Cloud Control を使用したアップグレードは、それよ�
 
 
 
-== システムのアップグレード順序
+== [[sys_upgrade]システムのアップグレード順序
 
 Element 12.3.x では、次の順序で NetApp SolidFire オールフラッシュストレージシステムをアップグレードできます
 
