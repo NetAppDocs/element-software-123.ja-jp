@@ -12363,4 +12363,6 @@
   <block id="bac407daf00ae86b0f95e89cf84eeac1" category="section-title">[[sys_upgrade]システムのアップグレード順序</block>
   <block id="a31b6eafc73ca0db90a0d96e6fb9dc93" category="paragraph-title">健全性チェックのオプション</block>
   <block id="63f488c7bb829c89f024839d6aa602f4" category="section-title">[[custom_pd]]カスタム保護ドメイン</block>
+  <block id="29d5a1c31c94981fab1916121b43f763" category="cell">ストレージノードのBMC / IPMI</block>
+  <block id="291dd45cc603b1047e92bf5a13259357" category="cell">RMCPポート。これはIPMI対応のシステムを管理するために必要です。</block>
 </blocks>
