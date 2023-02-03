@@ -217,5 +217,5 @@ SolidFire ESDS には、次の新しいドキュメントが用意されてい�
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"^]
 * http://docs.netapp.com/sfe-122/index.jsp["以前のバージョン用の SolidFire および Element ソフトウェアドキュメントセンター"^]
 * https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
-* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["NetApp HCI および NetApp Element のファームウェアとドライバのバージョン ソフトウェア"^]
+* link:../hardware/fw_storage_nodes.html["SolidFire ストレージノードでサポートされるストレージファームウェアのバージョン"] _ 新規 _
 
