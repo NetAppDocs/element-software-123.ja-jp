@@ -9326,9 +9326,6 @@
   <block id="7402074664fcb3503f94b26301713adb" category="admonition">クラスタの SSL 証明書は、クラスタに追加される新しいノードに自動的に適用されます。クラスタから削除したノードの証明書は自己署名証明書に戻され、ユーザが定義した証明書とキーの情報はすべてノードから削除されます。</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">ネットアップサポートに連絡して準備手順を完了したら、クラスタ全体の電源をオフにすることができます。</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">クラスタの電源をオフにします</block>
-  <block id="7e75e710e04194aacb5b7f056ec5e471" category="paragraph">次の手順でクラスタをシャットダウンする準備をします。</block>
-  <block id="7bf4e8d030b2c47061505b2052e7e3c8" category="list-text">すべての I/O を停止します</block>
-  <block id="c1fc137e8581e89d2a694ed758b29c11" category="list-text">すべての iSCSI セッションを切断します。</block>
   <block id="52774163f10fbc297ca1a2188d7b81c9" category="list-text">クラスタの管理仮想 IP アドレス（ MVIP ）に移動して、 Element UI を開きます。</block>
   <block id="ecb5391ff71658726fe4fbade2f9af5e" category="list-text">ノードリストに表示されているノードをメモします。</block>
   <block id="7a9ac18ef12501dac2ab0cc718dd03a4" category="list-text">クラスタ内の各ノード ID に対し、 halt オプションを指定して Shutdown API メソッドを実行します。</block>
@@ -12295,7 +12292,6 @@
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter Plug-in 5.0以降</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">このアップグレード手順 では、Element Plug-in for VMware vCenter Server 5.0以降で次のアップグレードシナリオを実行します。</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">Element Plug-in for vCenter Server 5.0にアップグレードする。</block>
-  <block id="b5bcaf2164ee5f3d1a22b016747f08e1" category="list-text">HTML5 vSphere Web Client 8.0または7.0にアップグレードする。</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">Element Plug-in for vCenter 5.0以降は、vCenter Server 6.7および6.5と互換性がありません。</block>
   <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">Element Plug-in for vCenter Server 4.xから5.0にアップグレードすると、すでにプラグインが設定されているクラスタが失われます。これは、vCenterインスタンスからリモートプラグインにデータをコピーできないためです。クラスタをリモートプラグインに再度追加する必要があります。これは、ローカルプラグインからリモートプラグインにアップグレードする場合の1回限りのアクティビティです。</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter Plug-in 4.10以前</block>
@@ -12655,11 +12651,23 @@
   <block id="6488398a09e5e3619c68849839032852" category="list-text">Linux：Linuxシステムに関する経験があります。</block>
   <block id="88a314dd47a5b577c9b424a096c7a9e8" category="list-text">ネットワーク：サーバネットワーキングとネットワークストレージ（IPアドレス、ネットマスク、ゲートウェイなど）に精通していること。</block>
   <block id="229a83df3c23d08a8495591aab99bf5b" category="paragraph">RTFI国際標準化機構（ISO）イメージを導入してインストールし、RTFIプロセスを実行します。</block>
-  <block id="4761cf42d3167c91f942aaa5770bce7b" category="list-text"><block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block></block>
-  <block id="8e03dc636d7913fabfabd316d5e54ac0" category="list-text"><block ref="8e03dc636d7913fabfabd316d5e54ac0" category="inline-xref-macro-rx"></block></block>
-  <block id="82deed01641c36ab7f885c50d27dcaea" category="list-text"><block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block></block>
   <block id="fe87b6b5d8e86013cf5abe3db7879c77" category="list-text">セキュア選択したすべてのドライブが消去されます。</block>
-  <block id="98f034cb87c1c327b13fbbbb31bc622b" category="paragraph">USBキーの作成またはBMCを使用したRTFIプロセスの実行の詳細については、を参照してください <block ref="4761cf42d3167c91f942aaa5770bce7b" category="inline-xref-macro-rx"></block>。</block>
   <block id="a386fc287fd28e52c07d586cfb7aa08b" category="admonition">プロセスが開始されると、ノードからすべてのデータと設定の詳細が完全に消去されます。続行しないことを選択すると、が表示されます <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>。</block>
   <block id="d9730da4fb3635f5ccd1c078266c9334" category="paragraph">RTFIプロセス中にエラーメッセージが発生した場合は、を参照してください <block ref="82deed01641c36ab7f885c50d27dcaea" category="inline-xref-macro-rx"></block>。</block>
+  <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">HTML5 vSphere Web Client 8.0または7.0にアップグレードする。</block>
+  <block id="57d4d715f0b6238380a88647e5064ab7" category="paragraph">クラスタ全体の電源をオフにするには、次の手順 を実行します。</block>
+  <block id="69824b5487e4b72a56fe97cb153b7404" category="list-text">（オプション）準備手順の実行については、ネットアップサポートにお問い合わせください。</block>
+  <block id="f901f3a344a86528165d6bab6500fbc5" category="list-text">すべてのI/Oが停止していることを確認します。</block>
+  <block id="f0b8c58f8c65aac7a69a51384ac1a649" category="list-text">すべてのiSCSIセッションを切断します。</block>
+  <block id="391aec42faef3b52d4eaaefa153733b2" category="paragraph">クラスタを再起動するときは、特定の手順に従ってすべてのノードがオンラインになったことを確認する必要があります。</block>
+  <block id="56312700a2d03ce6cacae049f3294807" category="list-text">すべての重大度とを確認します<block ref="945c53fff9195b4e69a31c30b6a268c6" prefix=" " category="inline-code"></block> クラスタの障害が解決されました。</block>
+  <block id="6331b65d2bb9f0f39b6e8331e5b2c669" category="list-text">クラスタが安定するまで10～15分待ちます。</block>
+  <block id="301bf6ea727a40a8d5cc8608cc0c41d7" category="list-text">データにアクセスするためのホストの起動を開始します。</block>
+  <block id="c192e3c2dbd374233d4685406db01520" category="paragraph">メンテナンス後にノードの電源をオンにして正常であることを確認する時間を長くしたい場合は、データの同期を遅らせて不要なビンの同期を回避する方法についてテクニカルサポートにお問い合わせください。</block>
+  <block id="eef615f9029df3b19885b836d67d03a3" category="inline-link">NetApp SolidFire / HCIストレージクラスタを正常にシャットダウンして電源をオンにする方法</block>
+  <block id="b8c22947a9d726cf79f399d361ecc7a2" category="paragraph"><block ref="b8c22947a9d726cf79f399d361ecc7a2" category="inline-link-rx"></block></block>
+  <block id="51de7a2a44178422229997edab051ac7" category="list-text"><block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block></block>
+  <block id="8f047e2b521fd8a37be46c7a429ab25b" category="list-text"><block ref="8f047e2b521fd8a37be46c7a429ab25b" category="inline-xref-macro-rx"></block></block>
+  <block id="c2350b958761f326a00bd673fc30fdae" category="list-text"><block ref="c2350b958761f326a00bd673fc30fdae" category="inline-xref-macro-rx"></block></block>
+  <block id="4de84bc0dceded350b6aa7db34f7e00d" category="paragraph">USBキーの作成またはBMCを使用したRTFIプロセスの実行の詳細については、を参照してください <block ref="51de7a2a44178422229997edab051ac7" category="inline-xref-macro-rx"></block>。</block>
 </blocks>
