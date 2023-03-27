@@ -7141,11 +7141,9 @@
   <block id="b142e9d9b67c7c4504bd1ab09fd15db2" category="admonition">各サービスバンドルの主要なサービス、新機能、バグ修正、および対処方法について説明した最新の管理サービスリリースノートについては、を参照してください<block ref="51c56ce961e981301a44342800a6fcbd" category="inline-link-rx"></block></block>
   <block id="1f760966967601f6feb32cc62bb11ca3" category="list-text">インターフェイスの右上にある [* Upgrade] を選択します。</block>
   <block id="be441559765f3e52d513b155b4b59981" category="list-text">EULAがポップアップ表示されます。下にスクロールして、[現在および今後のすべての更新を許可する*]を選択し、[保存*]を選択します。</block>
-  <block id="06194f109ff7ed4270c1e5f89cbe9e74" category="admonition">EULAに同意すると、以後のすべての更新についてそのEULAが記録され、自動ダウンロード機能が有効になります。ネットアップのソフトウェアの更新とアップグレードに関する最新情報が提供されます。この情報はお客様の自由裁量と利便性に基づいてインストールすることができます。ネットアップオンラインソフトウェアリポジトリへのネットワーク接続を無効にすることで、自動ダウンロード機能を無効にできます。</block>
   <block id="a5237c2b3436db5dc67ab53b053d3ec9" category="paragraph">管理サービスは、 NetApp Hybrid Cloud Control の UI または管理ノードの REST API を使用して更新できます。</block>
   <block id="7d6cae0c176b060b3eb918e8fc3a8a88" category="list-text"><block ref="8b810af37d36ecef3e8ce0cfd28cc60b" category="inline-xref-macro-rx"></block> （推奨方法）</block>
   <block id="45d5739efe933eabe3dda4a4ba6b61b1" category="list-text"><block ref="b795f7048c0a3127327e392f4c115728" category="inline-xref-macro-rx"></block></block>
-  <block id="610172e2b0e7d4051f0d0b230bd8c722" category="list-text"><block ref="79f95b99cf6c6dc511dd13bb08f1454f" category="inline-xref-macro-rx"></block></block>
   <block id="2325934efda1befa076510008b0f7646" category="section-title">Hybrid Cloud Control を使用して管理サービスを更新します</block>
   <block id="6dd42a6a80b9ea41a3c15d5cbf5c3528" category="paragraph">NetApp Hybrid Cloud Control を使用してネットアップの管理サービスを更新できます。</block>
   <block id="c3e2bcb5601498c3470bd272236342a3" category="paragraph">管理サービスバンドルは、メジャーリリースに含まれていない機能の強化とインストールに対する修正を提供します。</block>
@@ -7158,30 +7156,14 @@
   <block id="6b85e8fee9865d4ab62dcfcd4f941582" category="inline-link">管理サービスリリースノート</block>
   <block id="f4b19cd96a813fb177542ed57f6d27aa" category="admonition">各サービスバンドルバージョンで使用可能なサービスのリストについては、を参照してください<block ref="b7b8dc48337abf993d8909e2c4d32cb1" category="inline-link-rx"></block>。</block>
   <block id="9c3b6a2840d81e74fa978e35f9fda09e" category="list-text">アップグレードページで、 * 管理サービス * タブを選択します。</block>
-  <block id="2a67be48fd33aed34d5d9b95445a0c20" category="paragraph">Management Services タブには、管理サービスソフトウェアの現在および使用可能なバージョンが表示されます。</block>
-  <block id="25026455f4896275dc71ea344eae7273" category="inline-link-macro">プロキシ設定：</block>
-  <block id="6d991bb9237f73dba10797ec25468d86" category="admonition">インターネットにアクセスできない環境では、現在のソフトウェアバージョンのみが表示されます。インストール環境が外部接続されていても、ネットアップのオンラインリポジトリにアクセスできない場合は、を確認してください <block ref="3fa2d0476e68824edbcf4c56be4ac531" category="inline-link-macro-rx"></block>。</block>
-  <block id="b48c8e3e654392e94eba7ff80f2a9810" category="list-text">インターネットにアクセスできる環境で、管理サービスのアップグレードが可能な場合は、 * アップグレードの開始 * を選択します。</block>
-  <block id="88cc6eac67699034974d69a75c774238" category="list-text">インターネットにアクセスできない場合は、次の手順を実行します。</block>
   <block id="3a91ea590517ccc87ccaf6cbda3ac55c" category="list-text">ページの指示に従って、管理サービスのアップグレードパッケージをダウンロードし、コンピュータに保存します。</block>
   <block id="59ab5341afeb797e4cbab599e21e347f" category="list-text">「 * 参照 * 」を選択して、保存したパッケージを検索し、アップロードします。</block>
   <block id="30c2b654de6b157d3965b69e2e973b9c" category="paragraph">アップグレードの開始後は、このページにアップグレードのステータスが表示されます。アップグレードの実行中に NetApp Hybrid Cloud Control との接続が失われ、ログインし直さないとアップグレードの結果が表示されないことがあります。</block>
   <block id="e1ab7975bc85b8e4a805e35bfd948176" category="section-title">管理ノード API を使用して管理サービスを更新する</block>
-  <block id="f64b52761fbac72e8bfdd229b3a113f1" category="paragraph">管理サービスの更新は、 NetApp Hybrid Cloud Control から実行することを推奨します。ただし、管理ノードから REST API UI を使用して管理サービスを手動で更新することはできます。</block>
   <block id="9a452c7dc2442a21923d0c9fff059919" category="list-text">管理ノードで REST API UI を開きます https://&lt;ManagementNodeIP&gt;/mnode`</block>
-  <block id="fe1085046bceaf490556bf74e0f01c15" category="list-text">（任意）利用可能な管理ノードサービスのバージョンを確認します。「 get/services/versions</block>
-  <block id="0edefa8da79067ac4b94f9b1b2a9af8c" category="list-text">（任意）最新バージョンの詳細情報を取得します。「 get/services/versions/latest</block>
-  <block id="b4851bdc860d51294258bcfa6507a2f6" category="list-text">（任意）特定のバージョンに関する詳細情報を取得します。「 get/services/versions/{version}/info`</block>
-  <block id="bf5a6801d77133c83554e3433950d36e" category="list-text">次のいずれかの管理サービス更新オプションを実行します。</block>
-  <block id="0da74aa7d2a1855d917aaf432d2d3ca4" category="list-text">このコマンドを実行して ' 管理ノードサービスの最新バージョン (put/services/update/latest) に更新します</block>
-  <block id="0663ec28ae182530f1f365d17c98c119" category="list-text">このコマンドを実行して ' 管理ノードサービスの特定のバージョン (PUT /services/update/{version}) に更新します</block>
-  <block id="f488e48b4d2bc7d793f0e09cb03654ee" category="list-text">「 get/services/update/status 」を実行して、更新のステータスを監視します。</block>
   <block id="0e4f8b996ad3d1d666cae0ca65696890" category="paragraph">更新が成功すると、次の例のような結果が返されます。</block>
-  <block id="e620d1115b8f26b9e2c66f46d34832bc" category="section-title">ダーク用の管理ノード API を使用して管理サービスを更新します サイト</block>
   <block id="c202282c44af53d5ea8a677636541731" category="paragraph">管理サービスの更新は、 NetApp Hybrid Cloud Control から実行することを推奨します。ただし、 REST API を使用して、管理サービスのサービスバンドルの更新を管理ノードに手動でアップロード、展開、および導入することができます。管理ノード用の REST API UI から各コマンドを実行できます。</block>
   <block id="3601cad086244ec56eee653db5e2b0a3" category="list-text">NetApp Element ソフトウェア管理ノード 11.3 以降を導入しておきます。</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">ネットアップサポートサイト</block>
-  <block id="9d89df9ed11d9d07aa2a21fce8623b87" category="list-text">からサービスバンドルの更新をダウンロードしておきます<block ref="1c68cef0c53db6ec1d50d3b221c314cd" category="inline-link-rx"></block> ダークサイトで使用可能なデバイスへ。</block>
   <block id="54521ea545972501500b09f85df8ba55" category="list-text">管理ノードにサービスバンドルをアップロードして展開するには 'put/services/upload' コマンドを使用します</block>
   <block id="4963e624e3688c6904a816aa37c6c7cc" category="list-text">管理ノードに管理サービスを配備します :PUT /services/deploy</block>
   <block id="c512caf817d81cdc178fb65c97607344" category="list-text">更新のステータスを監視します。「 get/services/update/status 」</block>
@@ -7332,27 +7314,22 @@
   <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">NetApp Hybrid Cloud Control を使用してストレージクラスタをアップグレードする際の潜在的な問題とその対処方法については、を参照してください<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>。</block>
   <block id="021194ed35c1ca85c5ddd9daaf8630c3" category="admonition">アップグレードプロセスは、ストレージノードあたり約 30 分かかります。Element ストレージクラスタをバージョン 2.76 よりも新しいストレージファームウェアにアップグレードする場合、ノードに新しいファームウェアが書き込まれたときのみ、個々のストレージノードがアップグレード中にリブートされます。</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">[* Upgrades] ページで、 [* Storage] を選択します。</block>
-  <block id="41248545ed2949a832d88f9ea8c00917" category="admonition">[* ストレージ * ] タブには、インストールの一部であるストレージクラスタが一覧表示されます。NetApp Hybrid Cloud Control からクラスタにアクセスできない場合は、 * Upgrades * ページに表示されません。Element 12.0 以降を実行しているクラスタでは、これらのクラスタの現在のファームウェアバンドルバージョンが表示されます。1 つのクラスタ内のノードでファームウェアバージョンが異なる場合やアップグレードが進むにつれて、「 * Current Firmware Bundle Version * 」列に「 * Multiple * 」と表示されます。「 * multiple * 」を選択すると、「 * Nodes * 」ページに移動してファームウェアバージョンを比較できます。すべてのクラスタで 12.0 よりも前のバージョンの Element を実行している場合、ファームウェアバンドルのバージョン番号に関する情報は表示されません。クラスタが最新の状態であり、アップグレードパッケージがない場合は、「 * Element * 」タブと「 * Firmware only * 」タブは表示されません。これらのタブは、アップグレードの実行中は表示されません。[ * 要素 * ] タブが表示されているが、 [ * ファームウェアのみ * ] タブが表示されていない場合は、ファームウェアパッケージは利用できません。</block>
   <block id="f1bd2e17b5412e4b45851ad42541f684" category="list-text">次のオプションを選択し、クラスタに該当する一連の手順を実行します。</block>
-  <block id="042b4c254a65c4222ecfd8eda19de8fb" category="cell">管理ノードに外部接続が必要です。</block>
   <block id="c2478fbc134086873c832f9086152247" category="list-text">アップグレードするクラスタの横にあるドロップダウン矢印を選択します。</block>
   <block id="e0d814d8ce005e1e08731f39dc4cff27" category="list-text">「 * ファームウェアのみ * 」を選択し、利用可能なアップグレードバージョンから選択します。</block>
   <block id="c132ec9989c2f6d64865e3b80e0712f9" category="list-text">[* アップグレードの開始 * ] を選択します。</block>
   <block id="b9088c022e9648ce7ddea6e6d4a7d2a2" category="admonition">アップグレード中は、アップグレードステータス * が変更され、プロセスのステータスが反映されます。また、アップグレードの一時停止など、実行する操作に応じて変更が加えられたか、またはアップグレードでエラーが返された場合も変更されます。を参照してください <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
   <block id="1c1f68c70e4604204e19388cd8dedfa2" category="admonition">アップグレードの実行中は、ページを離れてあとから表示し、進捗状況の監視を続行できます。クラスタの行が折りたたまれている場合、ページではステータスと現在のバージョンは動的に更新されません。表を更新するには、クラスタの行を展開する必要があります。また、ページを更新することもできます。</block>
   <block id="f7c462da794bbac0b6cb931507af8070" category="paragraph">アップグレードの完了後にログをダウンロードできます。</block>
-  <block id="8fce94dc58f1bdc7de438659f9a9a00b" category="cell">外部に接続されていないダークサイトに管理ノードが配置されている。</block>
   <block id="308f16f303adc416b27b236c19797514" category="list-text">[* Browse] を選択して、ダウンロードしたアップグレード・パッケージをアップロードします。</block>
   <block id="9f3e44fdaf4628028bd071e9fdf42636" category="list-text">アップロードが完了するまで待ちます。進捗バーにアップロードのステータスが表示されます。</block>
   <block id="4109e9de1e5e5e6a88e7ab1943736894" category="admonition">ブラウザウィンドウから別の場所に移動すると、ファイルのアップロードが失われます。</block>
-  <block id="929933851dc2ac970fff1ef0a8351b29" category="paragraph">ファイルのアップロードと検証が完了すると、画面にメッセージが表示されます。検証には数分かかることがあります。この段階でブラウザウィンドウから移動しても、ファイルのアップロードは維持されます。アップグレードの完了後にログをダウンロードできます。アップグレードステータスのさまざまな変更については、を参照してください <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
   <block id="d3e7182b84a940e7db18b7fb84516b9d" category="section-title">アップグレードステータスが変わります</block>
   <block id="03f25bbad83c64043f813d6fad6846de" category="paragraph">アップグレードプロセスの実行前、実行中、実行後に、 UI の * アップグレードステータス * 列に表示されるさまざまな状態を以下に示します。</block>
   <block id="6d34e3d06ec7dfd7e469ec4d37b9ae1d" category="cell">アップグレードの状態</block>
   <block id="e519a1ecd0afa6828cea3c07f7d09b4a" category="cell">最新</block>
   <block id="79767150703c682eb62b32792815ff4b" category="cell">クラスタが最新の Element バージョンにアップグレードされたか、ファームウェアが最新バージョンにアップグレードされました。</block>
   <block id="6fc59d6889d5ac60b02946bb6b8b8898" category="cell">検出できません</block>
-  <block id="5d1b774bcdd716279a4e1f6c45c21ae4" category="cell">オンラインのソフトウェアリポジトリにアクセスするための外部接続がない場合、 NetApp Hybrid Cloud Control では、バージョンを利用可能 * ではなくこのステータスが表示されます。このステータスは、アップグレードステータスのリストにないアップグレードステータスがストレージサービス API から返された場合にも表示されます。</block>
   <block id="a5d11b04812fa774f9a940e366eac9ac" category="cell">使用可能なバージョン</block>
   <block id="d9ce4c41aa5560b51aa0d618e34742a8" category="cell">Element / ストレージファームウェアの新しいバージョンをアップグレードできます。</block>
   <block id="c9413dd7682a45da9ecc9efa8cea47d7" category="cell">実行中です</block>
@@ -7371,14 +7348,7 @@
   <block id="e0cac02c93ade1b7ecc2eb64907171a8" category="admonition">ノードの更新中にクラスタのアップグレードを中止すると、そのノードからドライブが強制的に削除されることがあります。ドライブが強制的に削除された場合、ネットアップサポートに依頼して手動でドライブを元に戻す処理がアップグレード時に必要になります。ノードでファームウェアの更新や更新後の同期処理に時間がかかる可能性があります。アップグレードが停止していると思われる場合は、ネットアップサポートにお問い合わせください。</block>
   <block id="3aff5fc3a8e8d7210a56cf227b42a6e8" category="section-title">NetApp Hybrid Cloud Control API を使用してストレージファームウェアをアップグレードします</block>
   <block id="13381b43a34c53873fa3ea94ea881f65" category="paragraph">API を使用して、クラスタ内のストレージノードを最新バージョンの Element ソフトウェアにアップグレードできます。API の実行には、任意の自動化ツールを使用できます。ここで説明する API ワークフローでは、例として管理ノードで使用可能な REST API UI を使用します。</block>
-  <block id="8c641b6be2c77d41b861c68406aa882e" category="list-text">接続に応じて、次のいずれかを実行します。</block>
-  <block id="99d815c1264bfc1b74f7a653fb83e659" category="list-text">リポジトリの接続を確認します。</block>
   <block id="85bb06226f2384b478691f49e53204fc" category="list-text">承認ウィンドウを閉じます。</block>
-  <block id="132a5b6da037e3c0aba1107add99cd58" category="list-text">REST API UI から、 * Get 気中 / パッケージ間の一時性 / リモートリポジトリ間の一時性 / 接続 * を選択します。</block>
-  <block id="7ac2eb4e7073a0bed37085ee1d0656de" category="list-text">コード 200 が返された場合は、次の手順に進みます。リモートリポジトリへの接続がない場合は、接続を確立するか、ダークサイトのオプションを使用します。</block>
-  <block id="ecd4792b2445292557fc3b37de2cda15" category="list-text">アップグレードパッケージ ID を探します。</block>
-  <block id="bd91bfdcf4a916f6b8c00c25da13251b" category="list-text">REST API UI から * get/packages* を選択します。</block>
-  <block id="fa296e9495ac8602647feef1c1f92880" category="list-text">応答から、以降の手順で使用するためにファームウェアパッケージ ID をコピーして保存します。</block>
   <block id="814733d416c95bcc389df46e42881e26" category="inline-link">ページをダウンロードします</block>
   <block id="9b8271bf8ee401fbab82cfd673a6efe7" category="list-text">ストレージファームウェアのアップグレードパッケージを管理ノードにアクセス可能なデバイスにダウンロードします。 Element ソフトウェアにアクセスします<block ref="42e6de607bd49922ef2d21825951aede" category="inline-link-rx"></block> 最新のストレージファームウェアイメージをダウンロードできます。</block>
   <block id="3d849e77fb6435c594cb34aff5254c7a" category="list-text">ストレージファームウェアのアップグレードパッケージを管理ノードにアップロードします。</block>
@@ -7435,12 +7405,8 @@
   <block id="18efefbb7dfc549a016b6c88a83bd60d" category="admonition">H610S シリーズノードを Element 12.3.x にアップグレードする場合、ノードで 11.8 よりも前のバージョンの Element が実行されているときは、追加のアップグレード手順（）を実行する必要があります<block ref="705f7add14cc7784392a1a0405b32daa" category="inline-xref-macro-rx"></block>）をクリックします。Element 11.8 以降を実行している場合は、追加のアップグレード手順（フェーズ 2 ）は必要ありません。</block>
   <block id="1a1c6d70aec56ed56fdc5c3ac8162a8b" category="section-title">NetApp Hybrid Cloud Control UI を使用して Element ストレージをアップグレードします</block>
   <block id="a544a5293c147dec832e983a6fbad504" category="paragraph">NetApp Hybrid Cloud Control の UI を使用して、ストレージクラスタをアップグレードできます。</block>
-  <block id="1fe3f0a86f12c07fb4f3cf17d971d675" category="list-text">管理ノードがインターネットに接続されていない場合は、次の場所からパッケージをダウンロードしておきます。</block>
-  <block id="106cc5a0e6a0bb3c0776b3ba8fb64337" category="inline-link">SolidFire ストレージクラスタの Element ソフトウェアアップグレードパッケージ（ .tar.gz</block>
-  <block id="49e349363aad0972c82ddaf25dd30f70" category="paragraph"><block ref="49e349363aad0972c82ddaf25dd30f70" category="inline-link-rx"></block></block>
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">H610S 以外のプラットフォームでは、ノードあたりのアップグレードプロセスに約 30 分かかります。</block>
   <block id="eced5161fd4b5a5d98480da44ccabc87" category="paragraph">[* ストレージ * ] タブには、インストールの一部であるストレージクラスタが一覧表示されます。NetApp Hybrid Cloud Control からクラスタにアクセスできない場合は、 * Upgrades * ページに表示されません。</block>
-  <block id="28915945fea0308bbd2cdf191b79dd68" category="list-text">アップグレードするクラスタの横にあるドロップダウン矢印を選択し、 * Element * タブで利用可能なアップグレードバージョンから選択します。</block>
   <block id="effc57e6ad213336e96f00439b792658" category="paragraph">ファイルのアップロードと検証が完了すると、画面にメッセージが表示されます。検証には数分かかることがあります。この段階でブラウザウィンドウから移動しても、ファイルのアップロードは維持されます。</block>
   <block id="2b96c3916188bec9de822541d9cf623f" category="cell">Element 11.8 より前のバージョンを実行している H610S クラスタをアップグレードしています。</block>
   <block id="b6d17024c4c99e0348e4d802e2508b6b" category="list-text">アップグレードするクラスタの横にあるドロップダウン矢印を選択し、アップグレード可能なバージョンから選択します。</block>
@@ -7448,11 +7414,9 @@
   <block id="2351c1e27093e71da7b231f5059cc476" category="list-text">で必要な追加手順（フェーズ 2 ）を実行します<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>をクリックし、フェーズ 2 が完了したことを UI で確認します。</block>
   <block id="d215420632f75acd5be40e1f61fad92e" category="paragraph">アップグレードの完了後にログをダウンロードできます。アップグレードステータスのさまざまな変更については、を参照してください <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>。</block>
   <block id="80744cb20ac19a71c799d04e9142c0f5" category="cell">クラスタが最新の Element バージョンにアップグレードされました。</block>
-  <block id="00bdf0ae9f642cb5870113a82a86b5ba" category="cell">オンラインのソフトウェアリポジトリにアクセスするための外部接続がない場合、 NetApp Hybrid Cloud Control では、バージョンを利用可能 * ではなくこのステータスが表示されます。外部接続を確立してもこのメッセージが表示される場合は、を確認してください <block ref="3fa2d0476e68824edbcf4c56be4ac531" category="inline-link-macro-rx"></block>。</block>
   <block id="c25db468e3487f49a3fe8a8fd3ee6fca" category="cell">フォローアップを完了します</block>
   <block id="35be88b3f15b8f03a1b80ac136a5039d" category="cell">H610S ノードを 11.8 より前のバージョンからアップグレードした場合のみアップグレードプロセスのフェーズ 1 が完了すると、アップグレードのフェーズ 2 を実行するように求められます（を参照）<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>）。フェーズ 2 を完了し、完了したことを確認すると、ステータスが「 * 最新 * 」に変わります。</block>
   <block id="c46945f40a6b2e92964b73d6d398f9d3" category="section-title">NetApp Hybrid Cloud Control API を使用して Element ストレージをアップグレードします</block>
-  <block id="92c655ce479b4404b3a51afa0527fd9b" category="list-text">応答から、あとの手順で使用するためにパッケージ ID をコピーして保存します。</block>
   <block id="1ed5061d3b76fa0c219c1f1d3b386470" category="list-text">管理ノードからアクセス可能なデバイスにストレージアップグレードパッケージをダウンロードします。</block>
   <block id="592247e1218ecdf894b0dc3bf1e2b0c6" category="paragraph">Element ソフトウェアに移動します<block ref="42e6de607bd49922ef2d21825951aede" category="inline-link-rx"></block> して最新のストレージノードのイメージをダウンロードしてください。</block>
   <block id="ca9b271bda1fd83c0839a53fe115bfdb" category="list-text">ストレージアップグレードパッケージを管理ノードにアップロードします。</block>
@@ -8645,13 +8609,9 @@
   <block id="1aa8b758f81e4b362f8fc94cd4c2a3ba" category="paragraph">NetApp Element ソフトウェアクラスタを作成すると、一意の自己署名 Secure Sockets Layer （ SSL ）証明書と、 Element UI 、ノード UI 、またはノード API を介したすべての HTTPS 通信に使用される秘密鍵が作成されます。Element ソフトウェアは、自己署名証明書に加え、信頼できる認証局（ CA ）が発行して検証する証明書をサポートします。</block>
   <block id="774ce4e623f683d68865c30ea0ac37fa" category="paragraph">次の API メソッドを使用して、デフォルトの SSL 証明書に関する詳細情報を取得し、変更を加えることができます。</block>
   <block id="cddbead568984bbddd14181e555c89ec" category="inline-link-macro">NetApp Element ソフトウェア API リファレンス</block>
-  <block id="5a1085897e38e4e51b92668061c6497c" category="paragraph">各メソッドの詳細については、を参照してください <block ref="27df1ddfd415d14d906f38bd54bde22c" category="inline-link-macro-rx"></block>。</block>
   <block id="c7d6aa2232acd143092ba0d52cae5ba8" category="list-text">* GetSSLCertificate*</block>
-  <block id="04b9e2887637b86b8614c4021d65bb52" category="paragraph">このメソッドを使用すると、すべての証明書の詳細を含む、現在インストールされている SSL 証明書に関する情報を取得できます。</block>
   <block id="855a3dbbd51c2fdec4e1d006b91d6323" category="list-text">* SetSSLCertificate*</block>
-  <block id="42eb9a81f7de36c9246dce8d9177d0de" category="paragraph">クラスタおよび各ノードに独自の SSL 証明書と秘密鍵を設定できます。証明書と秘密鍵はシステムで検証されるため、無効な証明書が適用されることはありません。</block>
   <block id="84295a797b60702f81143ab1aa871f82" category="list-text">* RemoveSSLCertificate *</block>
-  <block id="a302712f1b09c9dcdfc7d5808cb5fe30" category="paragraph">このメソッドは、現在インストールされている SSL 証明書と秘密鍵を削除します。そのあと、クラスタで新しい自己署名証明書と秘密鍵が生成されます。</block>
   <block id="7402074664fcb3503f94b26301713adb" category="admonition">クラスタの SSL 証明書は、クラスタに追加される新しいノードに自動的に適用されます。クラスタから削除したノードの証明書は自己署名証明書に戻され、ユーザが定義した証明書とキーの情報はすべてノードから削除されます。</block>
   <block id="25145b9df35ba6ef8386c92cbc7e67aa" category="summary">ネットアップサポートに連絡して準備手順を完了したら、クラスタ全体の電源をオフにすることができます。</block>
   <block id="d3dc741b1e26e016be52c0a55b325fda" category="doc">クラスタの電源をオフにします</block>
@@ -9177,13 +9137,6 @@
   <block id="ff888c386cbf7561a41674237043ab02" category="summary">システムをリモートから管理し、データセンターの外部のクライアントがリソースに接続できるようにするために、データセンターのエッジファイアウォールで次の TCP ポートを許可する必要があります。システムの使用方法によっては、一部のポートは不要な場合もあります。</block>
   <block id="bbb9ca100f5b4a2074b8caeaaf4b1ae0" category="paragraph">システムをリモートから管理し、クライアントがデータセンターの外部からリソースに接続できるようにするために、データセンターのエッジファイアウォールで次の TCP ポートを許可する必要があります。システムの使用方法によっては、一部のポートは不要な場合もあります。</block>
   <block id="2f5dc9e1194b10f0920c3f6b85205b99" category="paragraph">特に記載がないかぎり、ポートはすべて TCP で、ネットアップサポートサーバ、管理ノード、および Element ソフトウェアを実行するノードの間の双方向通信を許可する必要があります。</block>
-  <block id="95f27799ddeb01b37a606c94f6349232" category="paragraph">NetApp Hybrid Cloud ControlのWeb UIおよびAPIのダウンロードソフトウェアパッケージを、ネットアップのオンラインソフトウェアリポジトリからダウンロードします。このため、一部の URL または IP アドレスは、コンテンツ配信ネットワークに基づいて他の URL または IP アドレスに解決される場合があります。可能であれば、ネットワークエンジニアと協力して、次の一般的な手順に従ってファイアウォールルールにこれらの URL または IP アドレスを追加する必要があります。</block>
-  <block id="468e2827e5dc0169c965a021b0f015d8" category="list-text">URL（support-sg-nawest.netapp.comなど）にアクセスするには、wgetまたはcURLユーティリティを使用します。</block>
-  <block id="887a9d2ae67bb61c76d5d0032a4b7b0f" category="list-text">次の例に示すように、接続を確認します。</block>
-  <block id="9b6b0ba6c58622cfc8a6178412a0e4bf" category="image-alt">ポートの接続を確認してください</block>
-  <block id="17dc6266a36d140e3656a007ab0a9fce" category="list-text">URLへのアクセスに失敗しました（support-sg-nawest.netapp.comとは異なります）。</block>
-  <block id="cca942e088eb1473b2eb9de24822300b" category="list-text">新しい URL を許可するようにファイアウォールルールを編集します。</block>
-  <block id="fc0bbd3b7c620ea524d15f50953b65de" category="list-text">アクセスが成功するまで上記の手順を繰り返します。</block>
   <block id="1f2681a91e9e795d6ebb1d5828cd1182" category="admonition">管理ノード、 Element ソフトウェアを実行するノード、およびクラスタの MVIP の間で ICMP を有効にします。</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">この表では次の略語を使用します。</block>
   <block id="60175d30ed8f8459b2f835b923bb4ee5" category="list-text">mip ：管理 IP アドレス。ノードごとのアドレスです</block>
@@ -9200,13 +9153,6 @@
   <block id="b20a6c801c401908aa3c96f370665e05" category="paragraph">DNS ルックアップ</block>
   <block id="c203d8a151612acf12457e4d67635a95" category="paragraph">442</block>
   <block id="3576cff8b205debb58711ff360f51ffd" category="paragraph">ストレージノードおよび Element ソフトウェアへの UI および API アクセス アップグレード</block>
-  <block id="27639a1d6103dcea8efd114fa6c08ad8" category="paragraph">新しいリリース通知：</block>
-  <block id="ab3ee28175c91fc275541983d197ab00" category="list-text">https://support.netapp.com/aods/`</block>
-  <block id="202ff041fdb9a5ee3579e8cb7984ef6b" category="paragraph">ソフトウェアのダウンロード：</block>
-  <block id="9fc75d41716cfd46199787dcf77473a1" category="list-text">https://support-sg-emea.netapp.com`</block>
-  <block id="a1b1a9120bbc7238c7b6088d7223d194" category="list-text">https://support-sg-naeast.netapp.com`</block>
-  <block id="219033cd316af31663b173765be6dd78" category="list-text">https://support-sg-nawest.netapp.com`</block>
-  <block id="d747a3883d729833b05cf76084503b96" category="paragraph">管理ノードサービスのアップグレード</block>
   <block id="0c29e1667ad297897573438219b3e1c6" category="paragraph">repo.netapp.com</block>
   <block id="43416d1cebc089588a77207470ee9f35" category="paragraph">オンプレミス環境のインストール / 更新に必要なコンポーネントへのアクセスを提供します。</block>
   <block id="b7328847f651fa46bcdd00a86f903b6a" category="paragraph">監視ノード</block>
@@ -11524,7 +11470,6 @@
   <block id="a76e77cdf9ddd9de47f6767bd156c68a" category="summary">Elementシステムの各種機能は、NetApp Element APIをその基盤として使用します。Element UI では、画面での操作に連動して、システム上のさまざまな種類の API アクティビティをリアルタイムで確認できます。API ログでは、ユーザが開始したバックグラウンドのシステム API アクティビティと、現在表示しているページ上で実行された API 呼び出しを確認できます。</block>
   <block id="eb78259501a2ba2c5586f9c5378b0722" category="paragraph">NetApp Element ソフトウェアを使用すると、クラスタで Federal Information Processing Standard （ FIPS ；連邦情報処理標準） 140-2 動作モードを有効にすることができます。このモードを有効にすると、NetApp Cryptographic Security Module（NCSM）がアクティブになり、NetApp Element UIおよびAPIとのHTTPS経由の通信にFIPS 140-2レベル1認定の暗号化が適用されるようになります。</block>
   <block id="9bcbeef20d899b1f6c3b91bed9318949" category="summary">SnapMirror関係は、NetApp Element UIのデータ保護タブから作成できます。この情報をユーザインターフェイスで確認するには、 SnapMirror 機能を有効にする必要があります。</block>
-  <block id="04c9a1dceaa7848075695a7a05510e89" category="paragraph">NetApp Element APIを使用して、クラスタ内のストレージノードのデフォルトSSL証明書と秘密鍵を変更できます。</block>
   <block id="75cf134eb28470632a8ed825c6876dfa" category="paragraph">リンク障害が検出されてからスレーブが無効になるまでの待機時間（ミリ秒）。</block>
   <block id="dbc5bb01b5e0b9429317021ba7f41a80" category="paragraph">リンク障害がないかMIIリンク状態を調べる頻度（ミリ秒）。</block>
   <block id="3580d7d6eae3196ebe1486dd612a7945" category="paragraph">リンクが検出されてからスレーブがイネーブルになるまでの待機時間（ミリ秒単位）。</block>
@@ -11583,24 +11528,17 @@
   <block id="307d07425c54bb4aa0778a14487a9a93" category="list-text">NetApp Element Plug-in for vCenter Server 4.10以前を使用して、他のvCenter Serverのクラスタリソースを管理する<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block> はローカルストレージクラスタのみに制限されます。</block>
   <block id="9db4acd10c15ec173e6516c347342e25" category="admonition">コントローラサブアセットを追加する場合は、vCenterで新しいNetApp HCCロールを作成する必要があります。この新しい NetApp HCC ロールにより、管理ノードのサービス表示がネットアップ専用のアセットに制限されます。を参照してください <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
   <block id="6b777567daa827d5b0665b94c630539f" category="inline-link">vCenter Plug-in 5.0リリースノート</block>
-  <block id="6e965491616fff846a7ae36b0c989a99" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block> _ 新規 _</block>
   <block id="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block></block>
   <block id="d4ab00a63ae74cf5a760f97c2f37cc47" category="paragraph">ペアリングが完了したら、ボリュームの表を更新して、ペアリングされているボリュームの* Actions *リストから* Pair *オプションを削除する必要があります。テーブルを更新しない場合は、 * Pair * オプションは選択可能なままになります。「* Pair *」オプションをもう一度選択すると、新しいタブが開き、ボリュームがすでにペアリングされているため、が報告されます<block ref="a72c919331eaecc7971bc1aee1134ebc" prefix=" " category="inline-code"></block> Element UIページの* Pair Volume *ウィンドウにエラーメッセージが表示されます。</block>
   <block id="07800d7fa4e084c955b9006d30b6eed1" category="paragraph">リモートプラグイン</block>
   <block id="b8ffa41d4e492f0fad2f13e29e1762eb" category="paragraph">8333</block>
   <block id="5b3a5766ccd94c0ef0148e61340c831e" category="paragraph">Remote vCenter Plug-inサービス</block>
   <block id="ce02290d452fe7b936543abc774ea33a" category="list-text">管理ノード 12.3.2 には、 Virtual Volumes （ VVol ）機能が有効になっている場合に、ストレージクラスタのセキュリティを軽減する機能が含まれています。ストレージクラスタがすでにElement 12.3にあり、VVol機能が有効になっている場合は、12.3.2にアップグレードする必要があります。</block>
-  <block id="1291d04b420cee74581d131dee5acf86" category="paragraph">NetApp Element vCenter Server 5.0にアップグレードすると、回避策 を適用せずにVMware vCenter 7.0 Update 3でプラグインを導入できるようになります。</block>
   <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">Element Plug-in for vCenter Server 4.xでは、VMware vCenter Server 7.0 Update 3にアップグレードするとプラグインを導入できません。Spring Framework 4を使用してこの問題 を解決するには、を参照してください<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">既存のvSphere環境にNetApp Element Plug-in for VMware vCenter Serverが登録されている場合は、プラグインサービスが含まれている管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。</block>
-  <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">このアップグレード手順 では、次のアップグレードシナリオについて説明します。</block>
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter Plug-in 5.0以降</block>
-  <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">このアップグレード手順 では、Element Plug-in for VMware vCenter Server 5.0以降で次のアップグレードシナリオを実行します。</block>
-  <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">Element Plug-in for vCenter Server 5.0にアップグレードする。</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">Element Plug-in for vCenter 5.0以降は、vCenter Server 6.7および6.5と互換性がありません。</block>
-  <block id="6243a047f7c7bcc2f2961e8a74f1b5c7" category="admonition">Element Plug-in for vCenter Server 4.xから5.0にアップグレードすると、すでにプラグインが設定されているクラスタが失われます。これは、vCenterインスタンスからリモートプラグインにデータをコピーできないためです。クラスタをリモートプラグインに再度追加する必要があります。これは、ローカルプラグインからリモートプラグインにアップグレードする場合の1回限りのアクティビティです。</block>
   <block id="e6d87bbd73a5a86fcf1e6cbc75296808" category="open-title">Element vCenter Plug-in 4.10以前</block>
-  <block id="523b0480434215d8d59b3dce41707a7e" category="paragraph">Element Plug-in for vCenter Server 4.10以前では、このアップグレード手順 で次のアップグレードシナリオがサポートされます。</block>
   <block id="524f8acc9609df7272285a19757aefcb" category="list-text">vCenter Server 4.10、4.9、4.8、4.7、4.6、 4.5または4.4。</block>
   <block id="c0e80cf197d1adf76fef790848a92f8f" category="list-text">このプラグインは、VMware vCenter Server 4.x向けVMware vCenter Server 8.0 for Element Plug-inと互換性がありません</block>
   <block id="a95f4f0d2a0a7e7a472e3b6c6d23d07c" category="list-text">* vCenter Server *：vCenter Plug-inバージョン4.xまたは5.xがvCenter Serverに登録されている。登録ユーティリティを使用します <block ref="0e0152f7592ffa53464a10c6a48053e7" prefix="(" category="inline-code"></block>）で、* Registration Status *を選択し、必要なフィールドに情報を入力して* Check Status *を選択し、vCenter Plug-inがすでに登録されていること、および現在のインストールバージョン番号を確認します。</block>
@@ -11623,7 +11561,6 @@
   <block id="1381491a5bb8087f95db0601150c5c28" category="paragraph">ストレージノードBMC/IPMI H410およびH600シリーズ</block>
   <block id="ad097a4f1c93214faa0a1ca354a82225" category="paragraph">623 UDP</block>
   <block id="483602128e75be96f5280855d8065878" category="paragraph">Remote Management Control Protocolのポート。これはIPMI対応のシステムを管理するために必要です。</block>
-  <block id="3ef00ef1af91bf9fe0b72f4052a67f59" category="list-text">Element Plug-in for vCenter Server 5.0のvCenter Plug-inの登録ページ：</block>
   <block id="1875d143de1e9be70dc9e780b41377fe" category="list-text">Element Plug-in for vCenter Server 4.10以前のvCenter Plug-inの登録ページ：</block>
   <block id="b8b146fd1e1ecdf074536a02bfe40871" category="list-text">（社内サーバ/ダークサイトの場合）Element Plug-in for vCenterのバージョンに応じて、プラグインのJSONファイルまたはプラグインのZIPのカスタムURL：</block>
   <block id="1993643c12bb4ee547f04d8d85f8c4bf" category="list-text">Element Plug-in for vCenter Server 5.0以降では、NetApp Element リモートプラグイン拡張ポイントが表示されます。</block>
@@ -11976,4 +11913,41 @@
   <block id="bddb591f0b60efba3de48f954b55f287" category="inline-link-macro">管理サービス2.23.64（NetApp Element Plug-in for VMware vCenter Server 5.1.12）に関する注意事項</block>
   <block id="2926dc5780f42141aca045c0001024a5" category="list-text"><block ref="2926dc5780f42141aca045c0001024a5" category="inline-link-macro-rx"></block></block>
   <block id="ea52eab386a36623963eee64d8468c76" category="list-text">管理サービス2.22.7には、リモートプラグインを含むElement Plug-in for vCenter Server 5.0が含まれています。Elementプラグインを使用する場合は、ローカルプラグインのサポートを削除するVMwareの指示に従って、管理サービス2.22.7以降にアップグレードする必要があります。<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>。</block>
+  <block id="f77430f8b3c4f14f1dcd175dca1d54cf" category="paragraph">回避策 を適用せずにVMware vCenter 7.0 Update 3でプラグインを導入できるようにするには、NetApp Element Plug-in for vCenter Server 5.0以降にアップグレードしてください。</block>
+  <block id="4af99aa6c1be006a7c064cb06b9464ac" category="cell">Element 11.8以降を実行しているすべてのクラスタ</block>
+  <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">このアップグレード手順では、次のアップグレードシナリオについて説明します。</block>
+  <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">Element Plug-in for vCenter Server 5.1または5.0にアップグレードする。</block>
+  <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">Element Plug-in for vCenter Server 4.xを5.xにアップグレードすると、vCenterインスタンスからリモートプラグインにデータをコピーできないため、プラグインが設定されているクラスタは失われます。クラスタをリモートプラグインに再度追加する必要があります。これは、ローカルプラグインからリモートプラグインにアップグレードする場合の1回限りのアクティビティです。</block>
+  <block id="4edf62fd94cfb84b727afbee52aa8128" category="list-text">Element Plug-in for vCenter Server 5.xの[vCenter Plug-in Registration]ページ：</block>
+  <block id="0ac35a688d7a23e1caba58dbbf08c4d7" category="paragraph">[* ストレージ * ] タブには、インストールの一部であるストレージクラスタが一覧表示されます。NetApp Hybrid Cloud Control からクラスタにアクセスできない場合は、 * Upgrades * ページに表示されません。Element 12.0 以降を実行しているクラスタでは、これらのクラスタの現在のファームウェアバンドルバージョンが表示されます。1 つのクラスタ内のノードでファームウェアバージョンが異なる場合やアップグレードが進むにつれて、「 * Current Firmware Bundle Version * 」列に「 * Multiple * 」と表示されます。「 * multiple * 」を選択すると、「 * Nodes * 」ページに移動してファームウェアバージョンを比較できます。すべてのクラスタで 12.0 よりも前のバージョンの Element を実行している場合、ファームウェアバンドルのバージョン番号に関する情報は表示されません。</block>
+  <block id="df3b4418989705f2099ec054a495c6ff" category="paragraph">クラスタが最新の状態であり、アップグレードパッケージがない場合は、「 * Element * 」タブと「 * Firmware only * 」タブは表示されません。これらのタブは、アップグレードの実行中は表示されません。[ * 要素 * ] タブが表示されているが、 [ * ファームウェアのみ * ] タブが表示されていない場合は、ファームウェアパッケージは利用できません。</block>
+  <block id="c7f3047b6654f1cb88fcfe6e47c92593" category="cell">このステータスは、ストレージサービスAPIがアップグレードステータスの一覧に含まれていないアップグレードステータスを返した場合に表示されます。</block>
+  <block id="f3239c80004833605a44320f76f29a78" category="paragraph">デフォルトのSSL証明書を変更します。</block>
+  <block id="00b6f5df795659d436d482ffd81033aa" category="inline-link-macro">管理ノードのデフォルトSSL証明書を変更します</block>
+  <block id="fe6a80fba2305243dd21703b873b6d51" category="list-text"><block ref="fe6a80fba2305243dd21703b873b6d51" category="inline-link-macro-rx"></block></block>
+  <block id="96c37e9c5684e9f2a7ffd6a79512cde2" category="paragraph">NetApp Element APIを使用して、管理ノードのデフォルトのSSL証明書と秘密鍵を変更できます。</block>
+  <block id="d311117e36e090462c70d49316078938" category="paragraph">管理ノードを設定すると、一意の自己署名Secure Sockets Layer（SSL）証明書と秘密鍵が作成され、Element UI、ノードUI、またはノードAPIを使用してすべてのHTTPS通信に使用されます。Element ソフトウェアは、自己署名証明書に加え、信頼できる認証局（ CA ）が発行して検証する証明書をサポートします。</block>
+  <block id="8fff04b1c0c323ac1aac0d43f5e6b4f8" category="list-text">* GetNodeSSLCertificate *</block>
+  <block id="a07612f154836b90b33c91e3d4becfe8" category="inline-link-macro">GetNodeSSLCertificateメソッド</block>
+  <block id="e33d1822bd6d1efb8885f0c9f078767e" category="paragraph">を使用できます <block ref="fc5ae91d2a3def87eb640426dd21d6c3" category="inline-link-macro-rx"></block> 現在インストールされているSSL証明書に関する情報（すべての証明書の詳細を含む）を取得します。</block>
+  <block id="58f6e4a954eca307131e675eba49accc" category="list-text">* SetNodeSSLCertificate *</block>
+  <block id="123b81eef3f2300f60e089e9078ee7c3" category="inline-link-macro">SetNodeSSLCertificateメソッド</block>
+  <block id="d229d7ad000aef94c4fc9c92a09ef2f9" category="paragraph">を使用できます <block ref="a3f906e270f396b1e0abeb1e4b45aabc" category="inline-link-macro-rx"></block> クラスタおよびノード単位のSSL証明書を、指定した証明書と秘密鍵に設定します。証明書と秘密鍵はシステムで検証されるため、無効な証明書が適用されることはありません。</block>
+  <block id="6f54d04f05c4e4a65ca53b1028d1207b" category="list-text">* RemoveNodeSSLCertificate *</block>
+  <block id="9b65a6a78c1794a21bc06b75e90962bb" category="inline-link-macro">RemoveNodeSSLCertificateメソッド</block>
+  <block id="54788257ab6665219d3b197c0c0ab2b3" category="paragraph">これ <block ref="7a6d88cb46fe8190180be6d3bbd02863" category="inline-link-macro-rx"></block> 現在インストールされているSSL証明書と秘密鍵を削除します。そのあと、クラスタで新しい自己署名証明書と秘密鍵が生成されます。</block>
+  <block id="347d913828eec37c0c4915a8bd604f8a" category="list-text"><block ref="347d913828eec37c0c4915a8bd604f8a" category="inline-link-macro-rx"></block></block>
+  <block id="f056eadecebc58790da8eb91b5211492" category="inline-link">Element SoftwareでのカスタムSSL証明書の設定に関する要件を教えてください。</block>
+  <block id="e3b4df69e2fe4e8545e5e0240eada6a2" category="list-text"><block ref="e3b4df69e2fe4e8545e5e0240eada6a2" category="inline-link-rx"></block></block>
+  <block id="71d77d19e87db163a8fa4db90c83237d" category="inline-link-macro">GetSSLCertificateメソッド</block>
+  <block id="3e9585ef7d0edda1489dd7d9051efee2" category="paragraph">を使用できます <block ref="785a154069def4382c407c46cd76511f" category="inline-link-macro-rx"></block> 現在インストールされているSSL証明書に関する情報（すべての証明書の詳細を含む）を取得します。</block>
+  <block id="d071ee449f970ae83d3efc8c36fdd3db" category="inline-link-macro">SetSSLCertificateメソッド</block>
+  <block id="af9aeedb67a7383e9ed9027d9cae0347" category="paragraph">を使用できます <block ref="77081d68df13899db5539e9bf47c2e76" category="inline-link-macro-rx"></block> クラスタおよびノード単位のSSL証明書を、指定した証明書と秘密鍵に設定します。証明書と秘密鍵はシステムで検証されるため、無効な証明書が適用されることはありません。</block>
+  <block id="b3f80d8c01527878ecb6d9da0acbee6c" category="inline-link-macro">RemoveSSLCertificateメソッド</block>
+  <block id="a6c060b483d31ea611debe971d6648f2" category="paragraph">。 <block ref="0e7e722b98bf8cba65c74d44d6ffe2e6" category="inline-link-macro-rx"></block> 現在インストールされているSSL証明書と秘密鍵を削除します。そのあと、クラスタで新しい自己署名証明書と秘密鍵が生成されます。</block>
+  <block id="b59339c29a0a5c439aaf31d01a32ea3a" category="list-text"><block ref="b59339c29a0a5c439aaf31d01a32ea3a" category="inline-link-macro-rx"></block></block>
+  <block id="54db42757b5d75d2f660dc70f35850cf" category="inline-link">vCenter Plug-in 5.1リリースノート</block>
+  <block id="61ad36f15eb6ab7927cdc50f6e089a98" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block> _ 新規 _</block>
+  <block id="0e051271241f0648ba45a8ad135d030c" category="list-text"><block ref="0e051271241f0648ba45a8ad135d030c" category="inline-link-rx"></block></block>
+  <block id="62bad8a6f2407b7cf1f98abe9ada3dae" category="admonition">APIを使用したら、管理ノードをリブートする必要があります。</block>
 </blocks>
