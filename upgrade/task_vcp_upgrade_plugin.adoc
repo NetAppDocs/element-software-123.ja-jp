@@ -21,7 +21,7 @@ keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4
 このアップグレード手順 では、次のアップグレードシナリオについて説明します。
 
 
-NOTE: 管理サービス2.22.7には、リモートプラグインが含まれるNetApp Element Plug-in for VMware vCenter Server 5.0が含まれています。Elementプラグインを使用する場合は、ローカルプラグインのサポートを削除するVMwareディレクティブに従ってバージョン5.0にアップグレードする必要があります。 https://kb.vmware.com/s/article/87880["詳細はこちら。"^]。プラグインを使用しない場合は、これはオプションのアップグレードです。
+NOTE: 管理サービス2.22.7には、リモートプラグインを含むElement Plug-in for vCenter Server 5.0が含まれています。Elementプラグインを使用する場合は、ローカルプラグインのサポートを削除するVMwareの指示に従って、管理サービス2.22.7以降にアップグレードする必要があります。 https://kb.vmware.com/s/article/87880["詳細はこちら。"^]。
 
 [role="tabbed-block"]
 ====
@@ -163,8 +163,8 @@ VMware vCenter Server 6.7U1を使用してNetApp Element Plug-in for vCenter Ser
 +
 [listing]
 ----
-NetApp Element Plug-in Version: 5.0
-NetApp Element Plug-in Build Number: 37
+NetApp Element Plug-in Version: 5.1
+NetApp Element Plug-in Build Number: 12
 ----
 
 

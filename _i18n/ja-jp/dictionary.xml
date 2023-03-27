@@ -11594,7 +11594,6 @@
   <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">Element Plug-in for vCenter Server 4.xでは、VMware vCenter Server 7.0 Update 3にアップグレードするとプラグインを導入できません。Spring Framework 4を使用してこの問題 を解決するには、を参照してください<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">既存のvSphere環境にNetApp Element Plug-in for VMware vCenter Serverが登録されている場合は、プラグインサービスが含まれている管理サービスパッケージを最初に更新したあとで、プラグインの登録を更新できます。</block>
   <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">このアップグレード手順 では、次のアップグレードシナリオについて説明します。</block>
-  <block id="ec78c54d60054bc44ae2e26c00313bdb" category="admonition">管理サービス2.22.7には、リモートプラグインが含まれるNetApp Element Plug-in for VMware vCenter Server 5.0が含まれています。Elementプラグインを使用する場合は、ローカルプラグインのサポートを削除するVMwareディレクティブに従ってバージョン5.0にアップグレードする必要があります。<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>。プラグインを使用しない場合は、これはオプションのアップグレードです。</block>
   <block id="1ec8160ad002d3b57b0367c162c7e579" category="open-title">Element vCenter Plug-in 5.0以降</block>
   <block id="493b4872884198c5773208e29a2d2ce6" category="paragraph">このアップグレード手順 では、Element Plug-in for VMware vCenter Server 5.0以降で次のアップグレードシナリオを実行します。</block>
   <block id="ffccf7c96c162cb046e6087e5ff2c25c" category="list-text">Element Plug-in for vCenter Server 5.0にアップグレードする。</block>
@@ -11974,4 +11973,7 @@
   <block id="5a4b8b3924bb822fd8c6ae8c1c9b7030" category="paragraph">NetApp HCI アプライアンスにノードを追加できます。</block>
   <block id="1a6db061a54638a3fdcefd71c9bfd9ad" category="paragraph">ノードを追加するプロセスが完了すると、それらのノードが[Active nodes]リストに表示されます。それまでは、保留中のノードが [ 保留中のアクティブ ] リストに表示されます。</block>
   <block id="4a65434b4e4d8c919262bffbcc775165" category="paragraph">クラスタに追加するPending状態のノードには、ElementソフトウェアバージョンのクラスタがインストールされますSolidFire 。この処理には数分かかることがあります。</block>
+  <block id="bddb591f0b60efba3de48f954b55f287" category="inline-link-macro">管理サービス2.23.64（NetApp Element Plug-in for VMware vCenter Server 5.1.12）に関する注意事項</block>
+  <block id="2926dc5780f42141aca045c0001024a5" category="list-text"><block ref="2926dc5780f42141aca045c0001024a5" category="inline-link-macro-rx"></block></block>
+  <block id="ea52eab386a36623963eee64d8468c76" category="list-text">管理サービス2.22.7には、リモートプラグインを含むElement Plug-in for vCenter Server 5.0が含まれています。Elementプラグインを使用する場合は、ローカルプラグインのサポートを削除するVMwareの指示に従って、管理サービス2.22.7以降にアップグレードする必要があります。<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>。</block>
 </blocks>
