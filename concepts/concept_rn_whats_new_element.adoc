@@ -194,16 +194,6 @@ SolidFire ESDS が Dell R640 サーバーで利用できるようになりまし
 
 
 
-=== SolidFire ESDS の新しいドキュメント
-
-SolidFire ESDS には、次の新しいドキュメントが用意されています。
-
-* https://docs.netapp.com/us-en/element-software/esds/task_esds_r640_drive_repl.html["Dell R640 のドライブを交換します"^]: Dell R640 サーバーのドライブを交換する手順について説明します。
-* https://kb.netapp.com/Special:Search?query=solidfire+enterprise+SDS&type=wiki["ナレッジベースの記事（ログインが必要）"^]： SolidFire ESDS システムの問題のトラブルシューティングについて説明します。
-
-
-
-
 === SolidFire ESDS の既知の問題の新しい場所
 
 で既知の問題を検索できるようになりました https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab["Bugs Online のツール（ログインが必要）"^]。
