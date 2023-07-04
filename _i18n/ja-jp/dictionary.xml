@@ -11944,4 +11944,6 @@
   <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">管理サービスは、 SolidFire オールフラッシュストレージに幅広い管理機能を一元的に提供します。これらのサービスには、が含まれ <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>、 Active IQ のシステムテレメトリ、ログ、サービスの更新、および Element Plug-in for vCenter の QoSSIOC サービス。</block>
   <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">の詳細を確認してください <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>。</block>
   <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
+  <block id="a6d7169168a038dee7aae0a8f455c43a" category="list-text">スライスの同期中にボリュームをSnapshotにロールバックすると失敗することがあります。再試行します<block ref="c2e5bace81fd03914fa15aa027ee5f09" prefix=" " category="inline-code"></block> 同期が完了した後。</block>
+  <block id="bd74837c55aafce98fe5823bae9ee413" category="list-text">スライスの同期の実行中にグループSnapshotへのボリュームのロールバックが失敗することがあります。再試行します<block ref="05667fca9ff503d9b750747f0075d35a" prefix=" " category="inline-code"></block> 同期が完了した後。</block>
 </blocks>
