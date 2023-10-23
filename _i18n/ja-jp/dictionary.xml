@@ -805,7 +805,6 @@
   <block id="4c3549801952dfbbac7a8729ddb71778" category="list-text">前面の電源ボタンを押して、シャーシの電源をオンにします。ノードがブートするまでに約 5 分 30 秒かかります。</block>
   <block id="7fcdd8ade61a6eaaf6d114269e40d93b" category="list-text">設定手順を実行します。</block>
   <block id="c6ad545ed5197a02a4f86759e091d934" category="summary">SolidFire オールフラッシュストレージシステムは、ドライブやノードなどのハードウェアコンポーネントで構成され、これらのコンポーネントをストレージリソースのプールに統合します。このユニファイドクラスタは、単一のストレージシステムとして NetApp Element ソフトウェアで管理されます。</block>
-  <block id="feaccfca658600b99fd01ee647d128a7" category="doc">SolidFire および Element ソフトウェア 12.3.x のドキュメント</block>
   <block id="37bf500e2e9e1010fbba8f9d57fc6653" category="summary">最新バージョンを実行していない場合は、以前のリリースのドキュメントを参照できます。</block>
   <block id="516f6af28c516e78fc33b4c052dabe39" category="doc">以前のバージョンの SolidFire および NetApp Element ソフトウェアのマニュアル</block>
   <block id="f20c99cda6c5c700e6ea170eaea46329" category="inline-link">Element 12.2 のドキュメント</block>
@@ -11393,7 +11392,6 @@
   <block id="4c46c9acea33f3a7201c692e8d84806b" category="sidebar">サポート接続を管理します</block>
   <block id="f3ef8562bc46b3fd5d64fc8a88bab6f9" category="sidebar">H410S および H610S ノードを設置します</block>
   <block id="e558a93d8af634916bae37b7136be1d2" category="sidebar">GetSoftwareEncryptionAtRestInfo</block>
-  <block id="0156654ae4dc6b09e871c56632755132" category="sidebar">Element 12.3.x 用の NetApp SolidFire オールフラッシュストレージシステムをアップグレードします</block>
   <block id="b837bae0f441ebacd86887d737939282" category="sidebar">システムのアップグレード手順</block>
   <block id="9282ad3aef7e124a3b2b9c7eab52b33d" category="sidebar">アーキテクチャとコンポーネント</block>
   <block id="53b2a4dd7325c2d7325f310860b0b55f" category="sidebar">多要素認証のための追加情報</block>
@@ -11943,4 +11941,5 @@
   <block id="86eccd8202a873aee7f9acfbe920bb59" category="paragraph"><block ref="00a55ff76496c3c45ca20071f6151bfc" prefix="" category="inline-code"></block></block>
   <block id="474ed7ffbbc0fc1d58ad983e7ef700f6" category="admonition">Element Plug-in for vCenter 5.0以降はvCenter Server 6.7および6.5と互換性がありません。</block>
   <block id="dfd25ff244b001be7beece9729517779" category="list-text">非圧縮</block>
+  <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">NetApp SolidFireオールフラッシュストレージシステムのバージョンをElement 12.3.xにアップグレード</block>
 </blocks>
