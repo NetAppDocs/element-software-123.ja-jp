@@ -9104,8 +9104,6 @@
   <block id="5421fac2401eb19c9cb0e5aab1e0fb46" category="list-text">Element API で次のように入力し、すべてのドライブで FIPS を有効にします。</block>
   <block id="9f75394f7e7400c6bd1811b84f367045" category="paragraph">EnableFeature params:FipsDrives'</block>
   <block id="ff888c386cbf7561a41674237043ab02" category="summary">システムをリモートから管理し、データセンターの外部のクライアントがリソースに接続できるようにするために、データセンターのエッジファイアウォールで次の TCP ポートを許可する必要があります。システムの使用方法によっては、一部のポートは不要な場合もあります。</block>
-  <block id="bbb9ca100f5b4a2074b8caeaaf4b1ae0" category="paragraph">システムをリモートから管理し、クライアントがデータセンターの外部からリソースに接続できるようにするために、データセンターのエッジファイアウォールで次の TCP ポートを許可する必要があります。システムの使用方法によっては、一部のポートは不要な場合もあります。</block>
-  <block id="2f5dc9e1194b10f0920c3f6b85205b99" category="paragraph">特に記載がないかぎり、ポートはすべて TCP で、ネットアップサポートサーバ、管理ノード、および Element ソフトウェアを実行するノードの間の双方向通信を許可する必要があります。</block>
   <block id="1f2681a91e9e795d6ebb1d5828cd1182" category="admonition">管理ノード、 Element ソフトウェアを実行するノード、およびクラスタの MVIP の間で ICMP を有効にします。</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">この表では次の略語を使用します。</block>
   <block id="60175d30ed8f8459b2f835b923bb4ee5" category="list-text">mip ：管理 IP アドレス。ノードごとのアドレスです</block>
@@ -11942,4 +11940,6 @@
   <block id="474ed7ffbbc0fc1d58ad983e7ef700f6" category="admonition">Element Plug-in for vCenter 5.0以降はvCenter Server 6.7および6.5と互換性がありません。</block>
   <block id="dfd25ff244b001be7beece9729517779" category="list-text">非圧縮</block>
   <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">NetApp SolidFireオールフラッシュストレージシステムのバージョンをElement 12.3.xにアップグレード</block>
+  <block id="c04c3f3380a29245247f6e8a6c77a880" category="paragraph">システムをリモートで管理し、データセンター外部のクライアントがリソースに接続できるようにするには、データセンターのエッジファイアウォールで次のTCPポートとUDPポートを許可する必要があります。システムの使用方法によっては、一部のポートは不要な場合もあります。</block>
+  <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">特に記載がないかぎり、すべてのポートがTCPであり、NetAppサポートサーバ、管理ノード、およびElementソフトウェアを実行するノードの間の3ウェイハンドシェイク通信がすべてサポートされている必要があります。たとえば、管理ノードのソースのホストはTCPポート443を介してストレージクラスタのMVIPデスティネーションのホストと通信し、デスティネーションホストは任意のポートを介してソースホストと通信します。</block>
 </blocks>
