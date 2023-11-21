@@ -76,8 +76,6 @@
   <block id="305404f131cd68bdf692eb046a161981" category="list-text"><block ref="305404f131cd68bdf692eb046a161981" category="inline-link-macro-rx"></block></block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">vCenter Server 向け NetApp Element プラグイン</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
-  <block id="631923a687ff82d68973d99b95597b47" category="inline-link">SolidFire and Element Resources ページにアクセスします</block>
-  <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
   <block id="2c21c71423028f346adca15ddc4fe793" category="summary">Hybrid Cloud Control Volumes のページを使用して、システムのボリュームを監視できます。</block>
   <block id="b1fdadb278bc33692729c07d84b4d900" category="doc">ストレージクラスタのボリュームを監視する</block>
   <block id="ea333cfb83363f2e94893346e3f19cdc" category="paragraph">SolidFire システムは、ボリュームを使用してストレージをプロビジョニングします。ボリュームは、 iSCSI または Fibre Channel クライアントがネットワーク経由でアクセスするブロックデバイスです。ボリュームに関連付けられているアクセスグループ、アカウント、イニシエータ、使用済み容量、 Snapshot データ保護のステータス、 iSCSI セッションの数、およびサービス品質（ QoS ）ポリシーに関する詳細を監視できます。</block>
@@ -716,8 +714,6 @@
   <block id="5728f0317e6dafcb81e2d7025632bf5e" category="list-text">一方または両方の電源コードを接続します。</block>
   <block id="8650e9e71e38ae9e93eb5c72f21a25ea" category="list-text">両方の電源装置を交換した場合は、ノードの前面に移動し、電源ボタンを押してノードの電源をオンにします。電源をオンにすると、電源ボタンの LED が青色に点灯します。ドライブの青色の LED と識別ボタンの点滅が開始します。</block>
   <block id="24902bdac86d2032ef9b09526e7d9043" category="list-text">出荷時の箱に同梱されている手順に従って、障害が発生したユニットをネットアップに返送してください。</block>
-  <block id="1c1519037df87ff4dd08fe6e757ff03f" category="inline-link">NetApp SolidFire のリソースページ</block>
-  <block id="abc0c04174a58217258765895984ed4e" category="list-text"><block ref="abc0c04174a58217258765895984ed4e" category="inline-link-rx"></block></block>
   <block id="89e3bb4cf03209dcb9c85e2455cde9c3" category="inline-link">以前のバージョンの NetApp SolidFire 製品および Element 製品に関するドキュメント</block>
   <block id="461166164223a1234073a2c9d388d33a" category="list-text"><block ref="461166164223a1234073a2c9d388d33a" category="inline-link-rx"></block></block>
   <block id="00d86638d5b399e6cbf90a0c1f0dc622" category="doc">ドライブの追加と取り外しを行う際のベストプラクティス</block>
@@ -3814,8 +3810,6 @@
   <block id="a1ecf7be27d0987baa26a8bff8653ff6" category="list-text"><block ref="a1ecf7be27d0987baa26a8bff8653ff6" category="inline-xref-macro-rx"></block></block>
   <block id="93be4895c86d760e8bbee3a36d256dc1" category="inline-xref-macro">応答例</block>
   <block id="c2c075d7ecfea2a1a630498ac1110e78" category="list-text"><block ref="c2c075d7ecfea2a1a630498ac1110e78" category="inline-xref-macro-rx"></block></block>
-  <block id="b0cda36836b6d8e27c36c8d9d6b48f3a" category="inline-link">SolidFire オールフラッシュストレージのリソースページ</block>
-  <block id="a980426853b5ccc1de52aeb0b0ae0463" category="list-text"><block ref="a980426853b5ccc1de52aeb0b0ae0463" category="inline-link-rx"></block></block>
   <block id="d25459b3c5acd2943fae1e5fda4cfa22" category="inline-link">SolidFire と Element ソフトウェアドキュメントセンター</block>
   <block id="024c22e90f2315636ed8d61b006ad1b5" category="list-text"><block ref="024c22e90f2315636ed8d61b006ad1b5" category="inline-link-rx"></block></block>
   <block id="7e4e02c8b3d4ecd51690d912ab9bca18" category="summary">drive オブジェクトには、クラスタ内の Active 状態のノードの個々のドライブに関する情報が含まれます。このオブジェクトには、ボリュームメタデータまたはブロックドライブとして追加されたドライブのほか、まだ追加されていないが使用可能なドライブの詳細が含まれます。ListDrives API メソッドを使用すると、以下の情報を取得できます。</block>
@@ -11942,4 +11936,8 @@
   <block id="da610458ca77f95bd33552584272f2c8" category="sidebar">NetApp SolidFireオールフラッシュストレージシステムのバージョンをElement 12.3.xにアップグレード</block>
   <block id="c04c3f3380a29245247f6e8a6c77a880" category="paragraph">システムをリモートで管理し、データセンター外部のクライアントがリソースに接続できるようにするには、データセンターのエッジファイアウォールで次のTCPポートとUDPポートを許可する必要があります。システムの使用方法によっては、一部のポートは不要な場合もあります。</block>
   <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">特に記載がないかぎり、すべてのポートがTCPであり、NetAppサポートサーバ、管理ノード、およびElementソフトウェアを実行するノードの間の3ウェイハンドシェイク通信がすべてサポートされている必要があります。たとえば、管理ノードのソースのホストはTCPポート443を介してストレージクラスタのMVIPデスティネーションのホストと通信し、デスティネーションホストは任意のポートを介してソースホストと通信します。</block>
+  <block id="5858de35bb153f56bdb4f3fbd003b515" category="list-text"><block ref="5858de35bb153f56bdb4f3fbd003b515" category="inline-link-rx"></block></block>
+  <block id="e6344f017ebc6c23de294cbd0c5b3ec0" category="image-alt">[LDAPサーバ]ビューの一般設定</block>
+  <block id="bf0a897972fda4244e862fc7b7474446" category="image-alt">新しいユーザービューの作成</block>
+  <block id="f4029885f6f8ac69ff0c61a3a67af4dc" category="sidebar">SolidFire オールフラッシュストレージシステムは、ドライブやノードなどのハードウェアコンポーネントで構成され、これらのコンポーネントをストレージリソースのプールに統合します。これらのストレージリソースクラスタは、Elementインターフェイス、API、またはその他の管理ツールを使用してNetApp Elementソフトウェアで管理できます。このサイトには、Elementソフトウェア12.3.xのドキュメントがあります。</block>
 </blocks>

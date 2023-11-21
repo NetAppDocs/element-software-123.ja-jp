@@ -34,7 +34,7 @@ NOTE: オプションのカスタムポート番号を入力することもで�
 link:reference_system_manage_ldap_details.md#["LDAP の詳細"]
 
 +
-image::../media/element_new_ldap_servers.jpg[Element の新しい LDAP サーバ]
+image::../media/element_new_ldap_servers.jpg[[LDAPサーバ]ビューの一般設定]
 
 . [*LDAP を有効にする *] をクリックします
 . ユーザーのサーバーアクセスをテストする場合は、 [ ユーザー認証のテスト ] をクリックします。
@@ -44,7 +44,7 @@ image::../media/element_new_ldap_servers.jpg[Element の新しい LDAP サーバ
 +
 .. [* ユーザー * （ * User * ） ] > [* 表示（ * View ） ]
 +
-image::../media/element_new_cluster_admin.jpg[Element の新しいクラスタ管理者]
+image::../media/element_new_cluster_admin.jpg[新しいユーザービューの作成]
 
 .. 新しいユーザーの場合は、 [ ユーザータイプ ] の [*LDAP] をクリックし、 [ 識別名 ] フィールドにコピーしたグループを貼り付けます。
 .. 権限を選択します。通常はすべての権限が選択されます。
