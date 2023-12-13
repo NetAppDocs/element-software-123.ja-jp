@@ -11940,4 +11940,6 @@
   <block id="e6344f017ebc6c23de294cbd0c5b3ec0" category="image-alt">[LDAPサーバ]ビューの一般設定</block>
   <block id="bf0a897972fda4244e862fc7b7474446" category="image-alt">新しいユーザービューの作成</block>
   <block id="f4029885f6f8ac69ff0c61a3a67af4dc" category="sidebar">SolidFire オールフラッシュストレージシステムは、ドライブやノードなどのハードウェアコンポーネントで構成され、これらのコンポーネントをストレージリソースのプールに統合します。これらのストレージリソースクラスタは、Elementインターフェイス、API、またはその他の管理ツールを使用してNetApp Elementソフトウェアで管理できます。このサイトには、Elementソフトウェア12.3.xのドキュメントがあります。</block>
+  <block id="df0f8acf74958be223bdd3dabcce5038" category="inline-link">アップグレードパッケージのアップロードエラーが原因でSolidFireとHCIのアップグレードを開始できない</block>
+  <block id="b9bbae8efe5c0f15ffba3f05d619b861" category="admonition">2023年11月以降、署名キー証明書（プライベートおよびパブリック）の有効期限が2023年11月5日に切れたため、NetApp Hybrid Cloud ControlまたはREST APIを使用してコンポーネントのアップグレードを開始することはできません。この問題を解決するには、ナレッジベースの記事に記載されている回避策を参照してください。<block ref="43e83b9864cac922c7475bad0e74a40f" category="inline-link-rx"></block>。</block>
 </blocks>

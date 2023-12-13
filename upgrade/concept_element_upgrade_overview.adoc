@@ -19,6 +19,9 @@ keywords: netapp, solidfire upgrade, vcp upgrade, element upgrade, vsphere upgra
 
 これらのコンポーネントには、管理サービス、 HealthTools 、 NetApp Hybrid Cloud Control 、 Element ソフトウェア、管理ノード、 Element Plug-in for vCenter Server （インストール環境に応じて）が含まれます。
 
+
+NOTE: 2023年11月以降、署名キー証明書（プライベートおよびパブリック）の有効期限が2023年11月5日に切れたため、NetApp Hybrid Cloud ControlまたはREST APIを使用してコンポーネントのアップグレードを開始することはできません。この問題を解決するには、ナレッジベースの記事に記載されている回避策を参照してください。 https://kb.netapp.com/onprem/solidfire/Element_OS/SolidFire_and_HCI_upgrades_unable_to_start_due_to_upgrade_package_upload_error["アップグレードパッケージのアップロードエラーが原因でSolidFireとHCIのアップグレードを開始できない"^]。
+
 。 <<sys_upgrade,システムのアップグレード順序>> コンテンツでは、 SolidFire オールフラッシュストレージシステムのアップグレードを完了するために必要な作業について説明します。これらの手順は、単独ででではなく、大きなアップグレード手順の一部として実行することを推奨します。コンポーネントベースのアップグレードまたは更新が必要な場合は、手順の前提条件を参照して、さらに複雑な作業が対処されるようにしてください。
 
 。 link:task_sf_upgrade_all_vsphere.html["vSphere のアップグレード順序"] Element Plug-in for vCenter Server のコンテンツでは、 Element Plug-in for vCenter Server を再インストールするために必要な、アップグレード前とアップグレード後の追加の手順について説明します。
