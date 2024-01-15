@@ -4222,7 +4222,6 @@
   <block id="cf3122ee510b22111753e6a97bdd317d" category="list-text"><block ref="cf3122ee510b22111753e6a97bdd317d" category="inline-xref-macro-rx"></block></block>
   <block id="195be14a5bd63cb9400507e360cb9ae6" category="list-text"><block ref="195be14a5bd63cb9400507e360cb9ae6" category="inline-xref-macro-rx"></block></block>
   <block id="bfef1931306d50981d842714565c9b06" category="summary">RemoveDrives メソッドを使用すると、クラスタの一部であるドライブをプロアクティブに削除できます。このメソッドは、クラスタの容量を減らしたり、サービス寿命の終わりに近づいているドライブの交換準備を行ったりするときに使用できます。ドライブをクラスタから削除する前に、ドライブ上のすべてのデータが削除され、クラスタ内の他のドライブに移行されます。</block>
-  <block id="33630e5c702ad56f9ed10ea465cbabf6" category="paragraph">RemoveDrives メソッドを使用すると、クラスタの一部であるドライブをプロアクティブに削除できます。このメソッドは、クラスタの容量を減らしたり、サービス寿命の終わりに近づいているドライブの交換準備を行ったりするときに使用できます。ドライブをクラスタから削除する前に、ドライブ上のすべてのデータが削除され、クラスタ内の他のドライブに移行されます。</block>
   <block id="745626a72e187a7dc7eed9e7290f03a6" category="paragraph">RemoveDrives は非同期メソッドです削除するドライブの合計容量によっては、すべてのデータを移行するのに数分かかることがあります。</block>
   <block id="49b469905f5d598fc884c7182e9cc230" category="paragraph">複数のドライブを削除する場合は '1 つのドライブごとに複数の個別メソッドを使用するのではなく '1 回の RemoveDrives メソッド呼び出しを使用してくださいこれにより、クラスタのストレージ負荷を一定にするために実施する必要のあるデータバランシングの量が減少します。</block>
   <block id="9984e92da1025580d4728a15b5cb89d8" category="paragraph">RemoveDrives を使用すると、「 failed 」ステータスのドライブも取り外すことができます。ステータスが「 failed 」のドライブを取り外しても、ドライブは「 Available 」または「 Active 」には戻りません。ドライブはクラスタ内で使用できません。</block>
@@ -11942,4 +11941,5 @@
   <block id="f4029885f6f8ac69ff0c61a3a67af4dc" category="sidebar">SolidFire オールフラッシュストレージシステムは、ドライブやノードなどのハードウェアコンポーネントで構成され、これらのコンポーネントをストレージリソースのプールに統合します。これらのストレージリソースクラスタは、Elementインターフェイス、API、またはその他の管理ツールを使用してNetApp Elementソフトウェアで管理できます。このサイトには、Elementソフトウェア12.3.xのドキュメントがあります。</block>
   <block id="df0f8acf74958be223bdd3dabcce5038" category="inline-link">アップグレードパッケージのアップロードエラーが原因でSolidFireとHCIのアップグレードを開始できない</block>
   <block id="b9bbae8efe5c0f15ffba3f05d619b861" category="admonition">2023年11月以降、署名キー証明書（プライベートおよびパブリック）の有効期限が2023年11月5日に切れたため、NetApp Hybrid Cloud ControlまたはREST APIを使用してコンポーネントのアップグレードを開始することはできません。この問題を解決するには、ナレッジベースの記事に記載されている回避策を参照してください。<block ref="43e83b9864cac922c7475bad0e74a40f" category="inline-link-rx"></block>。</block>
+  <block id="9f94ad22fed97f22703d9d145f565bfb" category="paragraph">を使用できます<block ref="e7d385ef5ac889916654bf5f865952f1" prefix=" " category="inline-code"></block> クラスタの一部であるドライブをプロアクティブに削除する方法。このメソッドは、クラスタの容量を減らしたり、サービス寿命の終わりに近づいているドライブの交換準備を行ったりするときに使用できます。<block ref="e7d385ef5ac889916654bf5f865952f1" prefix=" " category="inline-code"></block> クラスタ内の他のノードにブロックデータの3つ目のコピーを作成し、同期が完了するのを待ってからドライブを「使用可能」のリストに移動します。[使用可能]リストのドライブはシステムから完全に削除され、実行中のサービスやアクティブデータはありません。</block>
 </blocks>
