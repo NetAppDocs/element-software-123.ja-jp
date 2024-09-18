@@ -15,7 +15,7 @@ settings:
   langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
-  - title: SolidFire および Element ソフトウェアのドキュメント
+  - title: SolidFireおよびElementソフトウェアのドキュメント12.3
     url: "/index.html"
   - title: リリースノート
     url: "/concepts/concept_rn_relatedrn_element.html"
