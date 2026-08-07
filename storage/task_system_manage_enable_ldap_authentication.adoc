@@ -31,7 +31,7 @@ NOTE: オプションのカスタムポート番号を入力することもで�
 . [Use LDAPS Protocol] を選択します。
 . 「一般設定」に必要な情報を入力します。
 +
-link:reference_system_manage_ldap_details.md#["LDAP の詳細"]
+link:concept_system_manage_manage_ldap.html#view_ldap_details["LDAP の詳細"]
 
 +
 image::../media/element_new_ldap_servers.jpg[[LDAPサーバ]ビューの一般設定]
@@ -61,6 +61,6 @@ image::../media/element_new_cluster_admin.jpg[新しいユーザービューの�
 
 * 関連情報 *
 
-* link:concept_system_manage_manage_cluster_administrator_users.html#create_cluster_admin_account["クラスタ管理者アカウントを作成"]
+* link:concept_system_manage_manage_cluster_administrator_users.html#create-a-cluster-administrator-account["クラスタ管理者アカウントを作成"]
 * link:concept_system_manage_manage_ldap.html#view_ldap_details["LDAP の詳細"]
 

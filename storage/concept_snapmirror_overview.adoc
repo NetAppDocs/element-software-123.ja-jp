@@ -19,6 +19,7 @@ Element を実行するシステムは、 9.3 以降の ONTAP システムの Sn
 
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-sdbak/home.html["Element ソフトウェアと ONTAP の間のレプリケーション"]

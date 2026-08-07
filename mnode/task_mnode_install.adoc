@@ -65,6 +65,7 @@ Element 12.2 管理ノードはオプションのアップグレードです。�
 
 
 
+[[download-iso-or-ova-and-deploy-the-vm]]
 == ISO または OVA をダウンロードし、 VM を導入します
 
 . から、インストール環境に対応した OVA または ISO をダウンロードします link:https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["Element ソフトウェア"^] ネットアップサポートサイトのページを参照してください。
@@ -111,6 +112,8 @@ NOTE: イメージを使用して管理ノードをインストールすると�
 
 
 
+[[create-the-management-node-admin-and-configure-the-network]]
+[[create_mnode_admin]]
 == 管理ノード管理者を作成し、ネットワークを設定
 
 . ターミナルユーザインターフェイス（ TUI ）を使用して、管理ノードの管理ユーザを作成します。
@@ -139,6 +142,7 @@ NOTE: ストレージトラフィックを分離するために NIC を追加す
 
 
 
+[[configure-time-sync]]
 == 時刻同期を設定します
 
 . NTP を使用して管理ノードとストレージクラスタの間で時刻が同期されていることを確認します。
@@ -216,6 +220,7 @@ NOTE: の実行時は NTP に影響するため、時刻の同期設定の完了
 
 
 
+[[set-up-the-management-node]]
 == 管理ノードをセットアップ
 
 . 管理ノードのセットアップコマンドを設定して実行します。
@@ -279,6 +284,7 @@ NOTE: 永続ボリュームには、クラスタ上の既存のアカウント�
 
 
 
+[[configure-controller-assets]]
 == コントローラアセットを設定する
 
 . インストール ID を確認します。

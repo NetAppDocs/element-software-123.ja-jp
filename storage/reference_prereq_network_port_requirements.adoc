@@ -286,7 +286,7 @@ LDAP サーバ
  a| 
 443
  a| 
-Element ストレージファームウェアのアップグレード
+要素ストレージのアップグレード
 
 
 
@@ -548,6 +548,7 @@ vCenter Plug-in の登録。登録が完了したら、ポートを閉じるこ�
 |===
 
 
+[[for-more-information]]
 == を参照してください。
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"]

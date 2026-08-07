@@ -17,7 +17,7 @@ summary: 以下の Element API による基本的な手順を使用して、マ�
 
 . 次の API メソッドを呼び出し、 IdP メタデータを JSON 形式で渡して、クラスタの新しいサードパーティのアイデンティティプロバイダ（ IdP ）設定を作成します：「 CreateIdpConfiguration 」
 +
-IdP メタデータはプレーンテキスト形式で、サードパーティの IdP から取得されます。このメタデータは、 JSON 形式で正しくフォーマットされるように検証する必要があります。使用できる JSON フォーマッタアプリケーションは多数あります。たとえば、 https://freeformatter.com/json-escape.html です。
+サードパーティのIDプロバイダーから、プレーンテキスト形式のIDプロバイダーメタデータが取得されます。このメタデータは、JSON形式で正しくフォーマットされていることを確認するために検証する必要があります。利用できるJSONフォーマッタアプリケーションは多数あります。例えば：https://freeformatter.com/json-escape.html
 
 . 次の API メソッド「 ListIdpConfigurations 」を呼び出して、 spMetadataUrl を使用してクラスタメタデータを取得し、サードパーティ IdP にコピーします
 +
@@ -39,6 +39,7 @@ NOTE: 次の例に示すように、 IdP クラスタ管理者のユーザ名が
 
 
 
+[[find-more-information]]
 == 詳細については、こちらをご覧ください
 
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"]

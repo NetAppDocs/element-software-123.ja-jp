@@ -15,6 +15,7 @@ summary: ネットアップでは、 SolidFire および Element ソフトウェ
 
 
 
+[[netapp-bugs-online-contains-known-and-resolved-issues]]
 == NetApp Bugs Online には、既知の問題と解決済みの問題があります
 
 既知の問題と解決済みの問題の一覧が NetApp Bugs Online ツールに表示されるようになりました。これらの問題は Element およびその他の製品で参照できます。
@@ -30,6 +31,7 @@ image:bol_filters.PNG["BOL フィルタ、「センター」の位置合わせ"]
 
 
 
+[[element-12-3-2]]
 == Element 12.3.2
 
 Element 12.3.2 の新機能の詳細を確認してください。
@@ -38,18 +40,21 @@ Element ソフトウェア 12.3.2 リリースには、 Apache log4j の脆弱�
 
 
 
+[[element-12-3-1]]
 == Element 12.3.1
 
 Element 12..1 の新機能の詳細については、こちらを参照してください。
 
 
 
+[[storage-firmware-bundle-2-99-2]]
 === ストレージファームウェアバンドル 2.99.2
 
 Element 12.3.1 リリースには、ストレージファームウェアバンドルバージョン 2.99.2 が含まれています。ストレージクラスタがすでに Element 12.3 にある場合は、新しい 2.99.2 ファームウェアバンドルをインストールするだけで済みます。
 
 
 
+[[support-for-dynamic-cpu-node-rating-for-solidfire-esds-host-platforms]]
 == SolidFire ESDS ホスト・プラットフォームの動的 CPU ノード定格のサポート
 
 SolidFire ESDS では、 24 種類のモデルからなるインテル ® Gold および Silver Cascade Lake 世代の CPU を幅広くサポートしています。Dynamic Node Rating 機能は、 CPU に基づいてホストサーバに 5 万 ～ 10 万の QoS IOPS レートを割り当てます。
@@ -88,24 +93,28 @@ SolidFire ESDS では、 24 種類のモデルからなるインテル ® Gold �
 |===
 
 
+[[support-for-single-bond-network-configuration-for-solidfire-esds]]
 === SolidFire ESDS のシングルボンドネットワーク構成がサポートされます
 
 SolidFire ESDS を使用して、ホストに単一ボンドネットワーク構成を使用できるようになりました。
 
 
 
+[[new-server-support-in-solidfire-enterprise-sds]]
 === SolidFire エンタープライズ SDS での新しいサーバーのサポート
 
 SolidFire ESDS が HPE DL380 サーバで利用可能になりました。を参照してください https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT["ネットアップの Interoperability Matrix Tool （ IMT ）"^] サポートされている構成の詳細については、を参照してください。
 
 
 
+[[element-12-3]]
 == Element 12.3
 
 Element 12.3 の新機能について詳しくは、こちらをご覧ください。
 
 
 
+[[fifo-snapshot-queue-support]]
 === FIFO スナップショット・キューのサポート
 
 Element 12.3 では、ボリュームスナップショットの First-In First-Out （ FIFO ）キューを作成できます。Element API を使用すると、ボリュームの作成時に予約する FIFO スナップショットスロットの最小数と最大数を指定できます。ボリュームの FIFO スナップショットキューがいっぱいになると、そのボリュームに次に作成するスナップショットは、そのボリュームの最も古いスナップショットをシステムから削除します。FIFO スナップショットと非 FIFO スナップショットはどちらも、ボリューム上の使用可能なスナップショットスロットの同じプールを使用します。
@@ -125,6 +134,7 @@ Element 12.3 では、ボリュームスナップショットの First-In First-
 
 
 
+[[snapshot-serialization-support]]
 === スナップショットシリアル化のサポート
 
 Element 12.3 では、シリアル化スナップショットの作成がサポートされてElement API を使用して新しい Snapshot を作成する際、以前の Snapshot レプリケーションがまだ実行中の場合は Snapshot を作成しないように指定できます。
@@ -139,6 +149,7 @@ Element 12.3 では、シリアル化スナップショットの作成がサポ�
 
 
 
+[[snapshot-retention-support]]
 === Snapshot 保持のサポート
 
 Element 12.3 では、スナップショットの保存期間を指定できます。Snapshot の保持期限または有効期限を指定しない場合、 Snapshot は無期限に保持されます。
@@ -155,6 +166,7 @@ Snapshot の保持には次の Element API メソッドが関連します （を
 
 
 
+[[software-encryption-at-rest-enhancements]]
 === ソフトウェアによる保存データの暗号化の機能拡張
 
 ソフトウェア保存時の暗号化機能では、 Element 12.3 に外部キー管理（ EKM ）とソフトウェア暗号化マスターキーのキー変更機能が導入されています。ストレージクラスタの作成時に保存データのソフトウェア暗号化を有効にすることができます。SolidFire エンタープライズ SDS ストレージクラスタを作成すると、保存データのソフトウェア暗号化がデフォルトで有効になります。この機能では、ストレージノード内の SSD に格納されているすべてのデータが暗号化され、クライアント IO のパフォーマンスへの影響は非常に小さく（最大 2% ）すぎません。
@@ -170,30 +182,35 @@ Snapshot の保持には次の Element API メソッドが関連します （を
 
 
 
+[[storage-node-firmware-updates]]
 === ストレージノードのファームウェアの更新
 
 Element 12.3 では、ストレージノード用のファームウェアの更新が含まれています。 link:../concepts/concept_rn_relatedrn_element.html#storage-firmware["詳細はこちら。"]。
 
 
 
+[[security-enhancements]]
 === セキュリティの機能拡張
 
 Element 12.3 では、ストレージノードおよび管理ノードのセキュリティの脆弱性を解決します。 https://security.netapp.com/["詳細はこちら。"] これらのセキュリティ機能拡張について
 
 
 
+[[improved-behavior-for-failing-drives]]
 === ドライブ障害時の動作が改善されました
 
 Element 12.3 は、ドライブの SMART ヘルスデータを使用して、 SolidFire アプライアンスドライブの定期的なヘルスチェックを実行します。SMART ヘルスチェックに失敗したドライブは、障害に近い可能性があります。ドライブが SMART ヘルスチェックに失敗すると、ドライブは「 Failed * 」状態に移行し、重大度が「 D rive with serial ： <serial number> in slot ： <node slot><drive slot> has failed the Smart overall health check. 」という重大なクラスタエラーが表示されます。この問題を解決するには、ドライブを交換してください
 
 
 
+[[new-server-support-in-solidfire-enterprise-sds]]
 === SolidFire エンタープライズ SDS での新しいサーバーのサポート
 
 SolidFire ESDS が Dell R640 サーバーで利用できるようになりました。を参照してください https://mysupport.netapp.com/matrix/imt.jsp?components=97283;&solution=1757&isHWU&src=IMT["ネットアップの Interoperability Matrix Tool （ IMT ）"^] サポートされている構成の詳細については、を参照してください。
 
 
 
+[[new-location-for-solidfire-esds-known-issues]]
 === SolidFire ESDS の既知の問題の新しい場所
 
 で既知の問題を検索できるようになりました https://mysupport.netapp.com/site/products/all/details/solidfire-enterprise-sds/bugsonline-tab["Bugs Online のツール（ログインが必要）"^]。
@@ -206,6 +223,5 @@ SolidFire ESDS が Dell R640 サーバーで利用できるようになりまし
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"]
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire および Element ソフトウェアのドキュメント"^]
 * http://docs.netapp.com/sfe-122/index.jsp["以前のバージョン用の SolidFire および Element ソフトウェアドキュメントセンター"^]
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI のリソースページ"^]
 * link:../hardware/fw_storage_nodes.html["SolidFire ストレージノードでサポートされるストレージファームウェアのバージョン"] _ 新規 _
 

@@ -5984,7 +5984,6 @@
   <block id="1cf67e15c0f74187a6558d9af0d0b5c3" category="paragraph">セッションを一意に識別する判読不明なキー。</block>
   <block id="e543376d12681b92fd3f5e3641b94d3c" category="paragraph">ノードの Web サーバにアクセスするための URL 。</block>
   <block id="b1ff5704b48e42d700d43961dd415064" category="doc">商標です</block>
-  <block id="a93bc0a57623c2facaa010825c808507" category="paragraph"><block ref="a93bc0a57623c2facaa010825c808507" category="inline-link-rx"></block></block>
   <block id="352b30babf58f27c8ccb8a903f0bf63a" category="summary">Element Web UI は、 CreateSnapMirrorVolume メソッドを使用して、リモート ONTAP システムにボリュームを作成します。</block>
   <block id="2c5b62f4e4ee3f5bad359c8fae8aa8bb" category="paragraph">Element Web UI は、「 CreateSnapMirrorVolume 」メソッドを使用して、リモート ONTAP システム上にボリュームを作成します。</block>
   <block id="92a1216b9d7b09644455dda3f5ad32c3" category="paragraph">デスティネーション ONTAP ボリュームの名前。</block>
@@ -6900,7 +6899,6 @@
   <block id="0f5a20082c20009526d7d768b6279f05" category="list-text"><block ref="0f5a20082c20009526d7d768b6279f05" category="inline-xref-macro-rx"></block></block>
   <block id="1c45fd215e6dc295350e4f4f5e2e7e41" category="list-text"><block ref="1c45fd215e6dc295350e4f4f5e2e7e41" category="inline-xref-macro-rx"></block></block>
   <block id="a8d3424ca67e2754569ae54982c009df" category="list-text"><block ref="a8d3424ca67e2754569ae54982c009df" category="inline-xref-macro-rx"></block></block>
-  <block id="f17bdc3100242be6aa20374cb07b1e01" category="list-text"><block ref="f17bdc3100242be6aa20374cb07b1e01" category="inline-xref-macro-rx"></block></block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="inline-xref-macro">次の手順</block>
   <block id="6b758c6baa8d819395041efcb30c549d" category="list-text"><block ref="6b758c6baa8d819395041efcb30c549d" category="inline-xref-macro-rx"></block></block>
   <block id="e2291d0b9bc2d41bc343cf77cf0a1a87" category="inline-link">SolidFire オールフラッシュストレージの概要</block>
@@ -7856,8 +7854,6 @@
   <block id="34515669e219305dec5f0b81dbef8b1e" category="paragraph">ドキュメントセンターでは、ハードウェアの設置とメンテナンスに関する情報、利用可能なその他のコンテンツ、既知の問題と解決済みの問題へのリンク、および最新のリリースノートも参照できます。</block>
   <block id="662a5ad8c6ae651da9220e35d3f16a18" category="list-text">* NetApp SolidFire のリソースページ *</block>
   <block id="c39c68328651c80dceb0f36d050a7109" category="paragraph">動画コンテンツやテクニカルレポートへのリンクなど、 Element ソフトウェアに関するリソースを提供します。</block>
-  <block id="4b3e0d4570a278a1af3fe11601c01d47" category="inline-link">SolidFire オールフラッシュストレージの関連リソース</block>
-  <block id="c16fe39e6b501b8347fb1dd55ba312c6" category="paragraph"><block ref="c16fe39e6b501b8347fb1dd55ba312c6" category="inline-link-rx"></block></block>
   <block id="4a9c1435e759b5c6dd543fceea09ea44" category="list-text">* NetApp SolidFire ドキュメントセンター *</block>
   <block id="028b8f4057634cf2f3954305a74dc779" category="paragraph">ハードウェアの設置とメンテナンスに関する情報、利用可能なその他のコンテンツ、既知の問題と解決済みの問題へのリンク、および最新のリリースノートが記載されています。</block>
   <block id="99876372740307113d18bf0a8023fbbf" category="inline-link">SolidFire および Element 11.3 ドキュメントセンター</block>
@@ -7929,8 +7925,6 @@
   <block id="8c62a8856619185a333cdec6cc116a79" category="list-text"><block ref="8c62a8856619185a333cdec6cc116a79" category="inline-link-rx"></block></block>
   <block id="feaf808951dafefbf9943700efdb4315" category="inline-link">以前のバージョン用の SolidFire および Element ソフトウェアドキュメントセンター</block>
   <block id="049adc1802f0210729234e1fe80d95e6" category="list-text"><block ref="049adc1802f0210729234e1fe80d95e6" category="inline-link-rx"></block></block>
-  <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">NetApp HCI のリソースページ</block>
-  <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="389d33cbc9ae9f54288b4c6fd3f5d933" category="summary">SolidFire ストレージクラスタでは、サービス品質（ QoS ）パラメータをボリューム単位で指定できます。QoS を定義する 3 つの設定可能なパラメータである Min IOPS 、 Max IOPS 、および Burst IOPS を使用して、 IOPS （ 1 秒あたりの入出力）で測定されるクラスタパフォーマンスを保証することができます。</block>
   <block id="b33b7a0f1639461a3999078f0f3daabf" category="paragraph">SolidFire ストレージクラスタでは、サービス品質（ QoS ）パラメータをボリューム単位で指定できます。QoS を定義する 3 つの設定可能なパラメータである Min IOPS 、 Max IOPS 、および Burst IOPS を使用して、 IOPS （ 1 秒あたりの入出力）で測定されるクラスタパフォーマンスを保証することができます。</block>
   <block id="9df54e6cedfee995f2ec2e37173f4ff0" category="admonition">SolidFire Active IQ には、最適な設定と QoS 設定に関するアドバイスを提供する QoS 推奨ページがあります。</block>
@@ -8425,7 +8419,6 @@
   <block id="8e3e32f4b3e22ee2339bc37dacebce0c" category="inline-link-macro">Element API リファレンス</block>
   <block id="a8d74e35fafff7a5f37815f2dcc89753" category="paragraph">各 API メソッドの詳細については、を参照してください <block ref="c9d614c7cd4efd8daab5302738f269c2" category="inline-link-macro-rx"></block>。</block>
   <block id="88b1e425f6a8d373d7b16e1b016c6de1" category="list-text">次の API メソッドを呼び出し、 IdP メタデータを JSON 形式で渡して、クラスタの新しいサードパーティのアイデンティティプロバイダ（ IdP ）設定を作成します：「 CreateIdpConfiguration 」</block>
-  <block id="168af22e9c6015f03678011bffdead13" category="paragraph">IdP メタデータはプレーンテキスト形式で、サードパーティの IdP から取得されます。このメタデータは、 JSON 形式で正しくフォーマットされるように検証する必要があります。使用できる JSON フォーマッタアプリケーションは多数あります。たとえば、 https://freeformatter.com/json-escape.html です。</block>
   <block id="65b69ef14e13e541a93abafc7baa59a1" category="list-text">次の API メソッド「 ListIdpConfigurations 」を呼び出して、 spMetadataUrl を使用してクラスタメタデータを取得し、サードパーティ IdP にコピーします</block>
   <block id="35cfc4986f93cb44da66955bf17e3c60" category="paragraph">spMetadataUrl は、信頼関係を確立するために、 IdP のクラスタからサービスプロバイダのメタデータを取得するために使用する URL です。</block>
   <block id="c3a1c9aeec925dec1a8d9125871ae8b6" category="list-text">監査ログのユーザを一意に識別し、 Single Logout が適切に機能するように、サードパーティ IdP に SAML アサーションを設定して「 NameID 」属性を含めます。</block>
@@ -9122,7 +9115,6 @@
   <block id="2f00805e044ca70467775f06c1872f89" category="paragraph">LDAP サーバ</block>
   <block id="5483ab43104d3514dfdd7917f5a51b09" category="paragraph">389 TCP/UDP</block>
   <block id="19a0425f816e3267d5a9f5ee03f4fc4f" category="paragraph">（任意） LDAP 検索</block>
-  <block id="6ca93b96b4cd5e33a779ecc83fde0268" category="paragraph">Element ストレージファームウェアのアップグレード</block>
   <block id="94a2163bb19fc95c5d537943a7a7a263" category="paragraph">（オプション）バックアップとリカバリ用の S3 / Swift エンドポイントへの HTTPS 通信</block>
   <block id="ed26bc39a920ff3cacdfe283ccd802dc" category="paragraph">514 TCP/UDP</block>
   <block id="525aa1c52ef30b3901ee99d7dfaa1989" category="paragraph">10514 TCP/UDP</block>
@@ -9583,8 +9575,6 @@
   <block id="a4cba27ccc43d00c0bd0c00a74974b97" category="list-text"><block ref="a4cba27ccc43d00c0bd0c00a74974b97" category="inline-link-rx"></block></block>
   <block id="275b3db58911d0480b2a907dde87b422" category="inline-link">SolidFire および Element 11.5 ドキュメントセンター</block>
   <block id="319d00f06f0a5e8e99d071d51fe10259" category="list-text"><block ref="319d00f06f0a5e8e99d071d51fe10259" category="inline-link-rx"></block></block>
-  <block id="de71a625454de99f599dff258c53dbb8" category="inline-link">SolidFire のリソースページ</block>
-  <block id="b81ee69dc01cdd048b45d27758827feb" category="list-text"><block ref="b81ee69dc01cdd048b45d27758827feb" category="inline-link-rx"></block></block>
   <block id="a34296282eed34660ea4a3f06492b74a" category="summary">システムで発生したクラスタの障害やエラーに関する情報をアラートで確認できます。アラートには、情報、警告、エラーがあり、クラスタの稼働状況を表すインジケータとして利用できます。ほとんどのエラーは自動的に解決します。</block>
   <block id="7625f0d333f3c5d6149502c80fecd63a" category="doc">システムアラートを表示します</block>
   <block id="fd3392770ef45da975f34e097b3aa9f2" category="paragraph">ListClusterFaults API メソッドを使用すると、アラートの監視を自動化できます。これにより、発生したすべてのアラートに関する通知を受け取ることができます。</block>
@@ -11236,7 +11226,6 @@
   <block id="064b89de301fcd977867c23b01204653" category="doc">Element へのフェイルバックを実行します</block>
   <block id="4a0a4752a851bfbcb612292d19d020e2" category="list-text">[Use LDAPS Protocol] を選択します。</block>
   <block id="4e8b9c52e60070f73bcaa6e5e5ba4121" category="inline-link-macro">LDAP の詳細</block>
-  <block id="543e9c1cf295e8284006e3af49b8105a" category="paragraph"><block ref="543e9c1cf295e8284006e3af49b8105a" category="inline-link-macro-rx"></block></block>
   <block id="d33f2a600ba4fe43084a26e95e4908c0" category="paragraph">* 関連情報 *</block>
   <block id="27b50c2855e5935b991c110f8f2c985d" category="summary">安全なアクセスを確保するために、ボリュームのグループにイニシエータをマッピングしてボリュームアクセスグループを作成できます。その後、アカウントの CHAP イニシエータシークレットとターゲットシークレットを使用して、グループ内のボリュームへのアクセスを許可できます。</block>
   <block id="625674c07781dca113f6cbca1243747b" category="list-text">次のいずれかの方法でボリュームアクセスグループにイニシエータを追加します。</block>
@@ -11885,12 +11874,10 @@
   <block id="bc392d110b36a51cd536073024a5f532" category="list-text">H410S および H610S ノードの場合、 <block ref="1ed294287e7a2515c794c51e2936136d" category="inline-link-macro-rx"></block>。</block>
   <block id="dcf69453f88a169ec3e3e6fae67d435e" category="list-text"><block ref="dcf69453f88a169ec3e3e6fae67d435e" category="inline-link-macro-rx"></block></block>
   <block id="07e6fbc1d94748a67b7280d5169aff78" category="paragraph">クラスタの保存データの暗号化とソフトウェア暗号化の現在のステータスを確認するには、を使用します <block ref="4ba6dd2d59030fb9ee4b6523df69086c" category="inline-link-macro-rx"></block> メソッドを使用できます <block ref="6a83460526e11b52e54477d344b49b7d" category="inline-link-macro-rx"></block> クラスタが保存データの暗号化に使用する情報を取得する方法。</block>
-  <block id="521e8e8587c418fa92f54811f8954007" category="list-text"><block ref="521e8e8587c418fa92f54811f8954007" category="inline-link-macro-rx"></block></block>
   <block id="ecec8bb5649856a856a861a75e4daa84" category="list-text"><block ref="ecec8bb5649856a856a861a75e4daa84" category="inline-link-macro-rx"></block></block>
   <block id="24786d5c66286f468be80b26d8f4126b" category="list-text"><block ref="24786d5c66286f468be80b26d8f4126b" category="inline-link-rx"></block></block>
   <block id="08bedb070b17681cfbba927034b3d77e" category="paragraph">管理サービスは、 SolidFire オールフラッシュストレージに幅広い管理機能を一元的に提供します。これらのサービスには、が含まれ <block ref="c33469c22ade8b91ea5a2e4b6de19fdf" category="inline-link-macro-rx"></block>、 Active IQ のシステムテレメトリ、ログ、サービスの更新、および Element Plug-in for vCenter の QoSSIOC サービス。</block>
   <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">の詳細を確認してください <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>。</block>
-  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
   <block id="a6d7169168a038dee7aae0a8f455c43a" category="list-text">スライスの同期中にボリュームをSnapshotにロールバックすると失敗することがあります。再試行します<block ref="c2e5bace81fd03914fa15aa027ee5f09" prefix=" " category="inline-code"></block> 同期が完了した後。</block>
   <block id="bd74837c55aafce98fe5823bae9ee413" category="list-text">スライスの同期の実行中にグループSnapshotへのボリュームのロールバックが失敗することがあります。再試行します<block ref="05667fca9ff503d9b750747f0075d35a" prefix=" " category="inline-code"></block> 同期が完了した後。</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
@@ -11928,9 +11915,6 @@
   <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">Element Plug-in for vCenter Server 5.3、5.2、5.1、または5.0にアップグレードする。</block>
   <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">管理サービス2.25.42（NetApp Element Plug-in for VMware vCenter Server 5.3.9）に関するお知らせ</block>
   <block id="4d67cefe38dafa645f353279e4fbc37b" category="list-text"><block ref="4d67cefe38dafa645f353279e4fbc37b" category="inline-link-macro-rx"></block></block>
-  <block id="3d08f19c985682eb2a632e36184cedd2" category="paragraph"><block ref="3d08f19c985682eb2a632e36184cedd2" category="inline-link-rx"></block></block>
-  <block id="b456d131470ee117b6ff900f949b80c5" category="paragraph"><block ref="b456d131470ee117b6ff900f949b80c5" category="inline-link-rx"></block></block>
-  <block id="1791fd435a83f3ee701165e29bb05b2f" category="list-text"><block ref="1791fd435a83f3ee701165e29bb05b2f" category="inline-link-rx"></block></block>
   <block id="1bcef981f5c54e340e7b915c2dfacb97" category="sidebar">SolidFireおよびElementソフトウェアのドキュメント12.3</block>
   <block id="d9a22d7a8178d5b42a8750123cbfe5b1" category="list-text">完了</block>
   <block id="acbccd83186c34328efe61415e4f06c3" category="paragraph">iosInProgress</block>
@@ -11965,4 +11949,18 @@
   <block id="055c37e82a2e8b5a5c2d073fe46d98bb" category="list-text"><block ref="055c37e82a2e8b5a5c2d073fe46d98bb" category="inline-link-macro-rx"></block></block>
   <block id="c31ff914893a6941b1e7621565be0d0c" category="list-text"><block ref="c31ff914893a6941b1e7621565be0d0c" category="inline-link-macro-rx"></block></block>
   <block id="fe3c28c386d2be6c3cbda4b2feb01c29" category="list-text"><block ref="e8348e5b207b91893f9322900bc614aa" category="inline-link-rx"></block>.</block>
+  <block id="cedd3b982f345250c95c539d68542a1c" category="admonition">APIを通じて利用できるアクセスタイプの中には、Element UIでは利用できないものがあります。</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">関連情報</block>
+  <block id="66ae9524f9c214ce3d4ddc510dc6384a" category="inline-link-macro">Element UI で利用可能なアクセスタイプについて説明します。</block>
+  <block id="e3ae42684db77c59ef80c04aae526de5" category="paragraph"><block ref="e3ae42684db77c59ef80c04aae526de5" category="inline-link-macro-rx"></block></block>
+  <block id="8c7d040a87c37f1f3051f72abbfbcbc5" category="list-text"><block ref="8c7d040a87c37f1f3051f72abbfbcbc5" category="inline-link-macro-rx"></block></block>
+  <block id="b254c421d245be4ca380ce1a75b8ed59" category="list-text"><block ref="b254c421d245be4ca380ce1a75b8ed59" category="inline-xref-macro-rx"></block></block>
+  <block id="f72c81a1158d9efb9bad238e3c497a6c" category="inline-link-macro">Element API で利用可能なアクセスタイプについて説明します。</block>
+  <block id="c858f3d30df8c552799df529153c0e44" category="list-text"><block ref="c858f3d30df8c552799df529153c0e44" category="inline-link-macro-rx"></block></block>
+  <block id="bd000e3a7a010d55765a9684adc1c25f" category="paragraph">要素ストレージのアップグレード</block>
+  <block id="161b4ed96d634114cd790ffb7038cc24" category="paragraph"><block ref="161b4ed96d634114cd790ffb7038cc24" category="inline-link-rx"></block></block>
+  <block id="c28c56f7a7ce8d5595899ccc3950cb6d" category="paragraph"><block ref="c28c56f7a7ce8d5595899ccc3950cb6d" category="inline-link-rx"></block></block>
+  <block id="145012f945e6ea9359e0b746c1a4925a" category="list-text"><block ref="145012f945e6ea9359e0b746c1a4925a" category="inline-link-rx"></block></block>
+  <block id="9cad028b90d6f90e57eee2a48ccf4000" category="list-text"><block ref="9cad028b90d6f90e57eee2a48ccf4000" category="inline-link-macro-rx"></block></block>
+  <block id="a1855ae3a0a42fa9d6e151b58b750f1f" category="paragraph">サードパーティのIDプロバイダーから、プレーンテキスト形式のIDプロバイダーメタデータが取得されます。このメタデータは、JSON形式で正しくフォーマットされていることを確認するために検証する必要があります。利用できるJSONフォーマッタアプリケーションは多数あります。例えば：https://freeformatter.com/json-escape.html</block>
 </blocks>
